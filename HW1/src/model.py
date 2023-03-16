@@ -1,5 +1,6 @@
+import pdb
 import torch
-import torch.nn as nn
+from torch import nn
 from typing import Dict, Tuple, List
 
 class LanguageModel(nn.Module):
@@ -14,11 +15,21 @@ class LanguageModel(nn.Module):
         self.bigram_count_sum: int = 0
         self.bigram_freq_sum: Dict[str, int] = dict()
         self.trigram_freq_sum: Dict[Tuple[str, str], int] = dict()
-    
-        self.lambda_params = nn.ModuleList([nn.Parameter(torch.randn(3)) for _ in range(4)])
-        self.f0 = nn.Parameter(torch.randn([]))
+
+        # if torch.cuda.is_available():
+        #     self.use_cuda = True
+        # else:
+        #     self.use_cuda = False
+        self.use_cuda = False
+        _lambda_params = [torch.tensor([1e-3 * i, 1e-5 * i, 1e-5 * i]) for i in range(1, 5)]
+        self.lambda_params = nn.ParameterList([nn.Parameter(tensor) for tensor in _lambda_params])
+        self.f0 = nn.Parameter(torch.tensor(1e-7, device=torch.device("cuda" if self.use_cuda else "cpu")))
+
 
     def fit(self, corpus: List[str]):
+
+        print(f"\n Fitting corpus of size {len(corpus)}...")
+
         for i in range(len(corpus)):
             unitoken = corpus[i]
             self.unigram_count[unitoken] = self.unigram_count.get(unitoken, 0) + 1
@@ -43,7 +54,7 @@ class LanguageModel(nn.Module):
         return self.bigram_count.get(bitoken, 0) / self.bigram_count_sum
 
     def f_3(self, tritokens: List[Tuple[str, str, str]]) -> torch.Tensor:
-        f = torch.empty(len(tritokens), dtype=torch.float32)
+        f = torch.empty(len(tritokens), dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
         for i, tritoken in enumerate(tritokens):
             if tritoken[:2] not in self.trigram_freq or \
                 tritoken[2] not in self.trigram_freq[tritoken[:2]]:
@@ -54,10 +65,10 @@ class LanguageModel(nn.Module):
 
     def forward(self, tritokens: List[Tuple[str, str, str]]) -> torch.Tensor:
         f_0 = torch.stack([self.f0 for _ in range(len(tritokens))])
-        f_1 = torch.empty(len(tritokens), dtype=torch.float32)
-        f_2 = torch.empty(len(tritokens), dtype=torch.float32)
-        f_3 = torch.empty(len(tritokens), dtype=torch.float32)
-        counts = torch.empty(len(tritokens), 3, dtype=torch.float32)
+        f_1 = torch.empty(len(tritokens), dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
+        f_2 = torch.empty(len(tritokens), dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
+        f_3 = torch.empty(len(tritokens), dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
+        counts = torch.empty(len(tritokens), 3, dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
         counts[:, 2] = 1
         for i, tritoken in enumerate(tritokens):
             counts[i][0] = self.bigram_count.get(tritoken[:2], 1)
@@ -78,9 +89,9 @@ class LanguageModel(nn.Module):
                 f_3[i] = self.trigram_freq[tritoken[:2]][tritoken[2]] / self.trigram_freq_sum[tritoken[:2]]
         lambdas = [counts @ lambda_param for lambda_param in self.lambda_params] # List[tensor of shape(bs)]
         fs = torch.stack([f_0, f_1, f_2, f_3], dim=-1)
-        lambdas =  torch.softmax(torch.stack(lambdas, dim=-1))
+        lambdas =  torch.softmax(torch.stack(lambdas, dim=-1), dim=-1)
         lm_p = (fs * lambdas).sum(dim=-1)
-        
+        # pdb.set_trace()
         return lm_p
     
     def save_model(self, save_path: str):

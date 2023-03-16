@@ -1,4 +1,5 @@
 import os
+import pdb
 import time
 import torch
 import random
@@ -22,14 +23,14 @@ class Trainer:
         self.model_target.eval()
         data_indices = list(range(len(self.train_corpus) - 2))
         loss_fn = nn.MSELoss()
-        loss_sum = 0
         for epoch in range(epochs):
             print(f"\nEpoch {epoch} starts.\n")
             random.shuffle(data_indices)
+            loss_sum = 0
             for index_base in range(0, len(data_indices), batch_size):
                 step = index_base // batch_size
                 tritokens = []
-                for batch_i in range(batch_size):
+                for batch_i in range(min(batch_size, len(data_indices) - index_base)):
                     data_index = data_indices[index_base + batch_i]
                     tritokens.append(tuple(self.train_corpus[data_index: data_index + 3]))
                 train_p = self.model_train(tritokens)
@@ -41,8 +42,8 @@ class Trainer:
                 self.optimizer.step()
 
                 loss_sum += loss.item()
-                if step % pring_interval == 0:
-                    print(f"epoch: {epoch}, step: {step}, loss: {loss.item()}, avg_loss: {loss_sum / step}")
+                if step % print_interval == 0:
+                    print(f"epoch: {epoch}, step: {step}, loss: {loss.item()}, avg_loss: {loss_sum / (step + 1)}")
         
     def load_models(self, train_path: str, target_path: str):
         self.model_train.load_model(train_path)

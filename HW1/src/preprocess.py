@@ -29,7 +29,7 @@ class PreProcess:
             with open(train_file, 'r', encoding='gb2312', errors='ignore') as fi:
                 train_docs.append(fi.read())
             
-        heldout_indices = random.sample(range(len(train_docs)), k=1)
+        heldout_indices = random.sample(range(len(train_docs)), k=3)
         primary_indices = [i for i in range(len(train_docs)) if i not in heldout_indices]
         self.train_docs_heldout = [train_docs[i] for i in heldout_indices]
         self.train_docs_primary = [train_docs[i] for i in primary_indices]
@@ -72,15 +72,16 @@ class PreProcess:
     def _tokenize(self, word_level: bool = False):
         print(f"\nTokenizing in {'word' if word_level else 'char'} level for: ", end='')
         if word_level:
-            def tokenize_char(docs: List[str]):
-                for i, doc in enumerate(docs):
-                    docs[i] = list(doc)
-            tokenize_fn = tokenize_char
-        else:
             def tokenize_word(docs: List[str]):
                 for i, doc in enumerate(docs):
                     docs[i] = list(jieba.cut(doc))
             tokenize_fn = tokenize_word
+            
+        else:
+            def tokenize_char(docs: List[str]):
+                for i, doc in enumerate(docs):
+                    docs[i] = list(doc)
+            tokenize_fn = tokenize_char
         self._inner_call(tokenize_fn)
 
     def _add_special_tokens(self):
@@ -119,9 +120,9 @@ class PreProcess:
 
 
 if __name__ == "__main__":
-    train_files = [r'E:\Study\Workspace\2023Spring\NLP\HW1\resources\jyxstxtqj_downcc.com\白马啸西风.txt',
-                   r'E:\Study\Workspace\2023Spring\NLP\HW1\resources\jyxstxtqj_downcc.com\飞狐外传.txt']
-    test_files = [r'E:\Study\Workspace\2023Spring\NLP\HW1\resources\jyxstxtqj_downcc.com\碧血剑.txt']
+    train_files = [r'..\resources\jyxstxtqj_downcc.com\白马啸西风.txt',
+                   r'..\resources\jyxstxtqj_downcc.com\飞狐外传.txt']
+    test_files = [r'..\resources\jyxstxtqj_downcc.com\碧血剑.txt']
     preprocess = PreProcess(train_files, test_files)
     train_corpus, test_corpus = preprocess.process()
     pdb.set_trace()
