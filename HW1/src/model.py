@@ -21,14 +21,17 @@ class LanguageModel(nn.Module):
         # else:
         #     self.use_cuda = False
         self.use_cuda = False
-        _lambda_params = [torch.tensor([1e-3 * i, 1e-5 * i, 1e-5 * i]) for i in range(1, 5)]
+        _lambda_params = [torch.tensor([1e-3, 5e-4, 1e-5]),  
+                          torch.tensor([1e-3 * 2, 5e-4 * 2, 1e-5 * 2]), 
+                          torch.tensor([1e-3 * 3, 5e-4 * 3, 1e-5 * 3]), 
+                          torch.tensor([1e-3 * 3, 1e-4 * 3, 1e-5 * 3])]
         self.lambda_params = nn.ParameterList([nn.Parameter(tensor) for tensor in _lambda_params])
         self.f0 = nn.Parameter(torch.tensor(1e-7, device=torch.device("cuda" if self.use_cuda else "cpu")))
 
 
     def fit(self, corpus: List[str]):
 
-        print(f"\n Fitting corpus of size {len(corpus)}...")
+        print(f"\nFitting corpus of size {len(corpus)}...")
 
         for i in range(len(corpus)):
             unitoken = corpus[i]
@@ -51,7 +54,7 @@ class LanguageModel(nn.Module):
         self.trigram_freq_sum = {key: sum(value.values()) for key, value in self.trigram_freq.items()}
 
     def initial_p(self, bitoken: Tuple[str, str]) -> float:
-        return self.bigram_count.get(bitoken, 0) / self.bigram_count_sum
+        return self.bigram_count.get(bitoken, 1) / self.bigram_count_sum
 
     def f_3(self, tritokens: List[Tuple[str, str, str]]) -> torch.Tensor:
         f = torch.empty(len(tritokens), dtype=torch.float32, device=torch.device("cuda" if self.use_cuda else "cpu"))
@@ -60,7 +63,7 @@ class LanguageModel(nn.Module):
                 tritoken[2] not in self.trigram_freq[tritoken[:2]]:
                 f[i] = 1 / self.bigram_count_sum
             else:
-                f[i] = self.trigram_freq[tritoken[:2]].get(tritoken[2], 0) / self.trigram_freq_sum[tritoken[:2]]
+                f[i] = self.trigram_freq[tritoken[:2]][tritoken[2]] / self.trigram_freq_sum[tritoken[:2]]
         return f
 
     def forward(self, tritokens: List[Tuple[str, str, str]]) -> torch.Tensor:

@@ -24,34 +24,25 @@ class PreProcess:
             test_files
         ))))
 
-        train_docs = []
+        self.train_docs = []
         for train_file in train_files:
             with open(train_file, 'r', encoding='gb2312', errors='ignore') as fi:
-                train_docs.append(fi.read())
-            
-        heldout_indices = random.sample(range(len(train_docs)), k=3)
-        primary_indices = [i for i in range(len(train_docs)) if i not in heldout_indices]
-        self.train_docs_heldout = [train_docs[i] for i in heldout_indices]
-        self.train_docs_primary = [train_docs[i] for i in primary_indices]
+                self.train_docs.append(fi.read())
+        random.shuffle(self.train_docs)
 
-        print("\nTrain documents [held out]: {}.".format(list(map(
+        print("\nTrain documents: {}.".format(list(map(
             lambda x: os.path.splitext(os.path.split(x)[-1])[0],
-            [train_files[i] for i in heldout_indices]
-        ))))
-        print("\nTrain documents [primary]: {}.".format(list(map(
-            lambda x: os.path.splitext(os.path.split(x)[-1])[0],
-            [train_files[i] for i in primary_indices]
+            train_files
         ))))
 
     def _inner_call(self, fn: Callable):
         for name, docs in {
             "Test documents": self.test_docs,
-            "Train documents [held out]": self.train_docs_heldout,
-            "Train documents [primary]": self.train_docs_primary
+            "Train documents": self.train_docs,
         }.items():
             fn(docs)
-            print(f"{name}{'. ' if name == 'Train documents [primary]' else ', '}",
-                  end=('\n' if name == 'Train documents [primary]' else ''))
+            print(f"{name}{'. ' if name == 'Train documents' else ', '}",
+                  end=('\n' if name == 'Train documents' else ''))
 
     def _remove_ad(self):
         print("\nRemoving advertisements for: ", end='')
@@ -114,8 +105,12 @@ class PreProcess:
 
         accumulate = lambda x, y: x + y
 
-        return (reduce(accumulate, self.train_docs_primary), 
-                reduce(accumulate, self.train_docs_heldout)), \
+        train_corpus = reduce(accumulate, self.train_docs)
+        train_corpus_primary = train_corpus[:int(len(train_corpus) * 0.9)]
+        train_corpus_heldout = train_corpus[int(len(train_corpus) * 0.9):]
+
+        return (train_corpus_primary, 
+                train_corpus_heldout) , \
                 reduce(accumulate, self.test_docs)
 
 

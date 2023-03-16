@@ -2,6 +2,7 @@ import os
 import pdb
 import torch
 import random
+import numpy as np
 from typing import List, Tuple
 from preprocess import PreProcess
 from model import LanguageModel
@@ -24,7 +25,7 @@ def load_data(test_file_index: int) -> Tuple[Tuple[List[str], List[str]], List[s
     with open(catalog_file, 'r', encoding="gb2312") as fi:
         docs_name = list(map(lambda x: f"{x}.txt", fi.read().strip().split(',')))
     test_files = [os.path.join(docs_dir, docs_name[test_file_index])]
-    train_files = [os.path.join(docs_dir, doc_name) for doc_name in docs_name if doc_name not in test_files]
+    train_files = [os.path.join(docs_dir, doc_name) for doc_name in docs_name if os.path.join(docs_dir, doc_name) not in test_files]
     pprocess = PreProcess(train_files, test_files)
     return pprocess.process()
 
@@ -47,7 +48,7 @@ def train_model(model_train: LanguageModel, model_target: LanguageModel,
     print("\n[MAIN] Training models...")
 
     lr = 1e-4
-    epochs = 2
+    epochs = 3
     batch_size = 2**17
     print_interval = 1
 
@@ -57,8 +58,14 @@ def train_model(model_train: LanguageModel, model_target: LanguageModel,
     trainer.train(epochs, batch_size, print_interval)
 
 
-def calc_cross_entropy():
-    pass
+def calc_cross_entropy(model: LanguageModel, corpus: List[str]):
+    model.eval()
+    log_p = np.log(model.initial_p(tuple(test_corpus[:2])))
+    with torch.no_grad():
+        for i in range(len(corpus) - 2):
+            log_p +=np.log(model([tuple(corpus[i: i + 3])]).item())
+    return -1 / len(corpus) * log_p
+
 
 if __name__ == "__main__":
     set_random_seed(0)
@@ -66,4 +73,5 @@ if __name__ == "__main__":
     model_train, model_target = build_models(*train_corpus)
     train_model(model_train, model_target, train_corpus[1])
 
+    print(f"\nCross Entropy: {calc_cross_entropy(model_train, test_corpus)}")
     pdb.set_trace()
