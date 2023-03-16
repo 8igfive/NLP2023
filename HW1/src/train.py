@@ -17,7 +17,7 @@ class Trainer:
 
         self.optimizer = Adam(model_train.parameters(), lr=lr)
 
-    def train(self, epochs: int, batch_size: int, pring_interval: int):
+    def train(self, epochs: int, batch_size: int, print_interval: int):
         self.model_train.train()
         self.model_target.eval()
         data_indices = list(range(len(self.train_corpus) - 2))
