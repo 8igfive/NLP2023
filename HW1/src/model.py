@@ -21,10 +21,11 @@ class LanguageModel(nn.Module):
         # else:
         #     self.use_cuda = False
         self.use_cuda = False
-        _lambda_params = [torch.tensor([1e-3, 5e-4, 1e-5]),  
-                          torch.tensor([1e-3 * 2, 5e-4 * 2, 1e-5 * 2]), 
-                          torch.tensor([1e-3 * 3, 5e-4 * 3, 1e-5 * 3]), 
+        _lambda_params = [torch.tensor([1e-3 * 1, 1e-4 * 1, 1e-5 * 1]),  
+                          torch.tensor([1e-3 * 2, 1e-4 * 2, 1e-5 * 2]), 
+                          torch.tensor([1e-3 * 3, 1e-4 * 3, 1e-5 * 3]), 
                           torch.tensor([1e-3 * 3, 1e-4 * 3, 1e-5 * 3])]
+        # _lambda_params = [torch.tensor([1e-3 * i, 5e-4 * i, 1e-5 * i]) for i in range(1, 5)]
         self.lambda_params = nn.ParameterList([nn.Parameter(tensor) for tensor in _lambda_params])
         self.f0 = nn.Parameter(torch.tensor(1e-7, device=torch.device("cuda" if self.use_cuda else "cpu")))
 

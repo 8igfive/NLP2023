@@ -54,7 +54,7 @@ class PreProcess:
 
     def _extract_chinese(self):
         print("\nExtracting chinese and common punctuations for: ", end='')
-        nc_p = re.compile(r"[^\u4e00-\u9fa5，…：。！？；]")
+        nc_p = re.compile(r"[^\u4e00-\u9fa5，…：、。！？；]")
         def extract(docs: List[str]):
             for i, doc in enumerate(docs):
                 docs[i] = nc_p.sub('', doc)
@@ -77,7 +77,7 @@ class PreProcess:
 
     def _add_special_tokens(self):
         print(f"\nAdding special tokens ({BLANK}, {SEPERATION}) for: ", end='')
-        blank_punctuations = '，…：'
+        blank_punctuations = '，…：、'
         separation_punctuations = '。！？；'
         def add_st(docs: List[List[str]]):
             for i, doc in enumerate(docs):
@@ -119,6 +119,6 @@ if __name__ == "__main__":
                    r'..\resources\jyxstxtqj_downcc.com\飞狐外传.txt']
     test_files = [r'..\resources\jyxstxtqj_downcc.com\碧血剑.txt']
     preprocess = PreProcess(train_files, test_files)
-    train_corpus, test_corpus = preprocess.process()
+    train_corpus, test_corpus = preprocess.process(True)
     pdb.set_trace()
     

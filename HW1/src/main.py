@@ -16,7 +16,7 @@ def set_random_seed(seed: int):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
 
-def load_data(test_file_index: int) -> Tuple[Tuple[List[str], List[str]], List[str]]:
+def load_data(test_file_index: int, tokenize_word_level: bool = False) -> Tuple[Tuple[Tuple[List[str], List[str]], List[str]], str]:
 
     print("\n[MAIN] Loading data...")
 
@@ -27,7 +27,7 @@ def load_data(test_file_index: int) -> Tuple[Tuple[List[str], List[str]], List[s
     test_files = [os.path.join(docs_dir, docs_name[test_file_index])]
     train_files = [os.path.join(docs_dir, doc_name) for doc_name in docs_name if os.path.join(docs_dir, doc_name) not in test_files]
     pprocess = PreProcess(train_files, test_files)
-    return pprocess.process()
+    return pprocess.process(tokenize_word_level), docs_name[test_file_index]
 
 def build_models(train_corpus_primary: List[str],
                  train_corpus_heldout: List[str]) -> Tuple[LanguageModel, LanguageModel]:
@@ -47,8 +47,8 @@ def train_model(model_train: LanguageModel, model_target: LanguageModel,
     
     print("\n[MAIN] Training models...")
 
-    lr = 1e-4
-    epochs = 3
+    lr = 1e-4 # 1e-4
+    epochs = 5 # 30
     batch_size = 2**17
     print_interval = 1
 
@@ -69,9 +69,15 @@ def calc_cross_entropy(model: LanguageModel, corpus: List[str]):
 
 if __name__ == "__main__":
     set_random_seed(0)
-    train_corpus, test_corpus = load_data(0)
-    model_train, model_target = build_models(*train_corpus)
-    train_model(model_train, model_target, train_corpus[1])
 
-    print(f"\nCross Entropy: {calc_cross_entropy(model_train, test_corpus)}")
-    pdb.set_trace()
+    cross_entropys = dict()
+    tokenize_word_level = False
+    for test_file_index in range(16):
+        (train_corpus, test_corpus), test_file = load_data(test_file_index, tokenize_word_level)
+        model_train, model_target = build_models(*train_corpus)
+        train_model(model_train, model_target, train_corpus[1])
+
+        cross_entropy = calc_cross_entropy(model_train, test_corpus)
+        print(f"\nCross Entropy: {cross_entropy}")
+        cross_entropys[test_file] = cross_entropy
+    print(cross_entropys)
