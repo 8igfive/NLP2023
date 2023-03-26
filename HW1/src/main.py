@@ -2,6 +2,7 @@ import os
 import pdb
 import torch
 import random
+import multiprocessing
 import numpy as np
 from typing import List, Tuple
 from preprocess import PreProcess
@@ -48,7 +49,7 @@ def train_model(model_train: LanguageModel, model_target: LanguageModel,
     print("\n[MAIN] Training models...")
 
     lr = 1e-4 # 1e-4
-    epochs = 5 # 30
+    epochs = 30 # 5
     batch_size = 2**17
     print_interval = 1
 
@@ -60,24 +61,39 @@ def train_model(model_train: LanguageModel, model_target: LanguageModel,
 
 def calc_cross_entropy(model: LanguageModel, corpus: List[str]):
     model.eval()
-    log_p = np.log(model.initial_p(tuple(test_corpus[:2])))
+    log_p = np.log(model.initial_p(tuple(corpus[:2])))
     with torch.no_grad():
         for i in range(len(corpus) - 2):
-            log_p +=np.log(model([tuple(corpus[i: i + 3])]).item())
+            log_p +=np.log(model.f_3([tuple(corpus[i: i + 3])]).item())
     return -1 / len(corpus) * log_p
 
-
-if __name__ == "__main__":
+def main(rank: int, tokenize_word_level: bool = False):
     set_random_seed(0)
 
     cross_entropys = dict()
-    tokenize_word_level = False
-    for test_file_index in range(16):
+    for test_file_index in [4 * i + rank for i in range(4)]:
         (train_corpus, test_corpus), test_file = load_data(test_file_index, tokenize_word_level)
         model_train, model_target = build_models(*train_corpus)
-        train_model(model_train, model_target, train_corpus[1])
+        # train_model(model_train, model_target, train_corpus[1])
 
         cross_entropy = calc_cross_entropy(model_train, test_corpus)
         print(f"\nCross Entropy: {cross_entropy}")
         cross_entropys[test_file] = cross_entropy
+    
+    return cross_entropys
+
+if __name__ == "__main__":
+    cross_entropys = dict()
+    tokenize_word_level = True
+
+    with multiprocessing.Pool(4) as pool:
+        for ret in pool.starmap(main, [(i, tokenize_word_level) for i in range(4)]):
+            cross_entropys.update(ret)
+
     print(cross_entropys)
+
+    # show = []
+    # for i in range(1):
+    #     (train_corpus, test_corpus), test_file = load_data(i, True)
+    #     show.append((test_file, len(train_corpus[0]) + len(train_corpus[1]), len(test_corpus)))
+    # print("\n".join(f"《{os.path.splitext(i)[0]}》\t\t{j}\t\t{k}" for i, j, k in show))
