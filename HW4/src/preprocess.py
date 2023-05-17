@@ -36,3 +36,7 @@ def tokenize(tokenize_type: str = 'char'):
     token2id = {token: i for i, token in enumerate(tokens)}
     id2token = {i: token for token, i in token2id.items()}
     return tokenized_corpus, token2id, id2token
+
+if __name__ == '__main__':
+    for author in AUTHORS:
+        clean_and_collect(author)
