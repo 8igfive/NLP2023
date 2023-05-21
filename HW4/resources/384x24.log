@@ -1,0 +1,340 @@
+INFO:trainer:Token count:
+INFO:trainer:JinYong: 7880578
+INFO:trainer:GuLong: 16370203
+INFO:trainer:Vocab size: 5772
+INFO:trainer:Epoch: 0, GlobalStep: 100, lr: 0.00003, eta: 5.382h, loss: 7.5494, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 200, lr: 0.00005, eta: 4.292h, loss: 6.5756, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 300, lr: 0.00007, eta: 4.082h, loss: 6.1086, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 400, lr: 0.00010, eta: 3.994h, loss: 5.9124, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 500, lr: 0.00013, eta: 3.961h, loss: 5.5247, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 600, lr: 0.00015, eta: 3.938h, loss: 5.3670, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 700, lr: 0.00017, eta: 3.916h, loss: 5.2409, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 800, lr: 0.00020, eta: 3.899h, loss: 4.9082, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 900, lr: 0.00023, eta: 3.876h, loss: 4.9175
+INFO:trainer:Epoch: 0, GlobalStep: 1000, lr: 0.00025, eta: 3.868h, loss: 5.2050
+INFO:trainer:Epoch: 0, GlobalStep: 1100, lr: 0.00028, eta: 3.852h, loss: 4.7654, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1200, lr: 0.00030, eta: 3.840h, loss: 4.7162, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1300, lr: 0.00033, eta: 3.827h, loss: 4.6811, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1400, lr: 0.00035, eta: 3.813h, loss: 4.6803, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1500, lr: 0.00038, eta: 3.798h, loss: 4.3899, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1600, lr: 0.00040, eta: 3.777h, loss: 4.5640
+INFO:trainer:Epoch: 0, GlobalStep: 1700, lr: 0.00042, eta: 3.769h, loss: 4.3645, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 1800, lr: 0.00045, eta: 3.753h, loss: 4.6159
+INFO:trainer:Epoch: 0, GlobalStep: 1900, lr: 0.00047, eta: 3.742h, loss: 4.1904, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 2000, lr: 0.00050, eta: 3.725h, loss: 4.3948
+INFO:trainer:Epoch: 0, GlobalStep: 2100, lr: 0.00050, eta: 3.711h, loss: 3.9550, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 2200, lr: 0.00050, eta: 3.696h, loss: 4.9356
+INFO:trainer:Epoch: 0, GlobalStep: 2300, lr: 0.00050, eta: 3.682h, loss: 4.3309
+INFO:trainer:Epoch: 0, GlobalStep: 2400, lr: 0.00050, eta: 3.670h, loss: 4.6299
+INFO:trainer:Epoch: 0, GlobalStep: 2500, lr: 0.00050, eta: 3.657h, loss: 3.8990, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 2600, lr: 0.00050, eta: 3.642h, loss: 4.7882
+INFO:trainer:Epoch: 0, GlobalStep: 2700, lr: 0.00050, eta: 3.627h, loss: 3.9589
+INFO:trainer:Epoch: 0, GlobalStep: 2800, lr: 0.00050, eta: 3.613h, loss: 3.9392
+INFO:trainer:Epoch: 0, GlobalStep: 2900, lr: 0.00050, eta: 3.599h, loss: 4.0616
+INFO:trainer:Epoch: 0, GlobalStep: 3000, lr: 0.00050, eta: 3.584h, loss: 4.0004
+INFO:trainer:Epoch: 0, GlobalStep: 3100, lr: 0.00050, eta: 3.570h, loss: 3.8889, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 3200, lr: 0.00050, eta: 3.555h, loss: 4.4708
+INFO:trainer:Epoch: 0, GlobalStep: 3300, lr: 0.00050, eta: 3.542h, loss: 4.0047
+INFO:trainer:Epoch: 0, GlobalStep: 3400, lr: 0.00050, eta: 3.528h, loss: 3.9881
+INFO:trainer:Epoch: 0, GlobalStep: 3500, lr: 0.00050, eta: 3.514h, loss: 3.9637
+INFO:trainer:Epoch: 0, GlobalStep: 3600, lr: 0.00050, eta: 3.500h, loss: 3.9640
+INFO:trainer:Epoch: 0, GlobalStep: 3700, lr: 0.00050, eta: 3.488h, loss: 3.8226, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 3800, lr: 0.00050, eta: 3.473h, loss: 3.9107
+INFO:trainer:Epoch: 0, GlobalStep: 3900, lr: 0.00050, eta: 3.460h, loss: 3.8756
+INFO:trainer:Epoch: 0, GlobalStep: 4000, lr: 0.00049, eta: 3.447h, loss: 4.3222
+INFO:trainer:Epoch: 0, GlobalStep: 4100, lr: 0.00049, eta: 3.434h, loss: 4.7829
+INFO:trainer:Epoch: 0, GlobalStep: 4200, lr: 0.00049, eta: 3.420h, loss: 4.1494
+INFO:trainer:Epoch: 0, GlobalStep: 4300, lr: 0.00049, eta: 3.407h, loss: 3.7720, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 4400, lr: 0.00049, eta: 3.394h, loss: 4.0534
+INFO:trainer:Epoch: 0, GlobalStep: 4500, lr: 0.00049, eta: 3.381h, loss: 3.9934
+INFO:trainer:Epoch: 0, GlobalStep: 4600, lr: 0.00049, eta: 3.369h, loss: 3.6465, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 4700, lr: 0.00049, eta: 3.356h, loss: 3.8250
+INFO:trainer:Epoch: 0, GlobalStep: 4800, lr: 0.00049, eta: 3.343h, loss: 3.8925
+INFO:trainer:Epoch: 0, GlobalStep: 4900, lr: 0.00049, eta: 3.330h, loss: 3.7069
+INFO:trainer:Epoch: 0, GlobalStep: 5000, lr: 0.00049, eta: 3.317h, loss: 3.8983
+INFO:trainer:Epoch: 0, GlobalStep: 5100, lr: 0.00049, eta: 3.305h, loss: 3.5827, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 0, GlobalStep: 5200, lr: 0.00049, eta: 3.293h, loss: 3.9731
+INFO:trainer:Epoch: 0, GlobalStep: 5300, lr: 0.00049, eta: 3.281h, loss: 3.8442
+INFO:trainer:Epoch: 0, GlobalStep: 5400, lr: 0.00049, eta: 3.268h, loss: 3.7071
+INFO:trainer:Epoch: 0, GlobalStep: 5500, lr: 0.00048, eta: 3.257h, loss: 3.8721
+INFO:trainer:Save Model of Epoch: 0 to ./0.ckpt
+INFO:trainer:Epoch: 1, GlobalStep: 5600, lr: 0.00048, eta: 3.245h, loss: 3.4379, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 1, GlobalStep: 5700, lr: 0.00048, eta: 3.232h, loss: 3.5973
+INFO:trainer:Epoch: 1, GlobalStep: 5800, lr: 0.00048, eta: 3.220h, loss: 3.8032
+INFO:trainer:Epoch: 1, GlobalStep: 5900, lr: 0.00048, eta: 3.208h, loss: 3.9407
+INFO:trainer:Epoch: 1, GlobalStep: 6000, lr: 0.00048, eta: 3.197h, loss: 3.8841
+INFO:trainer:Epoch: 1, GlobalStep: 6100, lr: 0.00048, eta: 3.185h, loss: 3.6735
+INFO:trainer:Epoch: 1, GlobalStep: 6200, lr: 0.00048, eta: 3.173h, loss: 4.1027
+INFO:trainer:Epoch: 1, GlobalStep: 6300, lr: 0.00048, eta: 3.163h, loss: 3.5186
+INFO:trainer:Epoch: 1, GlobalStep: 6400, lr: 0.00048, eta: 3.151h, loss: 3.6767
+INFO:trainer:Epoch: 1, GlobalStep: 6500, lr: 0.00048, eta: 3.139h, loss: 3.7717
+INFO:trainer:Epoch: 1, GlobalStep: 6600, lr: 0.00047, eta: 3.128h, loss: 3.6691
+INFO:trainer:Epoch: 1, GlobalStep: 6700, lr: 0.00047, eta: 3.117h, loss: 3.7461
+INFO:trainer:Epoch: 1, GlobalStep: 6800, lr: 0.00047, eta: 3.105h, loss: 3.4672
+INFO:trainer:Epoch: 1, GlobalStep: 6900, lr: 0.00047, eta: 3.093h, loss: 3.6368
+INFO:trainer:Epoch: 1, GlobalStep: 7000, lr: 0.00047, eta: 3.081h, loss: 3.5347
+INFO:trainer:Epoch: 1, GlobalStep: 7100, lr: 0.00047, eta: 3.069h, loss: 4.9122
+INFO:trainer:Epoch: 1, GlobalStep: 7200, lr: 0.00047, eta: 3.057h, loss: 3.6392
+INFO:trainer:Epoch: 1, GlobalStep: 7300, lr: 0.00047, eta: 3.046h, loss: 4.1726
+INFO:trainer:Epoch: 1, GlobalStep: 7400, lr: 0.00046, eta: 3.034h, loss: 4.0583
+INFO:trainer:Epoch: 1, GlobalStep: 7500, lr: 0.00046, eta: 3.022h, loss: 3.6033
+INFO:trainer:Epoch: 1, GlobalStep: 7600, lr: 0.00046, eta: 3.010h, loss: 3.8740
+INFO:trainer:Epoch: 1, GlobalStep: 7700, lr: 0.00046, eta: 2.998h, loss: 3.6053
+INFO:trainer:Epoch: 1, GlobalStep: 7800, lr: 0.00046, eta: 2.986h, loss: 3.7581
+INFO:trainer:Epoch: 1, GlobalStep: 7900, lr: 0.00046, eta: 2.975h, loss: 3.6587
+INFO:trainer:Epoch: 1, GlobalStep: 8000, lr: 0.00046, eta: 2.963h, loss: 3.5533
+INFO:trainer:Epoch: 1, GlobalStep: 8100, lr: 0.00045, eta: 2.951h, loss: 4.6114
+INFO:trainer:Epoch: 1, GlobalStep: 8200, lr: 0.00045, eta: 2.939h, loss: 3.6102
+INFO:trainer:Epoch: 1, GlobalStep: 8300, lr: 0.00045, eta: 2.927h, loss: 3.6409
+INFO:trainer:Epoch: 1, GlobalStep: 8400, lr: 0.00045, eta: 2.916h, loss: 3.4456
+INFO:trainer:Epoch: 1, GlobalStep: 8500, lr: 0.00045, eta: 2.904h, loss: 3.1608, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 1, GlobalStep: 8600, lr: 0.00045, eta: 2.892h, loss: 3.2304
+INFO:trainer:Epoch: 1, GlobalStep: 8700, lr: 0.00045, eta: 2.880h, loss: 3.7973
+INFO:trainer:Epoch: 1, GlobalStep: 8800, lr: 0.00044, eta: 2.869h, loss: 3.2968
+INFO:trainer:Epoch: 1, GlobalStep: 8900, lr: 0.00044, eta: 2.857h, loss: 3.3611
+INFO:trainer:Epoch: 1, GlobalStep: 9000, lr: 0.00044, eta: 2.845h, loss: 3.5633
+INFO:trainer:Epoch: 1, GlobalStep: 9100, lr: 0.00044, eta: 2.833h, loss: 3.6302
+INFO:trainer:Epoch: 1, GlobalStep: 9200, lr: 0.00044, eta: 2.821h, loss: 3.6230
+INFO:trainer:Epoch: 1, GlobalStep: 9300, lr: 0.00044, eta: 2.809h, loss: 3.5118
+INFO:trainer:Epoch: 1, GlobalStep: 9400, lr: 0.00043, eta: 2.798h, loss: 3.5999
+INFO:trainer:Epoch: 1, GlobalStep: 9500, lr: 0.00043, eta: 2.786h, loss: 3.4746
+INFO:trainer:Epoch: 1, GlobalStep: 9600, lr: 0.00043, eta: 2.774h, loss: 3.6937
+INFO:trainer:Epoch: 1, GlobalStep: 9700, lr: 0.00043, eta: 2.762h, loss: 3.5744
+INFO:trainer:Epoch: 1, GlobalStep: 9800, lr: 0.00043, eta: 2.750h, loss: 3.3802
+INFO:trainer:Epoch: 1, GlobalStep: 9900, lr: 0.00043, eta: 2.738h, loss: 3.6424
+INFO:trainer:Epoch: 1, GlobalStep: 10000, lr: 0.00042, eta: 2.727h, loss: 3.4160
+INFO:trainer:Epoch: 1, GlobalStep: 10100, lr: 0.00042, eta: 2.715h, loss: 3.4015
+INFO:trainer:Epoch: 1, GlobalStep: 10200, lr: 0.00042, eta: 2.703h, loss: 3.6498
+INFO:trainer:Epoch: 1, GlobalStep: 10300, lr: 0.00042, eta: 2.691h, loss: 3.8717
+INFO:trainer:Epoch: 1, GlobalStep: 10400, lr: 0.00042, eta: 2.679h, loss: 3.3936
+INFO:trainer:Epoch: 1, GlobalStep: 10500, lr: 0.00041, eta: 2.667h, loss: 3.2802
+INFO:trainer:Epoch: 1, GlobalStep: 10600, lr: 0.00041, eta: 2.655h, loss: 3.2596
+INFO:trainer:Epoch: 1, GlobalStep: 10700, lr: 0.00041, eta: 2.644h, loss: 3.5198
+INFO:trainer:Epoch: 1, GlobalStep: 10800, lr: 0.00041, eta: 2.632h, loss: 3.2509
+INFO:trainer:Epoch: 1, GlobalStep: 10900, lr: 0.00041, eta: 2.620h, loss: 3.2014
+INFO:trainer:Epoch: 1, GlobalStep: 11000, lr: 0.00041, eta: 2.609h, loss: 3.6158
+INFO:trainer:Save Model of Epoch: 1 to ./1.ckpt
+INFO:trainer:Epoch: 2, GlobalStep: 11100, lr: 0.00040, eta: 2.597h, loss: 3.2393
+INFO:trainer:Epoch: 2, GlobalStep: 11200, lr: 0.00040, eta: 2.586h, loss: 3.5418
+INFO:trainer:Epoch: 2, GlobalStep: 11300, lr: 0.00040, eta: 2.574h, loss: 3.5226
+INFO:trainer:Epoch: 2, GlobalStep: 11400, lr: 0.00040, eta: 2.562h, loss: 3.4328
+INFO:trainer:Epoch: 2, GlobalStep: 11500, lr: 0.00040, eta: 2.551h, loss: 3.5548
+INFO:trainer:Epoch: 2, GlobalStep: 11600, lr: 0.00039, eta: 2.539h, loss: 3.5157
+INFO:trainer:Epoch: 2, GlobalStep: 11700, lr: 0.00039, eta: 2.527h, loss: 3.5292
+INFO:trainer:Epoch: 2, GlobalStep: 11800, lr: 0.00039, eta: 2.515h, loss: 3.5548
+INFO:trainer:Epoch: 2, GlobalStep: 11900, lr: 0.00039, eta: 2.503h, loss: 3.7237
+INFO:trainer:Epoch: 2, GlobalStep: 12000, lr: 0.00038, eta: 2.491h, loss: 3.5501
+INFO:trainer:Epoch: 2, GlobalStep: 12100, lr: 0.00038, eta: 2.479h, loss: 3.3142
+INFO:trainer:Epoch: 2, GlobalStep: 12200, lr: 0.00038, eta: 2.467h, loss: 3.5389
+INFO:trainer:Epoch: 2, GlobalStep: 12300, lr: 0.00038, eta: 2.456h, loss: 3.3067
+INFO:trainer:Epoch: 2, GlobalStep: 12400, lr: 0.00038, eta: 2.444h, loss: 3.3005
+INFO:trainer:Epoch: 2, GlobalStep: 12500, lr: 0.00037, eta: 2.432h, loss: 3.3056
+INFO:trainer:Epoch: 2, GlobalStep: 12600, lr: 0.00037, eta: 2.420h, loss: 3.5400
+INFO:trainer:Epoch: 2, GlobalStep: 12700, lr: 0.00037, eta: 2.409h, loss: 3.3788
+INFO:trainer:Epoch: 2, GlobalStep: 12800, lr: 0.00037, eta: 2.397h, loss: 3.6909
+INFO:trainer:Epoch: 2, GlobalStep: 12900, lr: 0.00037, eta: 2.385h, loss: 3.3515
+INFO:trainer:Epoch: 2, GlobalStep: 13000, lr: 0.00036, eta: 2.374h, loss: 3.3928
+INFO:trainer:Epoch: 2, GlobalStep: 13100, lr: 0.00036, eta: 2.362h, loss: 3.4076
+INFO:trainer:Epoch: 2, GlobalStep: 13200, lr: 0.00036, eta: 2.350h, loss: 3.3656
+INFO:trainer:Epoch: 2, GlobalStep: 13300, lr: 0.00036, eta: 2.338h, loss: 3.4251
+INFO:trainer:Epoch: 2, GlobalStep: 13400, lr: 0.00035, eta: 2.327h, loss: 3.4069
+INFO:trainer:Epoch: 2, GlobalStep: 13500, lr: 0.00035, eta: 2.315h, loss: 3.2690
+INFO:trainer:Epoch: 2, GlobalStep: 13600, lr: 0.00035, eta: 2.303h, loss: 4.1591
+INFO:trainer:Epoch: 2, GlobalStep: 13700, lr: 0.00035, eta: 2.291h, loss: 3.5067
+INFO:trainer:Epoch: 2, GlobalStep: 13800, lr: 0.00034, eta: 2.279h, loss: 3.1425, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 2, GlobalStep: 13900, lr: 0.00034, eta: 2.267h, loss: 3.3430
+INFO:trainer:Epoch: 2, GlobalStep: 14000, lr: 0.00034, eta: 2.255h, loss: 3.2012
+INFO:trainer:Epoch: 2, GlobalStep: 14100, lr: 0.00034, eta: 2.243h, loss: 3.3894
+INFO:trainer:Epoch: 2, GlobalStep: 14200, lr: 0.00034, eta: 2.231h, loss: 3.4044
+INFO:trainer:Epoch: 2, GlobalStep: 14300, lr: 0.00033, eta: 2.220h, loss: 3.1882
+INFO:trainer:Epoch: 2, GlobalStep: 14400, lr: 0.00033, eta: 2.208h, loss: 3.2557
+INFO:trainer:Epoch: 2, GlobalStep: 14500, lr: 0.00033, eta: 2.196h, loss: 3.3162
+INFO:trainer:Epoch: 2, GlobalStep: 14600, lr: 0.00033, eta: 2.184h, loss: 3.5592
+INFO:trainer:Epoch: 2, GlobalStep: 14700, lr: 0.00032, eta: 2.172h, loss: 3.2617
+INFO:trainer:Epoch: 2, GlobalStep: 14800, lr: 0.00032, eta: 2.160h, loss: 3.2779
+INFO:trainer:Epoch: 2, GlobalStep: 14900, lr: 0.00032, eta: 2.148h, loss: 3.2929
+INFO:trainer:Epoch: 2, GlobalStep: 15000, lr: 0.00032, eta: 2.136h, loss: 3.3868
+INFO:trainer:Epoch: 2, GlobalStep: 15100, lr: 0.00031, eta: 2.124h, loss: 3.1573
+INFO:trainer:Epoch: 2, GlobalStep: 15200, lr: 0.00031, eta: 2.112h, loss: 3.3950
+INFO:trainer:Epoch: 2, GlobalStep: 15300, lr: 0.00031, eta: 2.100h, loss: 3.2668
+INFO:trainer:Epoch: 2, GlobalStep: 15400, lr: 0.00031, eta: 2.088h, loss: 3.2045
+INFO:trainer:Epoch: 2, GlobalStep: 15500, lr: 0.00030, eta: 2.076h, loss: 3.4137
+INFO:trainer:Epoch: 2, GlobalStep: 15600, lr: 0.00030, eta: 2.064h, loss: 3.3655
+INFO:trainer:Epoch: 2, GlobalStep: 15700, lr: 0.00030, eta: 2.052h, loss: 3.0582, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 2, GlobalStep: 15800, lr: 0.00030, eta: 2.040h, loss: 3.3703
+INFO:trainer:Epoch: 2, GlobalStep: 15900, lr: 0.00029, eta: 2.028h, loss: 3.2132
+INFO:trainer:Epoch: 2, GlobalStep: 16000, lr: 0.00029, eta: 2.016h, loss: 3.2769
+INFO:trainer:Epoch: 2, GlobalStep: 16100, lr: 0.00029, eta: 2.004h, loss: 3.0362, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 2, GlobalStep: 16200, lr: 0.00029, eta: 1.992h, loss: 3.4707
+INFO:trainer:Epoch: 2, GlobalStep: 16300, lr: 0.00028, eta: 1.981h, loss: 3.4557
+INFO:trainer:Epoch: 2, GlobalStep: 16400, lr: 0.00028, eta: 1.969h, loss: 3.2271
+INFO:trainer:Epoch: 2, GlobalStep: 16500, lr: 0.00028, eta: 1.957h, loss: 3.2845
+INFO:trainer:Save Model of Epoch: 2 to ./2.ckpt
+INFO:trainer:Epoch: 3, GlobalStep: 16600, lr: 0.00028, eta: 1.945h, loss: 3.1647
+INFO:trainer:Epoch: 3, GlobalStep: 16700, lr: 0.00028, eta: 1.933h, loss: 3.4107
+INFO:trainer:Epoch: 3, GlobalStep: 16800, lr: 0.00027, eta: 1.922h, loss: 3.1905
+INFO:trainer:Epoch: 3, GlobalStep: 16900, lr: 0.00027, eta: 1.910h, loss: 3.3839
+INFO:trainer:Epoch: 3, GlobalStep: 17000, lr: 0.00027, eta: 1.898h, loss: 3.1637
+INFO:trainer:Epoch: 3, GlobalStep: 17100, lr: 0.00027, eta: 1.886h, loss: 3.1355
+INFO:trainer:Epoch: 3, GlobalStep: 17200, lr: 0.00026, eta: 1.874h, loss: 3.0634
+INFO:trainer:Epoch: 3, GlobalStep: 17300, lr: 0.00026, eta: 1.863h, loss: 3.2826
+INFO:trainer:Epoch: 3, GlobalStep: 17400, lr: 0.00026, eta: 1.851h, loss: 3.1832
+INFO:trainer:Epoch: 3, GlobalStep: 17500, lr: 0.00026, eta: 1.839h, loss: 3.3830
+INFO:trainer:Epoch: 3, GlobalStep: 17600, lr: 0.00025, eta: 1.827h, loss: 3.2004
+INFO:trainer:Epoch: 3, GlobalStep: 17700, lr: 0.00025, eta: 1.815h, loss: 3.2764
+INFO:trainer:Epoch: 3, GlobalStep: 17800, lr: 0.00025, eta: 1.803h, loss: 3.0867
+INFO:trainer:Epoch: 3, GlobalStep: 17900, lr: 0.00025, eta: 1.792h, loss: 2.9749, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 3, GlobalStep: 18000, lr: 0.00024, eta: 1.780h, loss: 3.2918
+INFO:trainer:Epoch: 3, GlobalStep: 18100, lr: 0.00024, eta: 1.768h, loss: 4.2447
+INFO:trainer:Epoch: 3, GlobalStep: 18200, lr: 0.00024, eta: 1.756h, loss: 3.1213
+INFO:trainer:Epoch: 3, GlobalStep: 18300, lr: 0.00024, eta: 1.744h, loss: 3.2215
+INFO:trainer:Epoch: 3, GlobalStep: 18400, lr: 0.00023, eta: 1.732h, loss: 3.2008
+INFO:trainer:Epoch: 3, GlobalStep: 18500, lr: 0.00023, eta: 1.720h, loss: 3.1910
+INFO:trainer:Epoch: 3, GlobalStep: 18600, lr: 0.00023, eta: 1.708h, loss: 3.2062
+INFO:trainer:Epoch: 3, GlobalStep: 18700, lr: 0.00023, eta: 1.696h, loss: 3.6182
+INFO:trainer:Epoch: 3, GlobalStep: 18800, lr: 0.00022, eta: 1.684h, loss: 3.1714
+INFO:trainer:Epoch: 3, GlobalStep: 18900, lr: 0.00022, eta: 1.672h, loss: 3.3806
+INFO:trainer:Epoch: 3, GlobalStep: 19000, lr: 0.00022, eta: 1.660h, loss: 3.1623
+INFO:trainer:Epoch: 3, GlobalStep: 19100, lr: 0.00022, eta: 1.649h, loss: 3.8383
+INFO:trainer:Epoch: 3, GlobalStep: 19200, lr: 0.00021, eta: 1.637h, loss: 3.2528
+INFO:trainer:Epoch: 3, GlobalStep: 19300, lr: 0.00021, eta: 1.625h, loss: 3.1012
+INFO:trainer:Epoch: 3, GlobalStep: 19400, lr: 0.00021, eta: 1.613h, loss: 3.3119
+INFO:trainer:Epoch: 3, GlobalStep: 19500, lr: 0.00021, eta: 1.601h, loss: 3.0824
+INFO:trainer:Epoch: 3, GlobalStep: 19600, lr: 0.00020, eta: 1.589h, loss: 3.1221
+INFO:trainer:Epoch: 3, GlobalStep: 19700, lr: 0.00020, eta: 1.577h, loss: 3.3389
+INFO:trainer:Epoch: 3, GlobalStep: 19800, lr: 0.00020, eta: 1.566h, loss: 3.2369
+INFO:trainer:Epoch: 3, GlobalStep: 19900, lr: 0.00020, eta: 1.554h, loss: 3.3146
+INFO:trainer:Epoch: 3, GlobalStep: 20000, lr: 0.00019, eta: 1.542h, loss: 3.2441
+INFO:trainer:Epoch: 3, GlobalStep: 20100, lr: 0.00019, eta: 1.530h, loss: 3.4955
+INFO:trainer:Epoch: 3, GlobalStep: 20200, lr: 0.00019, eta: 1.519h, loss: 3.0708
+INFO:trainer:Epoch: 3, GlobalStep: 20300, lr: 0.00019, eta: 1.507h, loss: 3.2359
+INFO:trainer:Epoch: 3, GlobalStep: 20400, lr: 0.00018, eta: 1.495h, loss: 3.0383
+INFO:trainer:Epoch: 3, GlobalStep: 20500, lr: 0.00018, eta: 1.483h, loss: 3.1709
+INFO:trainer:Epoch: 3, GlobalStep: 20600, lr: 0.00018, eta: 1.472h, loss: 3.1969
+INFO:trainer:Epoch: 3, GlobalStep: 20700, lr: 0.00018, eta: 1.460h, loss: 3.4276
+INFO:trainer:Epoch: 3, GlobalStep: 20800, lr: 0.00017, eta: 1.448h, loss: 3.1966
+INFO:trainer:Epoch: 3, GlobalStep: 20900, lr: 0.00017, eta: 1.436h, loss: 3.3540
+INFO:trainer:Epoch: 3, GlobalStep: 21000, lr: 0.00017, eta: 1.424h, loss: 3.1930
+INFO:trainer:Epoch: 3, GlobalStep: 21100, lr: 0.00017, eta: 1.412h, loss: 3.1915
+INFO:trainer:Epoch: 3, GlobalStep: 21200, lr: 0.00017, eta: 1.401h, loss: 3.0465
+INFO:trainer:Epoch: 3, GlobalStep: 21300, lr: 0.00016, eta: 1.389h, loss: 3.1850
+INFO:trainer:Epoch: 3, GlobalStep: 21400, lr: 0.00016, eta: 1.377h, loss: 3.1753
+INFO:trainer:Epoch: 3, GlobalStep: 21500, lr: 0.00016, eta: 1.365h, loss: 2.9609, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 3, GlobalStep: 21600, lr: 0.00016, eta: 1.353h, loss: 3.0336
+INFO:trainer:Epoch: 3, GlobalStep: 21700, lr: 0.00015, eta: 1.341h, loss: 3.2522
+INFO:trainer:Epoch: 3, GlobalStep: 21800, lr: 0.00015, eta: 1.329h, loss: 3.2107
+INFO:trainer:Epoch: 3, GlobalStep: 21900, lr: 0.00015, eta: 1.318h, loss: 3.2437
+INFO:trainer:Epoch: 3, GlobalStep: 22000, lr: 0.00015, eta: 1.306h, loss: 3.0495
+INFO:trainer:Save Model of Epoch: 3 to ./3.ckpt
+INFO:trainer:Epoch: 4, GlobalStep: 22100, lr: 0.00015, eta: 1.294h, loss: 3.2203
+INFO:trainer:Epoch: 4, GlobalStep: 22200, lr: 0.00014, eta: 1.282h, loss: 3.1992
+INFO:trainer:Epoch: 4, GlobalStep: 22300, lr: 0.00014, eta: 1.270h, loss: 3.1438
+INFO:trainer:Epoch: 4, GlobalStep: 22400, lr: 0.00014, eta: 1.258h, loss: 3.2481
+INFO:trainer:Epoch: 4, GlobalStep: 22500, lr: 0.00014, eta: 1.247h, loss: 3.2785
+INFO:trainer:Epoch: 4, GlobalStep: 22600, lr: 0.00013, eta: 1.235h, loss: 3.2674
+INFO:trainer:Epoch: 4, GlobalStep: 22700, lr: 0.00013, eta: 1.223h, loss: 2.8914, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 4, GlobalStep: 22800, lr: 0.00013, eta: 1.211h, loss: 2.9649
+INFO:trainer:Epoch: 4, GlobalStep: 22900, lr: 0.00013, eta: 1.199h, loss: 3.2095
+INFO:trainer:Epoch: 4, GlobalStep: 23000, lr: 0.00013, eta: 1.187h, loss: 3.2784
+INFO:trainer:Epoch: 4, GlobalStep: 23100, lr: 0.00012, eta: 1.176h, loss: 3.1481
+INFO:trainer:Epoch: 4, GlobalStep: 23200, lr: 0.00012, eta: 1.164h, loss: 3.2726
+INFO:trainer:Epoch: 4, GlobalStep: 23300, lr: 0.00012, eta: 1.152h, loss: 3.0488
+INFO:trainer:Epoch: 4, GlobalStep: 23400, lr: 0.00012, eta: 1.140h, loss: 3.1541
+INFO:trainer:Epoch: 4, GlobalStep: 23500, lr: 0.00012, eta: 1.128h, loss: 3.2816
+INFO:trainer:Epoch: 4, GlobalStep: 23600, lr: 0.00011, eta: 1.117h, loss: 3.2043
+INFO:trainer:Epoch: 4, GlobalStep: 23700, lr: 0.00011, eta: 1.105h, loss: 3.2633
+INFO:trainer:Epoch: 4, GlobalStep: 23800, lr: 0.00011, eta: 1.093h, loss: 3.1236
+INFO:trainer:Epoch: 4, GlobalStep: 23900, lr: 0.00011, eta: 1.081h, loss: 3.2330
+INFO:trainer:Epoch: 4, GlobalStep: 24000, lr: 0.00011, eta: 1.069h, loss: 3.1891
+INFO:trainer:Epoch: 4, GlobalStep: 24100, lr: 0.00010, eta: 1.057h, loss: 3.1152
+INFO:trainer:Epoch: 4, GlobalStep: 24200, lr: 0.00010, eta: 1.046h, loss: 2.9942
+INFO:trainer:Epoch: 4, GlobalStep: 24300, lr: 0.00010, eta: 1.034h, loss: 2.9990
+INFO:trainer:Epoch: 4, GlobalStep: 24400, lr: 0.00010, eta: 1.022h, loss: 3.0837
+INFO:trainer:Epoch: 4, GlobalStep: 24500, lr: 0.00010, eta: 1.010h, loss: 3.3097
+INFO:trainer:Epoch: 4, GlobalStep: 24600, lr: 0.00009, eta: 0.998h, loss: 3.0892
+INFO:trainer:Epoch: 4, GlobalStep: 24700, lr: 0.00009, eta: 0.986h, loss: 3.0686
+INFO:trainer:Epoch: 4, GlobalStep: 24800, lr: 0.00009, eta: 0.974h, loss: 2.9427
+INFO:trainer:Epoch: 4, GlobalStep: 24900, lr: 0.00009, eta: 0.963h, loss: 2.9627
+INFO:trainer:Epoch: 4, GlobalStep: 25000, lr: 0.00009, eta: 0.951h, loss: 2.9740
+INFO:trainer:Epoch: 4, GlobalStep: 25100, lr: 0.00008, eta: 0.939h, loss: 3.2509
+INFO:trainer:Epoch: 4, GlobalStep: 25200, lr: 0.00008, eta: 0.927h, loss: 3.2239
+INFO:trainer:Epoch: 4, GlobalStep: 25300, lr: 0.00008, eta: 0.915h, loss: 3.0098
+INFO:trainer:Epoch: 4, GlobalStep: 25400, lr: 0.00008, eta: 0.903h, loss: 3.2062
+INFO:trainer:Epoch: 4, GlobalStep: 25500, lr: 0.00008, eta: 0.891h, loss: 3.1335
+INFO:trainer:Epoch: 4, GlobalStep: 25600, lr: 0.00008, eta: 0.879h, loss: 3.2505
+INFO:trainer:Epoch: 4, GlobalStep: 25700, lr: 0.00007, eta: 0.868h, loss: 3.3397
+INFO:trainer:Epoch: 4, GlobalStep: 25800, lr: 0.00007, eta: 0.856h, loss: 2.9689
+INFO:trainer:Epoch: 4, GlobalStep: 25900, lr: 0.00007, eta: 0.844h, loss: 3.0698
+INFO:trainer:Epoch: 4, GlobalStep: 26000, lr: 0.00007, eta: 0.832h, loss: 3.2176
+INFO:trainer:Epoch: 4, GlobalStep: 26100, lr: 0.00007, eta: 0.820h, loss: 3.1219
+INFO:trainer:Epoch: 4, GlobalStep: 26200, lr: 0.00007, eta: 0.808h, loss: 3.2086
+INFO:trainer:Epoch: 4, GlobalStep: 26300, lr: 0.00006, eta: 0.796h, loss: 3.0759
+INFO:trainer:Epoch: 4, GlobalStep: 26400, lr: 0.00006, eta: 0.785h, loss: 3.2236
+INFO:trainer:Epoch: 4, GlobalStep: 26500, lr: 0.00006, eta: 0.773h, loss: 3.1382
+INFO:trainer:Epoch: 4, GlobalStep: 26600, lr: 0.00006, eta: 0.761h, loss: 3.2409
+INFO:trainer:Epoch: 4, GlobalStep: 26700, lr: 0.00006, eta: 0.749h, loss: 3.0099
+INFO:trainer:Epoch: 4, GlobalStep: 26800, lr: 0.00006, eta: 0.737h, loss: 2.9539
+INFO:trainer:Epoch: 4, GlobalStep: 26900, lr: 0.00006, eta: 0.725h, loss: 3.1452
+INFO:trainer:Epoch: 4, GlobalStep: 27000, lr: 0.00005, eta: 0.713h, loss: 2.9924
+INFO:trainer:Epoch: 4, GlobalStep: 27100, lr: 0.00005, eta: 0.702h, loss: 2.9233
+INFO:trainer:Epoch: 4, GlobalStep: 27200, lr: 0.00005, eta: 0.690h, loss: 3.1557
+INFO:trainer:Epoch: 4, GlobalStep: 27300, lr: 0.00005, eta: 0.678h, loss: 3.1092
+INFO:trainer:Epoch: 4, GlobalStep: 27400, lr: 0.00005, eta: 0.666h, loss: 3.3719
+INFO:trainer:Epoch: 4, GlobalStep: 27500, lr: 0.00005, eta: 0.654h, loss: 3.0093
+INFO:trainer:Save Model of Epoch: 4 to ./4.ckpt
+INFO:trainer:Epoch: 5, GlobalStep: 27600, lr: 0.00005, eta: 0.642h, loss: 3.1427
+INFO:trainer:Epoch: 5, GlobalStep: 27700, lr: 0.00004, eta: 0.631h, loss: 2.9443
+INFO:trainer:Epoch: 5, GlobalStep: 27800, lr: 0.00004, eta: 0.619h, loss: 3.0206
+INFO:trainer:Epoch: 5, GlobalStep: 27900, lr: 0.00004, eta: 0.607h, loss: 3.1021
+INFO:trainer:Epoch: 5, GlobalStep: 28000, lr: 0.00004, eta: 0.595h, loss: 2.9870
+INFO:trainer:Epoch: 5, GlobalStep: 28100, lr: 0.00004, eta: 0.583h, loss: 3.1859
+INFO:trainer:Epoch: 5, GlobalStep: 28200, lr: 0.00004, eta: 0.571h, loss: 3.0178
+INFO:trainer:Epoch: 5, GlobalStep: 28300, lr: 0.00004, eta: 0.559h, loss: 2.9921
+INFO:trainer:Epoch: 5, GlobalStep: 28400, lr: 0.00004, eta: 0.548h, loss: 3.5214
+INFO:trainer:Epoch: 5, GlobalStep: 28500, lr: 0.00004, eta: 0.536h, loss: 3.0431
+INFO:trainer:Epoch: 5, GlobalStep: 28600, lr: 0.00003, eta: 0.524h, loss: 3.1934
+INFO:trainer:Epoch: 5, GlobalStep: 28700, lr: 0.00003, eta: 0.512h, loss: 3.1292
+INFO:trainer:Epoch: 5, GlobalStep: 28800, lr: 0.00003, eta: 0.500h, loss: 2.9757
+INFO:trainer:Epoch: 5, GlobalStep: 28900, lr: 0.00003, eta: 0.488h, loss: 2.9060
+INFO:trainer:Epoch: 5, GlobalStep: 29000, lr: 0.00003, eta: 0.477h, loss: 3.2536
+INFO:trainer:Epoch: 5, GlobalStep: 29100, lr: 0.00003, eta: 0.465h, loss: 3.1075
+INFO:trainer:Epoch: 5, GlobalStep: 29200, lr: 0.00003, eta: 0.453h, loss: 3.0379
+INFO:trainer:Epoch: 5, GlobalStep: 29300, lr: 0.00003, eta: 0.441h, loss: 3.2755
+INFO:trainer:Epoch: 5, GlobalStep: 29400, lr: 0.00003, eta: 0.429h, loss: 2.9603
+INFO:trainer:Epoch: 5, GlobalStep: 29500, lr: 0.00003, eta: 0.417h, loss: 3.3777
+INFO:trainer:Epoch: 5, GlobalStep: 29600, lr: 0.00002, eta: 0.406h, loss: 3.3491
+INFO:trainer:Epoch: 5, GlobalStep: 29700, lr: 0.00002, eta: 0.394h, loss: 3.3253
+INFO:trainer:Epoch: 5, GlobalStep: 29800, lr: 0.00002, eta: 0.382h, loss: 3.0050
+INFO:trainer:Epoch: 5, GlobalStep: 29900, lr: 0.00002, eta: 0.370h, loss: 3.1265
+INFO:trainer:Epoch: 5, GlobalStep: 30000, lr: 0.00002, eta: 0.358h, loss: 3.0493
+INFO:trainer:Epoch: 5, GlobalStep: 30100, lr: 0.00002, eta: 0.346h, loss: 3.1418
+INFO:trainer:Epoch: 5, GlobalStep: 30200, lr: 0.00002, eta: 0.335h, loss: 3.2574
+INFO:trainer:Epoch: 5, GlobalStep: 30300, lr: 0.00002, eta: 0.323h, loss: 3.0552
+INFO:trainer:Epoch: 5, GlobalStep: 30400, lr: 0.00002, eta: 0.311h, loss: 3.1860
+INFO:trainer:Epoch: 5, GlobalStep: 30500, lr: 0.00002, eta: 0.299h, loss: 3.1575
+INFO:trainer:Epoch: 5, GlobalStep: 30600, lr: 0.00002, eta: 0.287h, loss: 2.7796, model saved to ./min_loss.ckpt
+INFO:trainer:Epoch: 5, GlobalStep: 30700, lr: 0.00002, eta: 0.275h, loss: 3.1729
+INFO:trainer:Epoch: 5, GlobalStep: 30800, lr: 0.00002, eta: 0.263h, loss: 2.8543
+INFO:trainer:Epoch: 5, GlobalStep: 30900, lr: 0.00002, eta: 0.252h, loss: 3.0228
+INFO:trainer:Epoch: 5, GlobalStep: 31000, lr: 0.00002, eta: 0.240h, loss: 2.9745
+INFO:trainer:Epoch: 5, GlobalStep: 31100, lr: 0.00001, eta: 0.228h, loss: 3.0529
+INFO:trainer:Epoch: 5, GlobalStep: 31200, lr: 0.00001, eta: 0.216h, loss: 3.1543
+INFO:trainer:Epoch: 5, GlobalStep: 31300, lr: 0.00001, eta: 0.204h, loss: 2.8995
+INFO:trainer:Epoch: 5, GlobalStep: 31400, lr: 0.00001, eta: 0.192h, loss: 2.9705
+INFO:trainer:Epoch: 5, GlobalStep: 31500, lr: 0.00001, eta: 0.181h, loss: 2.9997
+INFO:trainer:Epoch: 5, GlobalStep: 31600, lr: 0.00001, eta: 0.169h, loss: 3.1190
+INFO:trainer:Epoch: 5, GlobalStep: 31700, lr: 0.00001, eta: 0.157h, loss: 3.2285
+INFO:trainer:Epoch: 5, GlobalStep: 31800, lr: 0.00001, eta: 0.145h, loss: 3.0011
+INFO:trainer:Epoch: 5, GlobalStep: 31900, lr: 0.00001, eta: 0.133h, loss: 3.0145
+INFO:trainer:Epoch: 5, GlobalStep: 32000, lr: 0.00001, eta: 0.121h, loss: 3.0879
+INFO:trainer:Epoch: 5, GlobalStep: 32100, lr: 0.00001, eta: 0.109h, loss: 3.1240
+INFO:trainer:Epoch: 5, GlobalStep: 32200, lr: 0.00001, eta: 0.098h, loss: 2.8960
+INFO:trainer:Epoch: 5, GlobalStep: 32300, lr: 0.00001, eta: 0.086h, loss: 2.8643
+INFO:trainer:Epoch: 5, GlobalStep: 32400, lr: 0.00001, eta: 0.074h, loss: 3.1795
+INFO:trainer:Epoch: 5, GlobalStep: 32500, lr: 0.00001, eta: 0.062h, loss: 2.9749
+INFO:trainer:Epoch: 5, GlobalStep: 32600, lr: 0.00001, eta: 0.050h, loss: 3.0928
+INFO:trainer:Epoch: 5, GlobalStep: 32700, lr: 0.00001, eta: 0.038h, loss: 3.0840
+INFO:trainer:Epoch: 5, GlobalStep: 32800, lr: 0.00001, eta: 0.027h, loss: 3.3911
+INFO:trainer:Epoch: 5, GlobalStep: 32900, lr: 0.00001, eta: 0.015h, loss: 3.1163
+INFO:trainer:Epoch: 5, GlobalStep: 33000, lr: 0.00001, eta: 0.003h, loss: 3.0919
+INFO:trainer:Save Model of Epoch: 5 to ./5.ckpt

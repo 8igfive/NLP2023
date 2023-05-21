@@ -1,3 +1,4 @@
+import pdb
 import logging
 import math
 import random
@@ -81,6 +82,14 @@ class Trainer:
         min_loss = float('inf')
         start_time = time.time()
         save_dir = f'../resources/ckpt/{self.corpus.tokenize_type}'
+
+        torch.save({
+            'token2id': self.corpus.token2id,
+            'id2token': self.corpus.id2token,
+            'eval_corpus': self.corpus.eval_corpus, 
+            'train_corpus': self.corpus.corpus
+        }, f'{save_dir}/other.ckpt')
+
         for epoch in range(self.epoch):
             for input_ids, target_ids in self.corpus.get_train_data():
                 input_ids = input_ids.to(device=self.device)
