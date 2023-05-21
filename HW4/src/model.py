@@ -24,7 +24,7 @@ class LSTMBlock(nn.Module):
         
         return x
     
-class LSTMLanguangeModel(nn.Module):
+class LSTMLanguageModel(nn.Module):
     def __init__(self, vocab_size: int, embed_size: int, layer_num: int, dropout: float = 0.2):
         super().__init__()
         self.token_embedding = nn.Embedding(vocab_size, embed_size)
