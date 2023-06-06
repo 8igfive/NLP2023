@@ -1,6 +1,7 @@
 __pycache__/
 ckpt/
 scripts/
+.ipynb_checkpoints/
 *.pkl
 corpus
 
