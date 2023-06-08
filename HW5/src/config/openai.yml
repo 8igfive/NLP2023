@@ -1,0 +1,4 @@
+prompt_template:
+  instruction: 'You are a helpful AI task executor. {}'
+  input: '{}'
+  output: '{}'

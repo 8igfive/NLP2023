@@ -1,0 +1,702 @@
+[
+    {
+        "split": "test",
+        "sentence1": "the leaders have now been given a new chance and let us hope they seize it .",
+        "sentence2": "the leaders are today of a new chance and therefore let us take it .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a dog lies on his back on a wooden floor .",
+        "sentence2": "a dog is laying on the floor .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the lawyer representing torch concepts , rich marsden did not respond to repeated phone calls .",
+        "sentence2": "officials with torch and jetblue did not respond to repeated phone calls from the mercury news seeking comment .",
+        "score": 2.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the broader standard & poor 's 500 index .spx climbed 10 points , or 1.10 percent , to 943 .",
+        "sentence2": "the nasdaq composite index .ixic jumped 43.64 points , or 2.89 percent , to 1,553.73 .",
+        "score": 1.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "this has left the conservative opposition without an effective response .",
+        "sentence2": "this leaves the conservative opposition without any effective response .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "being a muslim and being an islamist are not the same thing .",
+        "sentence2": "to be muslim and islamiste are two different things .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "two dogs swim in a pool .",
+        "sentence2": "dogs are swimming in a pool .",
+        "score": 4.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman peels a potato .",
+        "sentence2": "a woman is peeling a potato .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman peels a potato .",
+        "sentence2": "a woman is peeling a potato .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the puppy played with a blue tennis ball .",
+        "sentence2": "a puppy is playing with a tennis ball .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "be against , resist",
+        "sentence2": "act against or in opposition to .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a rat like creature is smelling around .",
+        "sentence2": "an animal is walking on the ground .",
+        "score": 2.0,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "some 50 million phone numbers are registered on the list , which was to take effect oct. 1 .",
+        "sentence2": "the ftc signed up 50 million phone numbers for the list , which was due to go into effect october 1 .",
+        "score": 3.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is playing a game with a man .",
+        "sentence2": "a man is playing piano .",
+        "score": 0.6,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "western europeans , who have been spared this legacy , should heed our warnings .",
+        "sentence2": "the western europeans , who have forgotten this story , should take account of our warnings .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "someone is slicing an onion .",
+        "sentence2": "someoen is peeling a potato .",
+        "score": 1.0,
+        "result": "{\n   \"Score\": 2\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a small monkey walks through water .",
+        "sentence2": "a monkey is wading across a marsh .",
+        "score": 3.4,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "those who know little about modern factory farming may wonder why such legislation would be necessary .",
+        "sentence2": "perhaps those which do not know the methods of intensive breeding will astonish by the need for such a legislation .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is doing trick with play cards .",
+        "sentence2": "a man is performing a card trick .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is erasing a chalk board .",
+        "sentence2": "the man is erasing the chalk board .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the man hit the other man with a stick .",
+        "sentence2": "the man spanked the other man with a stick .",
+        "score": 4.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a device to control the rate of some activity , e.g. , chemical or mechanical",
+        "sentence2": "any of various controls or devices for regulating or controlling fluid flow , pressure , temperature , etc ..",
+        "score": 2.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "settlement of people distant from their homeland",
+        "sentence2": "a body of people who settle far from home but maintain ties with their homeland ; inhabitants remain nationals of their home state but are not literally under the home state 's system of government .",
+        "score": 2.75,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is writing .",
+        "sentence2": "a woman is swimming .",
+        "score": 0.5,
+        "result": "{\n   \"Score\": 3\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the woman is walking her dog .",
+        "sentence2": "a woman walks her dog down the street .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a cat is playing on the floor .",
+        "sentence2": "a man is slicing garlic .",
+        "score": 0.0,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is speaking .",
+        "sentence2": "a man is spitting .",
+        "score": 0.636,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "aspen technology 's shares dropped 74 cents , or 23 percent , to close at $ 2.48 on the nasdaq .",
+        "sentence2": "in afternoon trading , aspen 's shares were off 89 cents or more than 27 percent at $ 2.33 per share .",
+        "score": 2.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a removable device that is an accessory to larger object",
+        "sentence2": "a supplementary part or accessory .",
+        "score": 3.333,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a helicopter is landing on a helipad .",
+        "sentence2": "a helicopter lands .",
+        "score": 3.923,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "tocqueville believed that there are no effective long-term constraints on this tendency .",
+        "sentence2": "tocqueville believed that in the long term , nothing can actually oppose this trend .",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the cook is kneading the flour .",
+        "sentence2": "a woman is kneading tortilla dough .",
+        "score": 2.6,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "in other areas , sharia law is being introduced by force .",
+        "sentence2": "in other regions , the sharia is imposed .",
+        "score": 4.25,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the department 's position threatens to alienate social conservatives , who have provided strong political support for mr. ashcroft and president bush .",
+        "sentence2": "the department 's stance disappointed some abortion opponents , and it threatens to alienate social conservatives who have provided strong political support for ashcroft and president bush .",
+        "score": 3.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "do better in a competition ; win",
+        "sentence2": "come out better in a competition , race , or conflict .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "become pregnant .",
+        "sentence2": "become pregnant ; undergo conception .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "likewise , the 30-year bond < us30yt = rr > slid 1-11 / 32 for a yield of 4.38 percent , up from 4.30 percent .",
+        "sentence2": "the 30-year bond us30yt = rr jumped 20 / 32 , taking its yield to 4.14 percent from 4.18 percent .",
+        "score": 1.8,
+        "result": "{\n   \"Score\": 4.5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "morrill 's wife , ellie , sobbed and hugged bondeson 's sister-in-law during the service .",
+        "sentence2": "at the service morrill 's widow , ellie , sobbed and hugged bondeson 's sister-in-law as people consoled her .",
+        "score": 3.4,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "who will succeed mr. o 'neill at hyundai is not clear .",
+        "sentence2": "there is no clear successor for mr. o 'neill at hyundai .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the vote will take place today at 5.30 p.m .",
+        "sentence2": "the vote will take place at 5.30 p.m .",
+        "score": 4.429,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "shares of hartford rose $ 2.88 to $ 46.50 in new york stock exchange composite trading .",
+        "sentence2": "shares of hartford were up $ 2.28 , or 5.2 percent , to $ 45.90 in midday trading .",
+        "score": 2.5,
+        "result": "{\n   \"Score\": 4.5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "communicate with a hiss",
+        "sentence2": "express or utter with a hiss .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is playing a guitar .",
+        "sentence2": "a man plays the guitar .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the european union has got to do something and do it quickly .",
+        "sentence2": "it is important that the european union itself and to do it quickly .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is chopping onion .",
+        "sentence2": "a man is doing a card trick .",
+        "score": 0.0,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a badger is digging in the dirt .",
+        "sentence2": "a man is moving large rocks .",
+        "score": 0.0,
+        "result": "{\n   \"Score\": 2\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "shine intensely ; emit a steady , even light from a source .",
+        "sentence2": "emit a steady even light without flames .",
+        "score": 3.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "restart or continue an activity after an interruption or pause",
+        "sentence2": "take up or begin anew .",
+        "score": 2.25,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the standard & poor 's 500 stock index ended the quarter up 120 points , a gain of 14 percent , the best performance for that broad market benchmark since 1998 .",
+        "sentence2": "the standard and poor 's 500-stock index , a broad collection of equities representing leading companies , finished its best quarter yesterday since the last three months of 1998 .",
+        "score": 3.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "act of constructing",
+        "sentence2": "the act of constructing something .",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "page said it 's also possible that genes on the y chromosome may influence gender-specific differences in disease susceptibility .",
+        "sentence2": "he added that genes on the y might play a role in influencing gender-specific differences in disease susceptibility .",
+        "score": 4.4,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "preliminary reports were that the men were not seen together at the airport , sources said .",
+        "sentence2": "the men had pakistani passports and reportedly were seen together at the airport earlier in the evening , law enforcement sources said .",
+        "score": 2.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is slicing a meat .",
+        "sentence2": "a woman is singing on stage .",
+        "score": 0.25,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "it is our job to continue to support latvia with the integration of the russian population .",
+        "sentence2": "it is our duty to continue to support latvia on the issue of the integration of the russian population .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "tunisia",
+        "sentence2": "tunisia",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "selective aid , such as market support and a grass subsidy , are essential .",
+        "sentence2": "specific aid as the support of the market or the premium to grass is essential .",
+        "score": 4.25,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "sony ericsson also said it would shut down its gsm / umts r & d center in munich , germany , to increase profitability .",
+        "sentence2": "sony ericsson also said it plans to close its r & d site in munich , germany , for gsm and umts handsets .",
+        "score": 3.8,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is frying fish .",
+        "sentence2": "a woman is cooking fish .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the a920 comes with a printer , scanner , and copier for $ 89 .",
+        "sentence2": "dell 's personal all-in-one a920 is an entry-level device that combines printer , scanner and copier functions for $ 89 .",
+        "score": 3.6,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "sars has killed 296 people on china 's mainland and infected more than 5,200 .",
+        "sentence2": "throughout china 's mainland , the disease has killed 300 people and infected more than 5,270 .",
+        "score": 3.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "van orden report ( a5-0241 / 2000 )",
+        "sentence2": "van orden report ( a5-0241 / 2000 )",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman slices a lemon .",
+        "sentence2": "a man is talking into a microphone .",
+        "score": 0.0,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+        "sentence2": "only a month before , muybarak refused the demands of constitutional reform by taxing them with \" futile .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a woman is dancing .",
+        "sentence2": "a woman plays the clarinet .",
+        "score": 0.8,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "three teenage girls danced in the room .",
+        "sentence2": "some teenage girls are dancing for the camera .",
+        "score": 2.4,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "two zebras play in an open field .",
+        "sentence2": "two zebras are playing in a field .",
+        "score": 4.2,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "as i already explained during second reading , there is a crisis underlying this directive amendment .",
+        "sentence2": "as i have already explained in second reading , is at the root of this directive .",
+        "score": 3.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is playing guitar .",
+        "sentence2": "a man is draining pasta .",
+        "score": 0.4,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a creased or bent form",
+        "sentence2": "an angular or rounded shape made by folding .",
+        "score": 2.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "after all , they recommend the policies that politicians may or may not want to consider .",
+        "sentence2": "after all , they have recommended the policies that the politicians or not consideration .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "let me remind you that our allies include fervent supporters of this tax .",
+        "sentence2": "i make a point of recalling you that among our allies , there are enthusiasts of this tax .",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the vote will take place today at 5.30 p.m .",
+        "sentence2": "the vote will take place at 17h30 .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a person is boiling noodles .",
+        "sentence2": "a woman is boiling noodles in water .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "i am one of those members who attends sittings quite faithfully .",
+        "sentence2": "i am part of the parliamentary ones that are rather present honorably .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "north american markets finished mixed in directionless trading monday as earnings season begins to slow and economic indicators move into the spotlight .",
+        "sentence2": "north american markets grabbed early gains monday morning , as earnings season begins to slow and economic indicators take the spotlight .",
+        "score": 3.8,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "maij-weggen report ( a5-0323 / 2000 )",
+        "sentence2": "report maij-weggen ( a5-0323 / 2000 )",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "travel ; make a tour of a place",
+        "sentence2": "make a tour of a certain place .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "cook on a hot surface using fat ; cook in oil .",
+        "sentence2": "cook on a hot surface using fat .",
+        "score": 4.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is feeding a mouse to a snake .",
+        "sentence2": "the man is feeding a mouse to the snake .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "remove by erasing or crossing out , as if by drawing a line through .",
+        "sentence2": "remove by erasing or crossing out or as if by drawing a line .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the european union has got to do something and do it quickly .",
+        "sentence2": "it is appropriate that the european union means and that it should do so quickly .",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "physical matter left behind after a removal process",
+        "sentence2": "matter that remains after something has been removed .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the men were immediately flown to nearby botswana on a chartered air malawi flight , malawi intelligence officials said on condition of anonymity .",
+        "sentence2": "the men were flown to nearby botswana on an air malawi flight , the officials said .",
+        "score": 3.533,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "but if europe 's performance continues to decline , would this perception survive ?",
+        "sentence2": "but this picture can survive in a european ?",
+        "score": 1.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "rinse one 's mouth with mouthwash , gargle",
+        "sentence2": "rinse one 's mouth and throat with mouthwash .",
+        "score": 4.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "income collected as tax by a government",
+        "sentence2": "government income due to taxation .",
+        "score": 4.75,
+        "result": "{\n   \"Score\": 5\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man plays the piano .",
+        "sentence2": "a man is playing a piano .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the man drove his little red car around the traffic .",
+        "sentence2": "the dog ran in the water at the beach .",
+        "score": 0.0,
+        "result": "{\n   \"Score\": 0\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a man is playing the guitar .",
+        "sentence2": "a man plays an acoustic guitar .",
+        "score": 3.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "a lion is playing with people .",
+        "sentence2": "a lion is playing with two men .",
+        "score": 3.4,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the military officer barked at the recruits .",
+        "sentence2": "an officer is talking to recruits .",
+        "score": 2.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the people versus putin",
+        "sentence2": "the people against putin",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "manipulate the registers of a musical instrument",
+        "sentence2": "manipulate the registers of an organ .",
+        "score": 3.5,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "use resources or materials",
+        "sentence2": "use up ( resources or materials ) .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "( the content of ) a communication .",
+        "sentence2": "a communication ( usually brief ) that is written or spoken or signaled .",
+        "score": 3.75,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the euro soared to us $ 1.1914 in asian trading , before slipping back slightly to us $ 1.1895 as trading opened in europe .",
+        "sentence2": "the euro soared to $ 1.1914 in asian trading , before slipping back to $ 1.1884 in late european trading , up from $ 1.1857 late monday .",
+        "score": 3.6,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the man is riding a horse .",
+        "sentence2": "a man is riding on a horse .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "the dow jones industrial average was up 0.3 per cent at 9,886.75 , while the nasdaq composite index was 0.4 per cent higher at 1,986.97 .",
+        "sentence2": "on wall street , the dow jones industrial average rose 0.5 per cent at 9,905.8 and the nasdaq composite added 0.7 per cent at 1,995.1 .",
+        "score": 1.8,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "we intend to appeal vigorously and still expect to be vindicated ultimately .",
+        "sentence2": "we think this was bad law , and we still expect to be vindicated ultimately .",
+        "score": 3.067,
+        "result": "{\n   \"Score\": 4\n}"
+    },
+    {
+        "split": "test",
+        "sentence1": "amendment no 7 proposes certain changes in the references to paragraphs .",
+        "sentence2": "amendment 7 proposes certain modifications in the references to the paragraphs .",
+        "score": 5.0,
+        "result": "{\n   \"Score\": 4\n}"
+    }
+]

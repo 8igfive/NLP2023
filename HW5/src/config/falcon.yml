@@ -1,0 +1,6 @@
+prompt_template:
+  instruction: "### Instruction:\n{}"
+  input: "### Input:\n{}"
+  output: "### Response:\n{}"
+max_length: 1500
+do_sample: False

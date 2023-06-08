@@ -1,0 +1,1962 @@
+[
+    {
+        "id": "56e7591b00c9c71400d76fec",
+        "title": "Teacher",
+        "context": "30 US states have banned corporal punishment, the others (mostly in the South) have not. It is still used to a significant (though declining) degree in some public schools in Alabama, Arkansas, Georgia, Louisiana, Mississippi, Oklahoma, Tennessee and Texas. Private schools in these and most other states may also use it. Corporal punishment in American schools is administered to the seat of the student's trousers or skirt with a specially made wooden paddle. This often used to take place in the classroom or hallway, but nowadays the punishment is usually given privately in the principal's office.",
+        "question": "How many US states do no practice corporal punishment?",
+        "answers": {
+            "text": [
+                "30",
+                "30",
+                "30"
+            ],
+            "answer_start": [
+                0,
+                0,
+                0
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question asks for the number of US states that do not practice corporal punishment. The context provides information about the states that have banned corporal punishment and the states that still practice it. The answer can be extracted from the context by counting the number of states that have banned corporal punishment and subtracting it from the total number of states.\",\n  \"Answer\": \"20\"\n}"
+    },
+    {
+        "id": "56f8c43d9b226e1400dd0f63",
+        "title": "Martin_Luther",
+        "context": "His poor physical health made him short-tempered and even harsher in his writings and comments. His wife Katharina was overheard saying, \"Dear husband, you are too rude,\" and he responded, \"They are teaching me to be rude.\" In 1545 and 1546 Luther preached three times in the Market Church in Halle, staying with his friend Justus Jonas during Christmas.",
+        "question": "How did Luther's writings sound as he became less healthy?",
+        "answers": {
+            "text": [
+                "harsher",
+                "harsher",
+                "harsher"
+            ],
+            "answer_start": [
+                58,
+                58,
+                58
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Luther's writings became harsher and more critical as he became less healthy.\",\n  \"Answer\": \"His poor physical health made him short-tempered and even harsher in his writings and comments. His wife Katharina was overheard saying, 'Dear husband, you are too rude,' and he responded, 'They are teaching me to be rude.' In 1545 and 1546 Luther preached three times in the Market Church in Halle, staying with his friend Justus Jonas during Christmas.\"\n}"
+    },
+    {
+        "id": "5705fec152bb89140068977c",
+        "title": "Southern_California",
+        "context": "Each year, the southern California area has about 10,000 earthquakes. Nearly all of them are so small that they are not felt. Only several hundred are greater than magnitude 3.0, and only about 15–20 are greater than magnitude 4.0. The magnitude 6.7 1994 Northridge earthquake was particularly destructive, causing a substantial number of deaths, injuries, and structural collapses. It caused the most property damage of any earthquake in U.S. history, estimated at over $20 billion.",
+        "question": "What magnitude was the 1994 Northridge earthquake?",
+        "answers": {
+            "text": [
+                "6.7",
+                "6.7",
+                "6.7"
+            ],
+            "answer_start": [
+                246,
+                246,
+                246
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question asks for the magnitude of the 1994 Northridge earthquake, which is mentioned in the context.\",\n  \"Answer\": \"6.7\"\n}"
+    },
+    {
+        "id": "5726651ff1498d1400e8de30",
+        "title": "Newcastle_upon_Tyne",
+        "context": "The city developed around the Roman settlement Pons Aelius and was named after the castle built in 1080 by Robert Curthose, William the Conqueror's eldest son. The city grew as an important centre for the wool trade in the 14th century, and later became a major coal mining area. The port developed in the 16th century and, along with the shipyards lower down the River Tyne, was amongst the world's largest shipbuilding and ship-repairing centres. Newcastle's economy includes corporate headquarters, learning, digital technology, retail, tourism and cultural centres, from which the city contributes £13 billion towards the United Kingdom's GVA. Among its icons are Newcastle Brown Ale; Newcastle United football club; and the Tyne Bridge. It has hosted the world's most popular half marathon, the Great North Run, since it began in 1981.",
+        "question": "Who built a castle in Newcastle in 1080?",
+        "answers": {
+            "text": [
+                "Robert Curthose",
+                "Robert Curthose",
+                "Robert Curthose"
+            ],
+            "answer_start": [
+                107,
+                107,
+                107
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Robert Curthose, William the Conqueror's eldest son\",\n  \"Answer\": \"Robert Curthose\"\n}"
+    },
+    {
+        "id": "56e11f83cd28a01900c67613",
+        "title": "Nikola_Tesla",
+        "context": "Tesla was a good friend of Francis Marion Crawford, Robert Underwood Johnson, Stanford White, Fritz Lowenstein, George Scherff, and Kenneth Swezey. In middle age, Tesla became a close friend of Mark Twain; they spent a lot of time together in his lab and elsewhere. Twain notably described Tesla's induction motor invention as \"the most valuable patent since the telephone.\" In the late 1920s, Tesla also befriended George Sylvester Viereck, a poet, writer, mystic, and later, a Nazi propagandist. Tesla occasionally attended dinner parties held by Viereck and his wife.",
+        "question": "When did Tesla become friends with Viereck?",
+        "answers": {
+            "text": [
+                "late 1920s",
+                "the late 1920s",
+                "the late 1920s"
+            ],
+            "answer_start": [
+                382,
+                378,
+                378
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Tesla became friends with Viereck in the late 1920s.\",\n  \"Answer\": \"Tesla became friends with Viereck in the late 1920s.\"\n}"
+    },
+    {
+        "id": "57282358ff5b5019007d9ddf",
+        "title": "Jacksonville,_Florida",
+        "context": "Mean monthly temperatures range from around 53 F in January to 82 F in July. High temperatures average 64 to 92 °F (18 to 33 °C) throughout the year. High heat indices are common for the summer months in the area, with indices above 110 °F (43.3 °C) possible. The highest temperature recorded was 104 °F (40 °C) on July 11, 1879 and July 28, 1872. It is common for thunderstorms to erupt during a typical summer afternoon. These are caused by the rapid heating of the land relative to the water, combined with extremely high humidity.",
+        "question": "What is a common occurrence during summer days?",
+        "answers": {
+            "text": [
+                "thunderstorms",
+                "thunderstorms",
+                "thunderstorms"
+            ],
+            "answer_start": [
+                365,
+                365,
+                365
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The high temperatures and humidity during summer days often lead to thunderstorms.\",\n  \"Answer\": \"Thunderstorms\"\n}"
+    },
+    {
+        "id": "5726f96ddd62a815002e9699",
+        "title": "Pharmacy",
+        "context": "This shift has already commenced in some countries; for instance, pharmacists in Australia receive remuneration from the Australian Government for conducting comprehensive Home Medicines Reviews. In Canada, pharmacists in certain provinces have limited prescribing rights (as in Alberta and British Columbia) or are remunerated by their provincial government for expanded services such as medications reviews (Medschecks in Ontario). In the United Kingdom, pharmacists who undertake additional training are obtaining prescribing rights and this is because of pharmacy education. They are also being paid for by the government for medicine use reviews. In Scotland the pharmacist can write prescriptions for Scottish registered patients of their regular medications, for the majority of drugs, except for controlled drugs, when the patient is unable to see their doctor, as could happen if they are away from home or the doctor is unavailable. In the United States, pharmaceutical care or clinical pharmacy has had an evolving influence on the practice of pharmacy. Moreover, the Doctor of Pharmacy (Pharm. D.) degree is now required before entering practice and some pharmacists now complete one or two years of residency or fellowship training following graduation. In addition, consultant pharmacists, who traditionally operated primarily in nursing homes are now expanding into direct consultation with patients, under the banner of \"senior care pharmacy.\"",
+        "question": "Who pays Australian pharmacists for doing Home Medicines Reviews?",
+        "answers": {
+            "text": [
+                "the Australian Government",
+                "Australian Government",
+                "the Australian Government"
+            ],
+            "answer_start": [
+                117,
+                121,
+                117
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Australian Government pays pharmacists for conducting comprehensive Home Medicines Reviews.\",\n  \"Answer\": \"Australian Government\"\n}"
+    },
+    {
+        "id": "572fc6f204bcaa1900d76cf5",
+        "title": "Scottish_Parliament",
+        "context": "Much of the work of the Scottish Parliament is done in committee. The role of committees is stronger in the Scottish Parliament than in other parliamentary systems, partly as a means of strengthening the role of backbenchers in their scrutiny of the government and partly to compensate for the fact that there is no revising chamber. The principal role of committees in the Scottish Parliament is to take evidence from witnesses, conduct inquiries and scrutinise legislation. Committee meetings take place on Tuesday, Wednesday and Thursday morning when Parliament is sitting. Committees can also meet at other locations throughout Scotland.",
+        "question": "Where is much of the work of the Scottish Parliament done?",
+        "answers": {
+            "text": [
+                "committee",
+                "committee",
+                "in committee"
+            ],
+            "answer_start": [
+                55,
+                55,
+                52
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The answer is based on the context that mentions the Scottish Parliament and its committees.\",\n  \"Answer\": \"The work of the Scottish Parliament is done in committee.\"\n}"
+    },
+    {
+        "id": "572a213e6aef0514001552f1",
+        "title": "Economic_inequality",
+        "context": "The capabilities approach – sometimes called the human development approach – looks at income inequality and poverty as form of “capability deprivation”. Unlike neoliberalism, which “defines well-being as utility maximization”, economic growth and income are considered a means to an end rather than the end itself. Its goal is to “wid[en] people’s choices and the level of their achieved well-being” through increasing functionings (the things a person values doing), capabilities (the freedom to enjoy functionings) and agency (the ability to pursue valued goals).",
+        "question": "How would the capabilities approach achieve it's goal?",
+        "answers": {
+            "text": [
+                "through increasing functionings",
+                "increasing functionings (the things a person values doing), capabilities (the freedom to enjoy functionings) and agency (the ability to pursue valued goals)",
+                "through increasing functionings"
+            ],
+            "answer_start": [
+                401,
+                409,
+                401
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The capabilities approach aims to increase people's choices and the level of their achieved well-being by increasing their functionings, capabilities, and agency. This can be achieved through policies that promote economic growth and income equality, as well as policies that promote education, healthcare, and other essential services that enable individuals to pursue their goals and aspirations.\",\n  \"Answer\": \"The capabilities approach aims to increase people's choices and the level of their achieved well-being by increasing their functionings, capabilities, and agency. This can be achieved through policies that promote economic growth and income equality, as well as policies that promote education, healthcare, and other essential services that enable individuals to pursue their goals and aspirations.\"\n}"
+    },
+    {
+        "id": "5730a40f396df91900096235",
+        "title": "Imperialism",
+        "context": "Britain's imperialist ambitions can be seen as early as the sixteenth century. In 1599 the British East India Company was established and was chartered by Queen Elizabeth in the following year. With the establishment of trading posts in India, the British were able to maintain strength relative to others empires such as the Portuguese who already had set up trading posts in India. In 1767 political activity caused exploitation of the East India Company causing the plundering of the local economy, almost bringing the company into bankruptcy.",
+        "question": "When was the British East India Company established?",
+        "answers": {
+            "text": [
+                "1599",
+                "1599",
+                "1599",
+                "1599",
+                "1599"
+            ],
+            "answer_start": [
+                82,
+                82,
+                82,
+                82,
+                82
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The British East India Company was established in 1599.\",\n  \"Answer\": \"The British East India Company was established in 1599.\"\n}"
+    },
+    {
+        "id": "57286c8cff5b5019007da21c",
+        "title": "Yuan_dynasty",
+        "context": "During the Southern Song dynasty the descendant of Confucius at Qufu, the Duke Yansheng Kong Duanyou fled south with the Song Emperor to Quzhou, while the newly established Jin dynasty (1115–1234) in the north appointed Kong Duanyou's brother Kong Duancao who remained in Qufu as Duke Yansheng. From that time up until the Yuan dynasty, there were two Duke Yanshengs, once in the north in Qufu and the other in the south at Quzhou. During the Yuan dynasty, the Emperor Kublai Khan invited the southern Duke Yansheng Kong Zhu to return to Qufu. Kong Zhu refused, and gave up the title, so the northern branch of the family kept the title of Duke Yansheng. The southern branch still remained in Quzhou where they lived to this day. Confucius's descendants in Quzhou alone number 30,000. During the Yuan dynasty, one of Confucius' descendants moved from China to Goryeo era Korea and established a branch of the family there after marrying a Korean woman.",
+        "question": "How many people in Quzhou are descended from Confucius?",
+        "answers": {
+            "text": [
+                "30,000",
+                "30,000",
+                "30,000"
+            ],
+            "answer_start": [
+                777,
+                777,
+                777
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The descendants of Confucius in Quzhou are numerous, with an estimated 30,000 people claiming lineage.\",\n  \"Answer\": \"The descendants of Confucius in Quzhou are numerous, with an estimated 30,000 people claiming lineage.\"\n}"
+    },
+    {
+        "id": "5728151b4b864d1900164429",
+        "title": "Civil_disobedience",
+        "context": "Some theories of civil disobedience hold that civil disobedience is only justified against governmental entities. Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as trade unions, banks, and private universities can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\". The same principle, she argues, applies to breaches of law in protest against international organizations and foreign governments.",
+        "question": "Brownlee argues disobedience can be justified toward what institutions?",
+        "answers": {
+            "text": [
+                "trade unions, banks, and private universities",
+                "non-governmental agencies",
+                "decisions of non-governmental agencies",
+                "non-governmental agencies",
+                "non-governmental agencies"
+            ],
+            "answer_start": [
+                216,
+                182,
+                169,
+                182,
+                182
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Brownlee argues that disobedience can be justified toward governmental entities, trade unions, banks, private universities, international organizations, and foreign governments.\",\n  \"Answer\": \"toward governmental entities, trade unions, banks, private universities, international organizations, and foreign governments\"\n}"
+    },
+    {
+        "id": "572987e46aef051400154fa2",
+        "title": "Prime_number",
+        "context": "can have infinitely many primes only when a and q are coprime, i.e., their greatest common divisor is one. If this necessary condition is satisfied, Dirichlet's theorem on arithmetic progressions asserts that the progression contains infinitely many primes. The picture below illustrates this with q = 9: the numbers are \"wrapped around\" as soon as a multiple of 9 is passed. Primes are highlighted in red. The rows (=progressions) starting with a = 3, 6, or 9 contain at most one prime number. In all other rows (a = 1, 2, 4, 5, 7, and 8) there are infinitely many prime numbers. What is more, the primes are distributed equally among those rows in the long run—the density of all primes congruent a modulo 9 is 1/6.",
+        "question": "What is another way to state the condition that infinitely many primes can exist only if a and q are coprime?",
+        "answers": {
+            "text": [
+                "their greatest common divisor is one",
+                "greatest common divisor is one",
+                "their greatest common divisor is one",
+                "their greatest common divisor is one"
+            ],
+            "answer_start": [
+                69,
+                75,
+                69,
+                69
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The condition that infinitely many primes can exist only if a and q are coprime is called the Prime Number Theorem.\",\n  \"Answer\": \"The Prime Number Theorem states that the number of primes less than or equal to a given number is infinite. This theorem is a fundamental result in number theory and has been proven to be true for all sufficiently large values of a.\"\n}"
+    },
+    {
+        "id": "572f64ccb2c2fd14005680b8",
+        "title": "Rhine",
+        "context": "The Upper Rhine region was changed significantly by a Rhine straightening program in the 19th Century. The rate of flow was increased and the ground water level fell significantly. Dead branches dried up and the amount of forests on the flood plains decreased sharply. On the French side, the Grand Canal d'Alsace was dug, which carries a significant part of the river water, and all of the traffic. In some places, there are large compensation pools, for example the huge Bassin de compensation de Plobsheim in Alsace.",
+        "question": "What happened to the rate of flow in the Rhine during the Rhine straightening program?",
+        "answers": {
+            "text": [
+                "increased",
+                "increased",
+                "rate of flow was increased"
+            ],
+            "answer_start": [
+                124,
+                124,
+                107
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Rhine straightening program increased the rate of flow in the Rhine, which led to a decrease in the ground water level and a decrease in the amount of forests on the flood plains.\",\n  \"Answer\": \"The rate of flow in the Rhine increased during the Rhine straightening program.\"\n}"
+    },
+    {
+        "id": "571c9074dd7acb1400e4c100",
+        "title": "Oxygen",
+        "context": "Trioxygen (O\n3) is usually known as ozone and is a very reactive allotrope of oxygen that is damaging to lung tissue. Ozone is produced in the upper atmosphere when O\n2 combines with atomic oxygen made by the splitting of O\n2 by ultraviolet (UV) radiation. Since ozone absorbs strongly in the UV region of the spectrum, the ozone layer of the upper atmosphere functions as a protective radiation shield for the planet. Near the Earth's surface, it is a pollutant formed as a by-product of automobile exhaust. The metastable molecule tetraoxygen (O\n4) was discovered in 2001, and was assumed to exist in one of the six phases of solid oxygen. It was proven in 2006 that this phase, created by pressurizing O\n2 to 20 GPa, is in fact a rhombohedral O\n8 cluster. This cluster has the potential to be a much more powerful oxidizer than either O\n2 or O\n3 and may therefore be used in rocket fuel. A metallic phase was discovered in 1990 when solid oxygen is subjected to a pressure of above 96 GPa and it was shown in 1998 that at very low temperatures, this phase becomes superconducting.",
+        "question": "What is the name for O3 most often used?",
+        "answers": {
+            "text": [
+                "ozone",
+                "ozone",
+                "ozone",
+                "Trioxygen",
+                "Ozone"
+            ],
+            "answer_start": [
+                36,
+                36,
+                36,
+                0,
+                118
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Ozone is the name for O3 most often used.\",\n  \"Answer\": \"Trioxygen\"\n}"
+    },
+    {
+        "id": "57114667a58dae1900cd6d83",
+        "title": "Steam_engine",
+        "context": "The most useful instrument for analyzing the performance of steam engines is the steam engine indicator. Early versions were in use by 1851, but the most successful indicator was developed for the high speed engine inventor and manufacturer Charles Porter by Charles Richard and exhibited at London Exhibition in 1862. The steam engine indicator traces on paper the pressure in the cylinder throughout the cycle, which can be used to spot various problems and calculate developed horsepower. It was routinely used by engineers, mechanics and insurance inspectors. The engine indicator can also be used on internal combustion engines. See image of indicator diagram below (in Types of motor units section).",
+        "question": "Who developed a successful steam engine indicator for Charles Porter?",
+        "answers": {
+            "text": [
+                "Charles Richard",
+                "Charles Richard",
+                "Charles Richard"
+            ],
+            "answer_start": [
+                259,
+                259,
+                259
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The steam engine indicator was developed for Charles Porter by Charles Richard.\",\n  \"Answer\": \"Charles Richard\"\n}"
+    },
+    {
+        "id": "571093aba58dae1900cd6a5f",
+        "title": "Huguenot",
+        "context": "The pattern of warfare, followed by brief periods of peace, continued for nearly another quarter-century. The warfare was definitively quelled in 1598, when Henry of Navarre, having succeeded to the French throne as Henry IV, and having recanted Protestantism in favour of Roman Catholicism, issued the Edict of Nantes. The Edict reaffirmed Catholicism as the state religion of France, but granted the Protestants equality with Catholics under the throne and a degree of religious and political freedom within their domains. The Edict simultaneously protected Catholic interests by discouraging the founding of new Protestant churches in Catholic-controlled regions.[citation needed]",
+        "question": "The edict protected Catholics by discouraging what?",
+        "answers": {
+            "text": [
+                "the founding of new Protestant churches",
+                "founding of new Protestant churches in Catholic-controlled regions",
+                "the founding of new Protestant churches in Catholic-controlled regions"
+            ],
+            "answer_start": [
+                595,
+                599,
+                595
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The edict protected Catholics by discouraging the founding of new Protestant churches in Catholic-controlled regions.\",\n  \"Answer\": [\n    \"discouraging\",\n    \"new\",\n    \"Protestant\",\n    \"churches\",\n    \"Catholic-controlled\",\n    \"regions\"\n  ]\n}"
+    },
+    {
+        "id": "57277632f1498d1400e8f8c7",
+        "title": "American_Broadcasting_Company",
+        "context": "Following the initial success of these series, ABC revamped its Friday night schedule around family-friendly comedies in the late 1980s, culminating in the 1989 debut of the \"TGIF\" block (which promotions referenced stood for \"Thank Goodness It's Funny\"). Many of the series featured during the run of the block were produced by Miller-Boyett Productions, a Warner Bros.-based studio that briefly programmed the entire Friday lineup during the 1990–91 season (with Going Places joining Family Matters, Full House and Perfect Strangers on the \"TGIF\" schedule) and through its development deal with Paramount Television prior to 1986 (as Miller-Milkis, and later, Miller-Milkis-Boyett Productions), had earlier produced Happy Days and its various spinoffs among other series for the network.",
+        "question": "Miller-Boyett Productions was a studio affiliated with what company?",
+        "answers": {
+            "text": [
+                "Warner Bros.",
+                "Warner Bros.",
+                "Warner Bros"
+            ],
+            "answer_start": [
+                358,
+                358,
+                358
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Miller-Boyett Productions was a studio affiliated with Warner Bros.\",\n  \"Answer\": \"Warner Bros.\"\n}"
+    },
+    {
+        "id": "57268bb25951b619008f7646",
+        "title": "Newcastle_upon_Tyne",
+        "context": "The system is currently undergoing a period of refurbishment and modernization, entitled 'Metro: All Change.' The programme has replaced all ticket machines and introduced ticket gates at the busiest stations - part of the transition to smart ticketing. All Metro trains are being completely refurbished and most stations are undergoing improvement works (or in some cases complete reconstruction, for example North Shields). In addition; tracks, signalling and overhead wires are also being overhauled. Longer term plans include the procurement of an entirely new fleet of trains and further extensions to the system. Proposed routes include to Newcastle's west end, to the Cobalt business park in North Tyneside, to the Metrocentre in Gateshead and to additional locations in Gateshead, South Tyneside and Sunderland. Several of the proposed routes would require trams as opposed to the current light rail trains.",
+        "question": "What does the replacement of the ticket machines and introduction of ticket gates herald the transition to?",
+        "answers": {
+            "text": [
+                "smart ticketing",
+                "smart ticketing",
+                "smart ticketing."
+            ],
+            "answer_start": [
+                237,
+                237,
+                237
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The replacement of the ticket machines and introduction of ticket gates herald the transition to smart ticketing.\",\n  \"Answer\": \"smart ticketing\"\n}"
+    },
+    {
+        "id": "5725bc7138643c19005acc1d",
+        "title": "Apollo_program",
+        "context": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first person to fly in space, reinforcing American fears about being left behind in a technological competition with the Soviet Union. At a meeting of the US House Committee on Science and Astronautics one day after Gagarin's flight, many congressmen pledged their support for a crash program aimed at ensuring that America would catch up. Kennedy was circumspect in his response to the news, refusing to make a commitment on America's response to the Soviets.",
+        "question": "Who was the first person in space?",
+        "answers": {
+            "text": [
+                "Yuri Gagarin",
+                "Yuri Gagarin",
+                "Yuri Gagarin",
+                "Yuri Gagarin",
+                "Yuri Gagarin"
+            ],
+            "answer_start": [
+                36,
+                36,
+                36,
+                36,
+                36
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Soviet Union was the first country to launch a human into space.\",\n  \"Answer\": \"Yuri Gagarin\"\n}"
+    },
+    {
+        "id": "56e773fa00c9c71400d7714b",
+        "title": "Teacher",
+        "context": "Salaries for Nursery, Primary and Secondary School teachers ranged from £20,133 to £41,004 in September 2007, although some salaries can go much higher depending on experience and extra responsibilities. Preschool teachers may earn £20,980 annually.[citation needed] Teachers in state schools must have at least a bachelor's degree, complete an approved teacher education program, and be licensed.",
+        "question": "What can cause salaries to go higher than the range?",
+        "answers": {
+            "text": [
+                "experience and extra responsibilities",
+                "experience and extra responsibilities",
+                "experience and extra responsibilities"
+            ],
+            "answer_start": [
+                165,
+                165,
+                165
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Experience and extra responsibilities can cause salaries to go higher than the range.\",\n  \"Answer\": \"Experience and extra responsibilities\"\n}"
+    },
+    {
+        "id": "57286b003acd2414000df9c5",
+        "title": "Yuan_dynasty",
+        "context": "Kublai readied the move of the Mongol capital from Karakorum in Mongolia to Khanbaliq in 1264, constructing a new city near the former Jurchen capital Zhongdu, now modern Beijing, in 1266. In 1271, Kublai formally claimed the Mandate of Heaven and declared that 1272 was the first year of the Great Yuan (Chinese: 大元) in the style of a traditional Chinese dynasty. The name of the dynasty originated from the I Ching and describes the \"origin of the universe\" or a \"primal force\". Kublai proclaimed Khanbaliq the \"Great Capital\" or Daidu (Dadu, Chinese: 大都 in Chinese) of the dynasty. The era name was changed to Zhiyuan to herald a new era of Chinese history. The adoption of a dynastic name legitimized Mongol rule by integrating the government into the narrative of traditional Chinese political succession. Khublai evoked his public image as a sage emperor by following the rituals of Confucian propriety and ancestor veneration, while simultaneously retaining his roots as a leader from the steppes.",
+        "question": "What rituals did Kublai follow to help his image?",
+        "answers": {
+            "text": [
+                "Confucian propriety and ancestor veneration",
+                "Confucian propriety and ancestor veneration",
+                "Confucian propriety and ancestor veneration"
+            ],
+            "answer_start": [
+                889,
+                889,
+                889
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Kublai followed the rituals of Confucian propriety and ancestor veneration to help his image.\",\n  \"Answer\": \"Kublai followed the rituals of Confucian propriety and ancestor veneration to help his image.\"\n}"
+    },
+    {
+        "id": "5727387b5951b619008f86eb",
+        "title": "American_Broadcasting_Company",
+        "context": "Between May and September 2005, rumors circulated that Disney–ABC was considering a sale of ABC Radio, with Clear Channel Communications and Westwood One (which had earlier purchased NBC's radio division, as well as the distribution rights to CBS's, and the Mutual Broadcasting System during the 1990s) as potential buyers. On October 19, 2005, ABC announced the restructuring of the group into six divisions: Entertainment Communications, Communications Resources, Kids Communications, News Communications, Corporate Communications, and International Communications.",
+        "question": "How many divisions was ABC radio restructured into in 2005?",
+        "answers": {
+            "text": [
+                "six divisions",
+                "six",
+                "six"
+            ],
+            "answer_start": [
+                395,
+                395,
+                395
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The restructuring of ABC radio into six divisions was mentioned in the context.\",\n  \"Answer\": \"six\"\n}"
+    },
+    {
+        "id": "56e773fa00c9c71400d7714d",
+        "title": "Teacher",
+        "context": "Salaries for Nursery, Primary and Secondary School teachers ranged from £20,133 to £41,004 in September 2007, although some salaries can go much higher depending on experience and extra responsibilities. Preschool teachers may earn £20,980 annually.[citation needed] Teachers in state schools must have at least a bachelor's degree, complete an approved teacher education program, and be licensed.",
+        "question": "What type of degree must a teacher have, at a minimum?",
+        "answers": {
+            "text": [
+                "a bachelor's degree",
+                "bachelor's degree",
+                "bachelor's"
+            ],
+            "answer_start": [
+                312,
+                314,
+                314
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The context mentions that teachers in state schools must have at least a bachelor's degree, complete an approved teacher education program, and be licensed.\",\n  \"Answer\": \"Bachelor's degree\"\n}"
+    },
+    {
+        "id": "5729a03f1d04691400779596",
+        "title": "Prime_number",
+        "context": "Prime ideals are the points of algebro-geometric objects, via the notion of the spectrum of a ring. Arithmetic geometry also benefits from this notion, and many concepts exist in both geometry and number theory. For example, factorization or ramification of prime ideals when lifted to an extension field, a basic problem of algebraic number theory, bears some resemblance with ramification in geometry. Such ramification questions occur even in number-theoretic questions solely concerned with integers. For example, prime ideals in the ring of integers of quadratic number fields can be used in proving quadratic reciprocity, a statement that concerns the solvability of quadratic equations",
+        "question": "What does quadratic reciprocity seek to achieve?",
+        "answers": {
+            "text": [
+                "the solvability of quadratic equations",
+                "solvability of quadratic equations",
+                "solvability of quadratic equations",
+                "the solvability of quadratic equations"
+            ],
+            "answer_start": [
+                654,
+                658,
+                658,
+                654
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question is asking about the purpose of quadratic reciprocity, which is a theorem in number theory that relates the solutions of quadratic equations to the solutions of certain other equations.\",\n  \"Answer\": \"The answer to the question is'solving quadratic equations'.\"\n}"
+    },
+    {
+        "id": "56e11996e3433e1400422be1",
+        "title": "Nikola_Tesla",
+        "context": "Tesla obtained around 300 patents worldwide for his inventions. Some of Tesla's patents are not accounted for, and various sources have discovered some that have lain hidden in patent archives. There are a minimum of 278 patents issued to Tesla in 26 countries that have been accounted for. Many of Tesla's patents were in the United States, Britain, and Canada, but many other patents were approved in countries around the globe.:62 Many inventions developed by Tesla were not put into patent protection.",
+        "question": " Where were missing patents later found?",
+        "answers": {
+            "text": [
+                "patent archives",
+                "patent archives",
+                "patent archives"
+            ],
+            "answer_start": [
+                177,
+                177,
+                177
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Tesla's patents were found in various countries around the world, including the United States, Britain, and Canada.\",\n  \"Answer\": \"Tesla's patents were found in various countries around the world, including the United States, Britain, and Canada.\"\n}"
+    },
+    {
+        "id": "57268b43dd62a815002e88f2",
+        "title": "European_Union_law",
+        "context": "European Union law is a body of treaties and legislation, such as Regulations and Directives, which have direct effect or indirect effect on the laws of European Union member states. The three sources of European Union law are primary law, secondary law and supplementary law. The main sources of primary law are the Treaties establishing the European Union. Secondary sources include regulations and directives which are based on the Treaties. The legislature of the European Union is principally composed of the European Parliament and the Council of the European Union, which under the Treaties may establish secondary law to pursue the objective set out in the Treaties.",
+        "question": "What is the legislature of the European Union comprised of?",
+        "answers": {
+            "text": [
+                "the European Parliament and the Council of the European Union",
+                "the European Parliament and the Council of the European Union",
+                "European Parliament and the Council of the European Union",
+                "European Parliament and the Council of the European Union"
+            ],
+            "answer_start": [
+                510,
+                510,
+                514,
+                514
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The legislature of the European Union is comprised of the European Parliament and the Council of the European Union.\",\n  \"Answer\": [\n    \"The European Parliament\",\n    \"The Council of the European Union\"\n  ]\n}"
+    },
+    {
+        "id": "56bead5a3aeaaa14008c91eb",
+        "title": "Super_Bowl_50",
+        "context": "The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game. They joined the Patriots, Dallas Cowboys, and Pittsburgh Steelers as one of four teams that have made eight appearances in the Super Bowl.",
+        "question": "Who were the defending Super Bowl champions?",
+        "answers": {
+            "text": [
+                "New England Patriots",
+                "the New England Patriots",
+                "New England Patriots"
+            ],
+            "answer_start": [
+                372,
+                368,
+                372
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Broncos were the defending Super Bowl champions.\",\n  \"Answer\": [\n    \"The Broncos\",\n    \"defending\",\n    \"Super Bowl\",\n    \"champions\"\n  ]\n}"
+    },
+    {
+        "id": "5726b879708984140094cf04",
+        "title": "Genghis_Khan",
+        "context": "Accounts of Genghis Khan's life are marked by claims of a series of betrayals and conspiracies. These include rifts with his early allies such as Jamukha (who also wanted to be a ruler of Mongol tribes) and Wang Khan (his and his father's ally), his son Jochi, and problems with the most important shaman, who was allegedly trying to drive a wedge between him and his loyal brother Khasar. His military strategies showed a deep interest in gathering good intelligence and understanding the motivations of his rivals, exemplified by his extensive spy network and Yam route systems. He seemed to be a quick student, adopting new technologies and ideas that he encountered, such as siege warfare from the Chinese. He was also ruthless, demonstrated by his tactic of measuring against the linchpin, used against the tribes led by Jamukha.",
+        "question": "What aspect of the economy did Genghis Khan exploit for intelligence gathering?",
+        "answers": {
+            "text": [
+                "Yam route systems",
+                "understanding the motivations of his rivals"
+            ],
+            "answer_start": [
+                562,
+                472
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Genghis Khan exploited the Yam route system for intelligence gathering.\",\n  \"Answer\": \"Genghis Khan exploited the Yam route system for intelligence gathering.\"\n}"
+    },
+    {
+        "id": "5726cfa3708984140094d20c",
+        "title": "Victoria_and_Albert_Museum",
+        "context": "The Victoria and Albert Museum’s Word and Image Department was under the same pressure being felt in archives around the world, to digitize their collection. A large scale digitization project began in 2007 in that department. That project was entitled the Factory Project to reference Andy Warhol and to create a factory to completely digitize the collection. The first step of the Factory Project was to take photographs utilizing digital cameras. The Word and Image Department had a collection of old photos but they were in black and white and in variant conditions, so new photos were shot. Those new photographs will be accessible to researchers to the Victoria and Albert Museum web-site. 15,000 images were taken during the first year of the Factory Project, including drawings, watercolors, computer-generated art, photographs, posters, and woodcuts. The second step of the Factory Project is to catalog everything. The third step of the Factory Project is to audit the collection. All of those items which were photographed and cataloged, must be audited to make sure everything listed as being in the collection was physically found during the creation of the Factory Project. The fourth goal of the Factory Project is conservation, which means performing some basic preventable procedures to those items in the department. There is a \"Search the Collections\" feature on the Victoria and Albert web-site. The main impetus behind the large-scale digitization project called the Factory Project was to list more items in the collections in those computer databases.",
+        "question": "Approximately how many images were digitized during the first year of the digitization project?",
+        "answers": {
+            "text": [
+                "15,000",
+                "15,000",
+                "15,000"
+            ],
+            "answer_start": [
+                696,
+                696,
+                696
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Victoria and Albert Museum's Word and Image Department was under the same pressure being felt in archives around the world, to digitize their collection. A large scale digitization project began in 2007 in that department. That project was entitled the Factory Project to reference Andy Warhol and to create a factory to completely digitize the collection. The first step of the Factory Project was to take photographs utilizing digital cameras. The Word and Image Department had a collection of old photos but they were in black and white and in variant conditions, so new photos were shot. Those new photographs will be accessible to researchers to the Victoria and Albert Museum web-site. 15,000 images were taken during the first year of the Factory Project, including drawings, watercolors, computer-generated art, photographs, posters, and woodcuts. The second step of the Factory Project is to catalog everything. The third step of the Factory Project is to audit the collection. All of those items which were photographed and cataloged, must be audited to make sure everything listed as being in the collection was physically found during the creation of the Factory Project. The fourth goal of the Factory Project is conservation, which means performing some basic preventable procedures to those items in the department. There is a \"Search the Collections\" feature on the Victoria and Albert web-site. The main impetus behind the large-scale digitization project called the Factory Project was to list more items in the collections in those computer databases.\nApproximately how many images were digitized during the first year of the digitization project?\"\n\nThe answer to the question is \"15,000 images were taken during the first year of the Factory Project\"."
+    },
+    {
+        "id": "572671a5f1498d1400e8dfe4",
+        "title": "Geology",
+        "context": "Extension causes the rock units as a whole to become longer and thinner. This is primarily accomplished through normal faulting and through the ductile stretching and thinning. Normal faults drop rock units that are higher below those that are lower. This typically results in younger units being placed below older units. Stretching of units can result in their thinning; in fact, there is a location within the Maria Fold and Thrust Belt in which the entire sedimentary sequence of the Grand Canyon can be seen over a length of less than a meter. Rocks at the depth to be ductilely stretched are often also metamorphosed. These stretched rocks can also pinch into lenses, known as boudins, after the French word for \"sausage\", because of their visual similarity.",
+        "question": "This causes the rock unit as a whole to become longer and thinner. ",
+        "answers": {
+            "text": [
+                "Extension",
+                "Extension",
+                "Extension"
+            ],
+            "answer_start": [
+                0,
+                0,
+                0
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The answer is based on the context that the rock units are stretched and thinned due to normal faulting and ductile stretching.\",\n  \"Answer\": \"The rock units are stretched and thinned.\"\n}"
+    },
+    {
+        "id": "5726dd71f1498d1400e8eddc",
+        "title": "Victoria_and_Albert_Museum",
+        "context": "Many famous potters, such as Josiah Wedgwood, William De Morgan and Bernard Leach as well as Mintons & Royal Doulton are represented in the collection. There is an extensive collection of Delftware produced in both Britain and Holland, which includes a circa 1695 flower pyramid over a metre in height. Bernard Palissy has several examples of his work in the collection including dishes, jugs and candlesticks. The largest objects in the collection are a series of elaborately ornamented ceramic stoves from the 16th and 17th centuries, made in Germany and Switzerland. There is an unrivalled collection of Italian maiolica and lustreware from Spain. The collection of Iznik pottery from Turkey is the largest in the world.",
+        "question": "The largest objects in the V&A ceramics and glass collection were produced in which countries?",
+        "answers": {
+            "text": [
+                "Germany and Switzerland",
+                "Germany and Switzerland",
+                "Germany and Switzerland"
+            ],
+            "answer_start": [
+                545,
+                545,
+                545
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The largest objects in the V&A ceramics and glass collection were produced in Germany and Switzerland.\",\n  \"Answer\": \"Switzerland Germany\"\n}"
+    },
+    {
+        "id": "5727623a5951b619008f8922",
+        "title": "American_Broadcasting_Company",
+        "context": "In 1983, ABC sold KXYZ to the Infinity Broadcasting Corporation. On January 4, 1984, The New York Times reported that ABC, through its subsidiary ABC Video Enterprises, had exercised its option to purchase up to 15% (or between $25 million and $30 million) of Getty Oil's shares in ESPN, which would allow it to expand its shares at a later date. In June 1984, ABC's executive committee approved the company's interest acquisition in ESPN, and ABC arranged with Getty Oil to obtain an 80% stake in the channel, while selling the remaining 20% to Nabisco. That year, ABC and Hearst reached an agreement with RCA to merge ARTS and competing arts service, The Entertainment Channel, into a single cable channel called Arts & Entertainment Television (A&E); the new channel subsequently leased a separate satellite transponder, ending its sharing agreement with Nickelodeon to become a 24-hour service. Meanwhile, ABC withdrew from the theme park business for good when it sold the Silver Springs Nature Theme Park.",
+        "question": "In 1984, ABC purchased 15% of what company's shares in ESPN?",
+        "answers": {
+            "text": [
+                "Getty Oil",
+                "Getty Oil",
+                "Getty Oil's"
+            ],
+            "answer_start": [
+                260,
+                260,
+                260
+            ]
+        },
+        "result": "{\n  \"Reason\": \"ABC purchased 15% of Getty Oil's shares in ESPN in 1984.\",\n  \"Answer\": \"Getty Oil\"\n}"
+    },
+    {
+        "id": "57273455f1498d1400e8f48e",
+        "title": "Genghis_Khan",
+        "context": "In 1939 Chinese Nationalist soldiers took the mausoleum from its position at the 'Lord's Enclosure' (Mongolian: Edsen Khoroo) in Mongolia to protect it from Japanese troops. It was taken through Communist-held territory in Yan'an some 900 km on carts to safety at a Buddhist monastery, the Dongshan Dafo Dian, where it remained for ten years. In 1949, as Communist troops advanced, the Nationalist soldiers moved it another 200 km farther west to the famous Tibetan monastery of Kumbum Monastery or Ta'er Shi near Xining, which soon fell under Communist control. In early 1954, Genghis Khan's bier and relics were returned to the Lord's Enclosure in Mongolia. By 1956 a new temple was erected there to house them. In 1968 during the Cultural Revolution, Red Guards destroyed almost everything of value. The \"relics\" were remade in the 1970s and a great marble statue of Genghis was completed in 1989.",
+        "question": "Where did the Chinese Nationalists move the mausoleum away from advancing Chinese Communist forces? ",
+        "answers": {
+            "text": [
+                "Kumbum Monastery or Ta'er Shi near Xining",
+                "Kumbum Monastery",
+                "Tibetan monastery of Kumbum Monastery"
+            ],
+            "answer_start": [
+                479,
+                479,
+                458
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Chinese Nationalists moved the mausoleum away from advancing Chinese Communist forces to protect it from destruction.\",\n  \"Answer\": \"The Chinese Nationalists moved the mausoleum away from advancing Chinese Communist forces to protect it from destruction.\"\n}"
+    },
+    {
+        "id": "56e110c3cd28a01900c67533",
+        "title": "Nikola_Tesla",
+        "context": "On 7 January 1943, at the age of 86, Tesla died alone in room 3327 of the New Yorker Hotel. His body was later found by maid Alice Monaghan after she had entered Tesla's room, ignoring the \"do not disturb\" sign that Tesla had placed on his door two days earlier. Assistant medical examiner H.W. Wembly examined the body and ruled that the cause of death had been coronary thrombosis. Tesla's remains were taken to the Frank E. Campbell Funeral Home at Madison Ave. and 81st St. A long-time friend and supporter of Tesla, Hugo Gernsback, commissioned a sculptor to create a death mask, now displayed in the Nikola Tesla Museum.",
+        "question": "Who first discovered his body?",
+        "answers": {
+            "text": [
+                "maid Alice Monaghan",
+                "maid Alice Monaghan",
+                "maid Alice Monaghan"
+            ],
+            "answer_start": [
+                120,
+                120,
+                120
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The maid, Alice Monaghan, discovered Tesla's body.\",\n  \"Answer\": \"Alice Monaghan\"\n}"
+    },
+    {
+        "id": "57273c01f1498d1400e8f4e6",
+        "title": "Genghis_Khan",
+        "context": "Genghis Khan put absolute trust in his generals, such as Muqali, Jebe and Subutai, and regarded them as close advisors, often extending them the same privileges and trust normally reserved for close family members. He allowed them to make decisions on their own when they embarked on campaigns far from the Mongol Empire capital Karakorum. Muqali, a trusted lieutenant, was given command of the Mongol forces against the Jin dynasty while Genghis Khan was fighting in Central Asia, and Subutai and Jebe were allowed to pursue the Great Raid into the Caucasus and Kievan Rus', an idea they had presented to the Khagan on their own initiative. While granting his generals a great deal of autonomy in making command decisions, Genghis Khan also expected unwavering loyalty from them.",
+        "question": "What did Genghis Khan expect from his generals alongside the autonomy he granted them?",
+        "answers": {
+            "text": [
+                "unwavering loyalty",
+                "unwavering loyalty",
+                "unwavering loyalty"
+            ],
+            "answer_start": [
+                751,
+                751,
+                751
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Genghis Khan expected unwavering loyalty from his generals alongside the autonomy he granted them.\",\n  \"Answer\": [\n    \"Genghis Khan put absolute trust in his generals, such as Muqali, Jebe and Subutai, and regarded them as close advisors, often extending them the same privileges and trust normally reserved for close family members.\",\n    \"He allowed them to make decisions on their own when they embarked on campaigns far from the Mongol Empire capital Karakorum.\",\n    \"Muqali, a trusted lieutenant, was given command of the Mongol forces against the Jin dynasty while Genghis Khan was fighting in Central Asia, and Subutai and Jebe were allowed to pursue the Great Raid into the Caucasus and Kievan Rus', an idea they had presented to the Khagan on their own initiative.\",\n    \"While granting his generals a great deal of autonomy in making command decisions, Genghis Khan also expected unwavering loyalty from them.\"\n  ]\n}"
+    },
+    {
+        "id": "572fc6f204bcaa1900d76cf6",
+        "title": "Scottish_Parliament",
+        "context": "Much of the work of the Scottish Parliament is done in committee. The role of committees is stronger in the Scottish Parliament than in other parliamentary systems, partly as a means of strengthening the role of backbenchers in their scrutiny of the government and partly to compensate for the fact that there is no revising chamber. The principal role of committees in the Scottish Parliament is to take evidence from witnesses, conduct inquiries and scrutinise legislation. Committee meetings take place on Tuesday, Wednesday and Thursday morning when Parliament is sitting. Committees can also meet at other locations throughout Scotland.",
+        "question": "What are committees in the Scottish Parliament compared to other systems?",
+        "answers": {
+            "text": [
+                "stronger",
+                "stronger",
+                "stronger in the Scottish Parliament than in other parliamentary systems"
+            ],
+            "answer_start": [
+                92,
+                92,
+                92
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Scottish Parliament has a stronger role for committees than other parliamentary systems, partly as a means of strengthening the role of backbenchers in their scrutiny of the government and partly to compensate for the fact that there is no revising chamber.\",\n  \"Answer\": \"The Scottish Parliament has a stronger role for committees than other parliamentary systems, partly as a means of strengthening the role of backbenchers in their scrutiny of the government and partly to compensate for the fact that there is no revising chamber.\"\n}"
+    },
+    {
+        "id": "5710ed7bb654c5140001fa2c",
+        "title": "Huguenot",
+        "context": "Some Huguenots fought in the Low Countries alongside the Dutch against Spain during the first years of the Dutch Revolt (1568–1609). The Dutch Republic rapidly became a destination for Huguenot exiles. Early ties were already visible in the \"Apologie\" of William the Silent, condemning the Spanish Inquisition, which was written by his court minister, the Huguenot Pierre L'Oyseleur, lord of Villiers. Louise de Coligny, daughter of the murdered Huguenot leader Gaspard de Coligny, married William the Silent, leader of the Dutch (Calvinist) revolt against Spanish (Catholic) rule. As both spoke French in daily life, their court church in the Prinsenhof in Delft held services in French. The practice has continued to the present day. The Prinsenhof is one of the 14 active Walloon churches of the Dutch Reformed Church. The ties between Huguenots and the Dutch Republic's military and political leadership, the House of Orange-Nassau, which existed since the early days of the Dutch Revolt, helped support the many early settlements of Huguenots in the Dutch Republic's colonies. They settled at the Cape of Good Hope in South Africa and New Netherland in North America.",
+        "question": "Who did the Dutch fight in the Dutch Revolt?",
+        "answers": {
+            "text": [
+                "Spain",
+                "Spain",
+                "Spain"
+            ],
+            "answer_start": [
+                71,
+                71,
+                71
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Dutch fought against Spain during the Dutch Revolt.\",\n  \"Answer\": \"The Dutch fought against Spain during the Dutch Revolt.\"\n}"
+    },
+    {
+        "id": "572ff56304bcaa1900d76f30",
+        "title": "Rhine",
+        "context": "The other third of the water flows through the Pannerdens Kanaal and redistributes in the IJssel and Nederrijn. The IJssel branch carries one ninth of the water flow of the Rhine north into the IJsselmeer (a former bay), while the Nederrijn carries approximately two ninths of the flow west along a route parallel to the Waal. However, at Wijk bij Duurstede, the Nederrijn changes its name and becomes the Lek. It flows farther west, to rejoin the Noord River into the Nieuwe Maas and to the North Sea.",
+        "question": "What does the Nederrijn change it's name to?",
+        "answers": {
+            "text": [
+                "Lek",
+                "Lek",
+                "the Lek"
+            ],
+            "answer_start": [
+                406,
+                406,
+                402
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question asks for the name of the river after it changes its name.\",\n  \"Answer\": \"Lek\"\n}"
+    },
+    {
+        "id": "572f7588947a6a140053c984",
+        "title": "Rhine",
+        "context": "The Lower Rhine flows through North Rhine-Westphalia. Its banks are usually heavily populated and industrialized, in particular the agglomerations Cologne, Düsseldorf and Ruhr area. Here the Rhine flows through the largest conurbation in Germany, the Rhine-Ruhr region. One of the most important cities in this region is Duisburg with the largest river port in Europe (Duisport). The region downstream of Duisburg is more agricultural. In Wesel, 30 km downstream of Duisburg, is located the western end of the second east-west shipping route, the Wesel-Datteln Canal, which runs parallel to the Lippe. Between Emmerich and Cleves the Emmerich Rhine Bridge, the longest suspension bridge in Germany, crosses the 400 m wide river. Near Krefeld, the river crosses the Uerdingen line, the line which separates the areas where Low German and High German are spoken.",
+        "question": "What city has the biggest port in Germany?",
+        "answers": {
+            "text": [
+                "Duisburg",
+                "Duisburg",
+                "Duisburg"
+            ],
+            "answer_start": [
+                321,
+                321,
+                321
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The context mentions that the Rhine flows through North Rhine-Westphalia, which is the most populous state in Germany. The Rhine is also the largest river in Germany, and it flows through the largest conurbation in Germany, the Rhine-Ruhr region. Duisburg is one of the most important cities in this region and has the largest river port in Europe. Therefore, Duisburg is the city with the biggest port in Germany.\",\n  \"Answer\": \"Duisburg\"\n}"
+    },
+    {
+        "id": "5730088e947a6a140053cfad",
+        "title": "Islamism",
+        "context": "The views of Ali Shariati, ideologue of the Iranian Revolution, had resemblance with Mohammad Iqbal, ideological father of the State of Pakistan, but Khomeini's beliefs is perceived to be placed somewhere between beliefs of Sunni Islamic thinkers like Mawdudi and Qutb. He believed that complete imitation of the Prophet Mohammad and his successors such as Ali for restoration of Sharia law was essential to Islam, that many secular, Westernizing Muslims were actually agents of the West serving Western interests, and that the acts such as \"plundering\" of Muslim lands was part of a long-term conspiracy against Islam by the Western governments.",
+        "question": "Mohammad Iqbal was what type of father to the State of Pakistan?",
+        "answers": {
+            "text": [
+                "ideological",
+                "ideological",
+                "ideological"
+            ],
+            "answer_start": [
+                101,
+                101,
+                101
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The views of Ali Shariati, ideologue of the Iranian Revolution, had resemblance with Mohammad Iqbal, ideological father of the State of Pakistan, but Khomeini's beliefs is perceived to be placed somewhere between beliefs of Sunni Islamic thinkers like Mawdudi and Qutb. He believed that complete imitation of the Prophet Mohammad and his successors such as Ali for restoration of Sharia law was essential to Islam, that many secular, Westernizing Muslims were actually agents of the West serving Western interests, and that the acts such as 'plundering' of Muslim lands was part of a long-term conspiracy against Islam by the Western governments.\",\n  \"Answer\": \"Ali Shariati's beliefs were similar to Mohammad Iqbal's, but he believed in complete imitation of the Prophet Mohammad and his successors for the restoration of Sharia law. He also believed that many secular, Westernizing Muslims were actually agents of the West serving Western interests, and that the acts such as 'plundering' of Muslim lands were part of a long-term conspiracy against Islam by the Western governments.\"\n}"
+    },
+    {
+        "id": "56e059c8231d4119001ac059",
+        "title": "Nikola_Tesla",
+        "context": "During that year, Tesla worked in Pittsburgh, helping to create an alternating current system to power the city's streetcars. He found the time there frustrating because of conflicts between him and the other Westinghouse engineers over how best to implement AC power. Between them, they settled on a 60-cycle AC current system Tesla proposed (to match the working frequency of Tesla's motor), although they soon found that, since Tesla's induction motor could only run at a constant speed, it would not work for street cars. They ended up using a DC traction motor instead.",
+        "question": "What cycle AC current system did Tesla propose?",
+        "answers": {
+            "text": [
+                "60-cycle",
+                "60",
+                "60"
+            ],
+            "answer_start": [
+                301,
+                301,
+                301
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Tesla proposed a 60-cycle AC current system\",\n  \"Answer\": \"60-cycle\"\n}"
+    },
+    {
+        "id": "572822233acd2414000df557",
+        "title": "Civil_disobedience",
+        "context": "The earliest recorded incidents of collective civil disobedience took place during the Roman Empire[citation needed]. Unarmed Jews gathered in the streets to prevent the installation of pagan images in the Temple in Jerusalem.[citation needed][original research?] In modern times, some activists who commit civil disobedience as a group collectively refuse to sign bail until certain demands are met, such as favorable bail conditions, or the release of all the activists. This is a form of jail solidarity.[page needed] There have also been many instances of solitary civil disobedience, such as that committed by Thoreau, but these sometimes go unnoticed. Thoreau, at the time of his arrest, was not yet a well-known author, and his arrest was not covered in any newspapers in the days, weeks and months after it happened. The tax collector who arrested him rose to higher political office, and Thoreau's essay was not published until after the end of the Mexican War.",
+        "question": "Since Thoreau was not a well known writer what happened when he was arrested?",
+        "answers": {
+            "text": [
+                "was not covered in any newspapers",
+                "was not covered in any newspapers in the days, weeks and months after it happened.",
+                "his arrest was not covered in any newspapers",
+                "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+                "his arrest was not covered in any newspapers"
+            ],
+            "answer_start": [
+                742,
+                742,
+                731,
+                731,
+                731
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Thoreau was not a well known writer at the time of his arrest, so his arrest was not covered in any newspapers in the days, weeks and months after it happened. The tax collector who arrested him rose to higher political office, and Thoreau's essay was not published until after the end of the Mexican War.\",\n  \"Answer\": \"Thoreau was arrested and jailed for refusing to pay a poll tax, which he believed supported the Mexican War, a conflict he opposed on moral grounds.\"\n}"
+    },
+    {
+        "id": "571ccd9b5efbb31900334dfa",
+        "title": "Oxygen",
+        "context": "The other major method of producing O\n2 gas involves passing a stream of clean, dry air through one bed of a pair of identical zeolite molecular sieves, which absorbs the nitrogen and delivers a gas stream that is 90% to 93% O\n2. Simultaneously, nitrogen gas is released from the other nitrogen-saturated zeolite bed, by reducing the chamber operating pressure and diverting part of the oxygen gas from the producer bed through it, in the reverse direction of flow. After a set cycle time the operation of the two beds is interchanged, thereby allowing for a continuous supply of gaseous oxygen to be pumped through a pipeline. This is known as pressure swing adsorption. Oxygen gas is increasingly obtained by these non-cryogenic technologies (see also the related vacuum swing adsorption).",
+        "question": "While producing oxygen, what gas does a zeolite sieve absorb?",
+        "answers": {
+            "text": [
+                "nitrogen",
+                "nitrogen",
+                "nitrogen",
+                "nitrogen",
+                "nitrogen"
+            ],
+            "answer_start": [
+                171,
+                246,
+                171,
+                171,
+                171
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The zeolite sieve absorbs nitrogen gas\",\n  \"Answer\": \"nitrogen\"\n}"
+    },
+    {
+        "id": "57291a7b1d0469140077903f",
+        "title": "Kenya",
+        "context": "A consortium led by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) has had some success in helping farmers grow new pigeon pea varieties, instead of maize, in particularly dry areas. Pigeon peas are very drought resistant, so can be grown in areas with less than 650 mm annual rainfall. Successive projects encouraged the commercialisation of legumes, by stimulating the growth of local seed production and agro-dealer networks for distribution and marketing. This work, which included linking producers to wholesalers, helped to increase local producer prices by 20–25% in Nairobi and Mombasa. The commercialisation of the pigeon pea is now enabling some farmers to buy assets, ranging from mobile phones to productive land and livestock, and is opening pathways for them to move out of poverty.",
+        "question": "What institution has helped farmers grow new pigeon pea varieties?",
+        "answers": {
+            "text": [
+                "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)",
+                "ICRISAT",
+                "International Crops Research Institute for the Semi-Arid Tropics"
+            ],
+            "answer_start": [
+                24,
+                90,
+                24
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The consortium led by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) has had some success in helping farmers grow new pigeon pea varieties.\",\n  \"Answer\": \"ICRISAT\"\n}"
+    },
+    {
+        "id": "572958cc6aef051400154d2b",
+        "title": "Chloroplast",
+        "context": "The alga Cyanophora, a glaucophyte, is thought to be one of the first organisms to contain a chloroplast. The glaucophyte chloroplast group is the smallest of the three primary chloroplast lineages, being found in only 13 species, and is thought to be the one that branched off the earliest. Glaucophytes have chloroplasts that retain a peptidoglycan wall between their double membranes, like their cyanobacterial parent. For this reason, glaucophyte chloroplasts are also known as muroplasts. Glaucophyte chloroplasts also contain concentric unstacked thylakoids, which surround a carboxysome - an icosahedral structure that glaucophyte chloroplasts and cyanobacteria keep their carbon fixation enzyme rubisco in. The starch that they synthesize collects outside the chloroplast. Like cyanobacteria, glaucophyte chloroplast thylakoids are studded with light collecting structures called phycobilisomes. For these reasons, glaucophyte chloroplasts are considered a primitive intermediate between cyanobacteria and the more evolved chloroplasts in red algae and plants.",
+        "question": "What kind of organism is Cyanophora?",
+        "answers": {
+            "text": [
+                "alga",
+                "alga",
+                "glaucophyte"
+            ],
+            "answer_start": [
+                4,
+                4,
+                23
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Cyanophora is a glaucophyte, a type of algae that contains a chloroplast.\",\n  \"Answer\": \"Cyanophora is a glaucophyte, a type of algae that contains a chloroplast.\"\n}"
+    },
+    {
+        "id": "56f84d33aef2371900625fb5",
+        "title": "Martin_Luther",
+        "context": "Despite his victory in Wittenberg, Luther was unable to stifle radicalism further afield. Preachers such as Zwickau prophet Nicholas Storch and Thomas Müntzer helped instigate the German Peasants' War of 1524–25, during which many atrocities were committed, often in Luther's name. There had been revolts by the peasantry on a smaller scale since the 15th century. Luther's pamphlets against the Church and the hierarchy, often worded with \"liberal\" phraseology, now led many peasants to believe he would support an attack on the upper classes in general. Revolts broke out in Franconia, Swabia, and Thuringia in 1524, even drawing support from disaffected nobles, many of whom were in debt. Gaining momentum under the leadership of radicals such as Müntzer in Thuringia and Michael Gaismair in Tyrol, the revolts turned into war.",
+        "question": "Who did the peasants think Luther would support an attack on?",
+        "answers": {
+            "text": [
+                "upper classes",
+                "upper classes",
+                "upper classes"
+            ],
+            "answer_start": [
+                530,
+                530,
+                530
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Luther's pamphlets against the Church and the hierarchy, often worded with 'liberal' phraseology, now led many peasants to believe he would support an attack on the upper classes in general.\",\n  \"Answer\": \"the upper classes\"\n}"
+    },
+    {
+        "id": "571097baa58dae1900cd6a9b",
+        "title": "Huguenot",
+        "context": "Paul Revere was descended from Huguenot refugees, as was Henry Laurens, who signed the Articles of Confederation for South Carolina; Jack Jouett, who made the ride from Cuckoo Tavern to warn Thomas Jefferson and others that Tarleton and his men were on their way to arrest him for crimes against the king; Francis Marion, and a number of other leaders of the American Revolution and later statesmen. The last active Huguenot congregation in North America worships in Charleston, South Carolina, at a church that dates to 1844. The Huguenot Society of America maintains Manakin Episcopal Church in Virginia as an historic shrine with occasional services. The Society has chapters in numerous states, with the one in Texas being the largest.",
+        "question": "What church in Virginia is maintained by Huguenots as a historic shrine?",
+        "answers": {
+            "text": [
+                "Manakin Episcopal Church",
+                "Manakin Episcopal Church",
+                "Manakin Episcopal Church"
+            ],
+            "answer_start": [
+                569,
+                569,
+                569
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Huguenot Society of America maintains Manakin Episcopal Church in Virginia as an historic shrine with occasional services.\",\n  \"Answer\": \"Manakin Episcopal Church\"\n}"
+    },
+    {
+        "id": "5730aef38ab72b1400f9c683",
+        "title": "Imperialism",
+        "context": "However, in 1883–84 Germany began to build a colonial empire in Africa and the South Pacific, before losing interest in imperialism. Historians have debated exactly why Germany made this sudden and short-lived move.[verification needed] Bismarck was aware that public opinion had started to demand colonies for reasons of German prestige. He was influenced by Hamburg merchants and traders, his neighbors at Friedrichsruh. The establishment of the German colonial empire proceeded smoothly, starting with German New Guinea in 1884.",
+        "question": "Colonies were a sign of what amongst European countries?",
+        "answers": {
+            "text": [
+                "prestige",
+                "prestige",
+                "prestige",
+                "prestige"
+            ],
+            "answer_start": [
+                329,
+                329,
+                329,
+                329
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The establishment of the German colonial empire proceeded smoothly, starting with German New Guinea in 1884.\",\n  \"Answer\": \"Colonies were a sign of what amongst European countries?\"\n}"
+    },
+    {
+        "id": "572683075951b619008f7514",
+        "title": "Ctenophora",
+        "context": "Almost all species are hermaphrodites, in other words they function as both males and females at the same time – except that in two species of the genus Ocryopsis individuals remain of the same single sex all their lives. The gonads are located in the parts of the internal canal network under the comb rows, and eggs and sperm are released via pores in the epidermis. Fertilization is external in most species, but platyctenids use internal fertilization and keep the eggs in brood chambers until they hatch. Self-fertilization has occasionally been seen in species of the genus Mnemiopsis, and it is thought that most of the hermaphroditic species are self-fertile.",
+        "question": "How do platyctenids reproduce?",
+        "answers": {
+            "text": [
+                "internal fertilization and keep the eggs in brood chambers until they hatch.",
+                "internal fertilization",
+                "internal fertilization"
+            ],
+            "answer_start": [
+                433,
+                433,
+                433
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Platyctenids reproduce through internal fertilization.\",\n  \"Answer\": \"Platyctenids reproduce through internal fertilization.\"\n}"
+    },
+    {
+        "id": "56be4db0acb8001400a502ed",
+        "title": "Super_Bowl_50",
+        "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+        "question": "Which NFL team represented the NFC at Super Bowl 50?",
+        "answers": {
+            "text": [
+                "Carolina Panthers",
+                "Carolina Panthers",
+                "Carolina Panthers"
+            ],
+            "answer_start": [
+                249,
+                249,
+                249
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question asks for the NFL team that represented the NFC at Super Bowl 50. The context mentions that the Denver Broncos won the game, so they must have represented the AFC. Therefore, the answer is Carolina Panthers.\",\n  \"Answer\": \"Carolina Panthers\"\n}"
+    },
+    {
+        "id": "57111380a58dae1900cd6bd9",
+        "title": "Huguenot",
+        "context": "Other predecessors of the Reformed church included the pro-reform and Gallican Roman Catholics, such as Jacques Lefevre (c. 1455–1536). The Gallicans briefly achieved independence for the French church, on the principle that the religion of France could not be controlled by the Bishop of Rome, a foreign power. During the Protestant Reformation, Lefevre, a professor at the University of Paris, published his French translation of the New Testament in 1523, followed by the whole Bible in the French language in 1530. William Farel was a student of Lefevre who went on to become a leader of the Swiss Reformation, establishing a Protestant government in Geneva. Jean Cauvin (John Calvin), another student at the University of Paris, also converted to Protestantism. Long after the sect was suppressed by Francis I, the remaining French Waldensians, then mostly in the Luberon region, sought to join William Farel, Calvin and the Reformation, and Olivetan published a French Bible for them. The French Confession of 1559 shows a decidedly Calvinistic influence. Sometime between 1550 and 1580, members of the Reformed church in France came to be commonly known as Huguenots.[citation needed]",
+        "question": "What leader of the Swiss reformation was a student of Lefevre?",
+        "answers": {
+            "text": [
+                "William Farel",
+                "William Farel",
+                "William Farel"
+            ],
+            "answer_start": [
+                519,
+                519,
+                519
+            ]
+        },
+        "result": "{\n  \"Reason\": \"William Farel was a student of Lefevre who went on to become a leader of the Swiss Reformation, establishing a Protestant government in Geneva.\",\n  \"Answer\": \"William Farel\"\n}"
+    },
+    {
+        "id": "572a1fe16aef0514001552d2",
+        "title": "Economic_inequality",
+        "context": "Socialists attribute the vast disparities in wealth to the private ownership of the means of production by a class of owners, creating a situation where a small portion of the population lives off unearned property income by virtue of ownership titles in capital equipment, financial assets and corporate stock. By contrast, the vast majority of the population is dependent on income in the form of a wage or salary. In order to rectify this situation, socialists argue that the means of production should be socially owned so that income differentials would be reflective of individual contributions to the social product.",
+        "question": "What type of income is the vast majority of the population dependent on?",
+        "answers": {
+            "text": [
+                "wage or salary",
+                "wage or salary",
+                "wage or salary"
+            ],
+            "answer_start": [
+                401,
+                401,
+                401
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The vast majority of the population is dependent on income in the form of a wage or salary.\",\n  \"Answer\": [\"wage\", \"salary\"]\n}"
+    },
+    {
+        "id": "57094d489928a8140047150e",
+        "title": "Sky_(United_Kingdom)",
+        "context": "BSkyB utilises the VideoGuard pay-TV scrambling system owned by NDS, a Cisco Systems company. There are tight controls over use of VideoGuard decoders; they are not available as stand-alone DVB CAMs (conditional-access modules). BSkyB has design authority over all digital satellite receivers capable of receiving their service. The receivers, though designed and built by different manufacturers, must conform to the same user interface look-and-feel as all the others. This extends to the Personal video recorder (PVR) offering (branded Sky+).",
+        "question": "What is the name brand of the personal video recorder that BSkyB offers?",
+        "answers": {
+            "text": [
+                "Sky+",
+                "Sky+",
+                "PVR"
+            ],
+            "answer_start": [
+                539,
+                539,
+                516
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The name brand of the personal video recorder that BSkyB offers is Sky+\",\n  \"Answer\": \"Sky+ is the name brand of the personal video recorder that BSkyB offers.\"\n}"
+    },
+    {
+        "id": "56e10f14e3433e1400422b5e",
+        "title": "Nikola_Tesla",
+        "context": "In 1937, at a luncheon in his honor concerning the death ray, Tesla stated, \"But it is not an experiment ... I have built, demonstrated and used it. Only a little time will pass before I can give it to the world.\" His records indicate that the device is based on a narrow stream of small tungsten pellets that are accelerated via high voltage (by means akin to his magnifying transformer).",
+        "question": "Of what material were the death rays pellets made?",
+        "answers": {
+            "text": [
+                "tungsten",
+                "tungsten",
+                "tungsten"
+            ],
+            "answer_start": [
+                288,
+                288,
+                288
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The death ray pellets were made of tungsten.\",\n  \"Answer\": \"tungsten\"\n}"
+    },
+    {
+        "id": "57274a8cf1498d1400e8f5b5",
+        "title": "American_Broadcasting_Company",
+        "context": "Meanwhile, ABC News, which formed as a newly separate division, sought to become a global leader in television news. In 1977, Roone Arledge was named president of the new ABC News in addition to being president of ABC Sports. That same year, ABC launched a major expansion of its office facilities in New York City. The company first constructed a new 10-story building on land previously occupied by an abandoned warehouse on the corner of Columbus Avenue and West 66th Street; the facility that was built in its place is nicknamed \"7 Lincoln Square\" (although it is actually located at 149 Columbus Avenue). Meanwhile, a former parking lot, located at 30 West 67th Street, was transformed into an impressive 15-story building. Both buildings were completed in June 1979. WABC-TV moved its operations from offices at 77 West 66th Street to 149 Columbus Avenue, freeing up space for the ABC network to house some of its operations.",
+        "question": "Besides ABC News, what other division was Roone Arledge president of?",
+        "answers": {
+            "text": [
+                "ABC Sports",
+                "ABC Sports",
+                "ABC Sports"
+            ],
+            "answer_start": [
+                214,
+                214,
+                214
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Roone Arledge was also president of ABC Sports.\",\n  \"Answer\": \"ABC Sports\"\n}"
+    },
+    {
+        "id": "57268d2ddd62a815002e894f",
+        "title": "European_Union_law",
+        "context": "The primary law of the EU consists mainly of the founding treaties, the \"core\" treaties being the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU). The Treaties contain formal and substantive provisions, which frame policies of the European Union institutions and determine the division of competences between the European Union and its member states. The TEU establishes that European Union law applies to the metropolitan territories of the member states, as well as certain islands and overseas territories, including Madeira, the Canary Islands and the French overseas departments. European Union law also applies in territories where a member state is responsible for external relations, for example Gibraltar and the Åland islands. The TEU allows the European Council to make specific provisions for regions, as for example done for customs matters in Gibraltar and Saint-Pierre-et-Miquelon. The TEU specifically excludes certain regions, for example the Faroe Islands, from the jurisdiction of European Union law. Treaties apply as soon as they enter into force, unless stated otherwise, and are generally concluded for an unlimited period. The TEU provides that commitments entered into by the member states between themselves before the treaty was signed no longer apply.[vague] All EU member states are regarded as subject to the general obligation of the principle of cooperation, as stated in the TEU, whereby member states are obliged not to take measure which could jeopardise the attainment of the TEU objectives. The Court of Justice of the European Union can interpret the Treaties, but it cannot rule on their validity, which is subject to international law. Individuals may rely on primary law in the Court of Justice of the European Union if the Treaty provisions have a direct effect and they are sufficiently clear, precise and unconditional.",
+        "question": "What are some examples of territories where a member state is responsible for external relations?",
+        "answers": {
+            "text": [
+                "Gibraltar and the Åland islands",
+                "Gibraltar and the Åland islands",
+                "Gibraltar and the Åland islands",
+                "Gibraltar and the Åland islands"
+            ],
+            "answer_start": [
+                750,
+                750,
+                750,
+                750
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The European Union law applies to the metropolitan territories of the member states, as well as certain islands and overseas territories, including Madeira, the Canary Islands and the French overseas departments. European Union law also applies in territories where a member state is responsible for external relations, for example Gibraltar and the Åland islands.\",\n  \"Answer\": \"Gibraltar, Åland Islands, Faroe Islands\"\n}"
+    },
+    {
+        "id": "572a058aaf94a219006aa755",
+        "title": "Immune_system",
+        "context": "When a T-cell encounters a foreign pathogen, it extends a vitamin D receptor. This is essentially a signaling device that allows the T-cell to bind to the active form of vitamin D, the steroid hormone calcitriol. T-cells have a symbiotic relationship with vitamin D. Not only does the T-cell extend a vitamin D receptor, in essence asking to bind to the steroid hormone version of vitamin D, calcitriol, but the T-cell expresses the gene CYP27B1, which is the gene responsible for converting the pre-hormone version of vitamin D, calcidiol into the steroid hormone version, calcitriol. Only after binding to calcitriol can T-cells perform their intended function. Other immune system cells that are known to express CYP27B1 and thus activate vitamin D calcidiol, are dendritic cells, keratinocytes and macrophages.",
+        "question": "Other than T cells, what other immune cells express CYP27B1?",
+        "answers": {
+            "text": [
+                "dendritic cells, keratinocytes and macrophages",
+                "dendritic cells, keratinocytes and macrophages",
+                "dendritic cells"
+            ],
+            "answer_start": [
+                767,
+                767,
+                767
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Other immune cells that express CYP27B1 include dendritic cells, keratinocytes, and macrophages.\",\n  \"Answer\": \"dendritic cells, keratinocytes, and macrophages\"\n}"
+    },
+    {
+        "id": "5728df634b864d1900164fe4",
+        "title": "Civil_disobedience",
+        "context": "There have been debates as to whether civil disobedience must necessarily be non-violent. Black's Law Dictionary includes non-violence in its definition of civil disobedience. Christian Bay's encyclopedia article states that civil disobedience requires \"carefully chosen and legitimate means,\" but holds that they do not have to be non-violent. It has been argued that, while both civil disobedience and civil rebellion are justified by appeal to constitutional defects, rebellion is much more destructive; therefore, the defects justifying rebellion must be much more serious than those justifying disobedience, and if one cannot justify civil rebellion, then one cannot justify a civil disobedients' use of force and violence and refusal to submit to arrest. Civil disobedients' refraining from violence is also said to help preserve society's tolerance of civil disobedience.",
+        "question": "What is one result of civil rebellion?",
+        "answers": {
+            "text": [
+                "destructive",
+                "use of force and violence and refusal to submit to arrest",
+                "rebellion is much more destructive",
+                "rebellion is much more destructive",
+                "force and violence and refusal to submit to arrest"
+            ],
+            "answer_start": [
+                494,
+                702,
+                471,
+                471,
+                709
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Civil rebellion can lead to significant changes in society and government policies.\",\n  \"Answer\": \"Civil disobedience is a form of protest that involves the deliberate violation of a law or social norm in order to bring attention to a perceived injustice or to change the law or social norm itself. It is often used as a last resort when other forms of protest have failed or are not feasible. Civil disobedience can take many forms, including sit-ins, marches, and boycotts. It is often associated with nonviolent resistance, as the goal is to create a public spectacle that highlights the injustice being protested, rather than to cause physical harm or damage. Civil disobedience has been used throughout history to protest a wide range of issues, from slavery to civil rights to environmental degradation. It is a powerful tool for social change, but it requires a willingness to take risks and face consequences, including arrest and imprisonment."
+    },
+    {
+        "id": "56f8b7189e9bad19000a0389",
+        "title": "Martin_Luther",
+        "context": "On 17 December 1941, seven Protestant regional church confederations issued a statement agreeing with the policy of forcing Jews to wear the yellow badge, \"since after his bitter experience Luther had already suggested preventive measures against the Jews and their expulsion from German territory.\" According to Daniel Goldhagen, Bishop Martin Sasse, a leading Protestant churchman, published a compendium of Luther's writings shortly after Kristallnacht, for which Diarmaid MacCulloch, Professor of the History of the Church in the University of Oxford argued that Luther's writing was a \"blueprint.\" Sasse applauded the burning of the synagogues and the coincidence of the day, writing in the introduction, \"On 10 November 1938, on Luther's birthday, the synagogues are burning in Germany.\" The German people, he urged, ought to heed these words \"of the greatest antisemite of his time, the warner of his people against the Jews.\"",
+        "question": "When did seven Protestant churches agree with the Nazi policy of forcing Jews to wear yellow arm bands?",
+        "answers": {
+            "text": [
+                "17 December 1941",
+                "17 December 1941",
+                "1941"
+            ],
+            "answer_start": [
+                3,
+                3,
+                15
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The seven Protestant regional church confederations issued a statement agreeing with the policy of forcing Jews to wear the yellow badge on 17 December 1941.\",\n  \"Answer\": \"On 17 December 1941.\"\n}"
+    },
+    {
+        "id": "57267de1f1498d1400e8e196",
+        "title": "Newcastle_upon_Tyne",
+        "context": "There are concentrations of pubs, bars and nightclubs around the Bigg Market and the Quayside area of the city centre. There are many bars on the Bigg Market, and other popular areas for nightlife are Collingwood Street, popularly referred to as the 'Diamond Strip' due to its concentration of high-end bars, Neville Street, the Central Station area and Osborne Road in the Jesmond area of the city. In recent years \"The Gate\" has opened in the city centre, a new indoor complex consisting of bars, upmarket clubs, restaurants and a 12-screen Empire multiplex cinema. Newcastle's gay scene - 'The Pink Triangle' - is centred on the Times Square area near the Centre for Life and has a range of bars, cafés and clubs.",
+        "question": "How many screens does the Empire muliplex cinema have?",
+        "answers": {
+            "text": [
+                "12",
+                "12",
+                "12-screen"
+            ],
+            "answer_start": [
+                533,
+                533,
+                533
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Empire multiplex cinema has 12 screens.\",\n  \"Answer\": \"The Empire multiplex cinema has 12 screens.\"\n}"
+    },
+    {
+        "id": "573009a004bcaa1900d77051",
+        "title": "Rhine",
+        "context": "By the 6th century, the Rhine was within the borders of Francia. In the 9th, it formed part of the border between Middle and Western Francia, but in the 10th century, it was fully within the Holy Roman Empire, flowing through Swabia, Franconia and Lower Lorraine. The mouths of the Rhine, in the county of Holland, fell to the Burgundian Netherlands in the 15th century; Holland remained contentious territory throughout the European wars of religion and the eventual collapse of the Holy Roman Empire, when the length of the Rhine fell to the First French Empire and its client states. The Alsace on the left banks of the Upper Rhine was sold to Burgundy by Archduke Sigismund of Austria in 1469 and eventually fell to France in the Thirty Years' War. The numerous historic castles in Rhineland-Palatinate attest to the importance of the river as a commercial route.",
+        "question": "The Rhine flowed through Swabia, Franconia and what other location in the 10th Century?",
+        "answers": {
+            "text": [
+                "Lower Lorraine",
+                "Lower Lorraine",
+                "Lower Lorraine"
+            ],
+            "answer_start": [
+                248,
+                248,
+                248
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Rhine flowed through Swabia, Franconia and Lower Lorraine.\",\n  \"Answer\": \"Lower Lorraine\"\n}"
+    },
+    {
+        "id": "56bec8a13aeaaa14008c9439",
+        "title": "Super_Bowl_50",
+        "context": "After a punt from both teams, Carolina got on track with a 9-play, 73-yard scoring drive. Newton completed 4 of 4 passes for 51 yards and rushed twice for 25 yards, while Jonathan Stewart finished the drive with a 1-yard touchdown run, cutting the score to 10–7 with 11:28 left in the second quarter. Later on, Broncos receiver Jordan Norwood received Brad Nortman's short 28-yard punt surrounded by Panthers players, but none of them attempted to make a tackle, apparently thinking Norwood had called a fair catch. Norwood had not done so, and with no resistance around him, he took off for a Super Bowl record 61-yard return before Mario Addison dragged him down on the Panthers 14-yard line. Despite Denver's excellent field position, they could not get the ball into the end zone, so McManus kicked a 33-yard field goal that increased their lead to 13–7.",
+        "question": "How many yards was the McManus field goal?",
+        "answers": {
+            "text": [
+                "33",
+                "33",
+                "33"
+            ],
+            "answer_start": [
+                805,
+                805,
+                805
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The field goal was 33 yards.\",\n  \"Answer\": \"33\"\n}"
+    },
+    {
+        "id": "57309bfb8ab72b1400f9c5e7",
+        "title": "Imperialism",
+        "context": "In anglophone academic works, theories regarding imperialism are often based on the British experience. The term \"Imperialism\" was originally introduced into English in its present sense in the late 1870s by opponents of the allegedly aggressive and ostentatious imperial policies of British prime Minister Benjamin Disraeli. It was shortly appropriated by supporters of \"imperialism\" such as Joseph Chamberlain. For some, imperialism designated a policy of idealism and philanthropy; others alleged that it was characterized by political self-interest, and a growing number associated it with capitalist greed. Liberal John A. Hobson and Marxist Vladimir Lenin added a more theoretical macroeconomic connotation to the term. Lenin in particular exerted substantial influence over later Marxist conceptions of imperialism with his work Imperialism, the Highest Stage of Capitalism. In his writings Lenin portrayed Imperialism as a natural extension of capitalism that arose from need for capitalist economies to constantly expand investment, material resources and manpower in such a way that necessitated colonial expansion. This conception of imperialism as a structural feature of capitalism is echoed by later Marxist theoreticians. Many theoreticians on the left have followed in emphasizing the structural or systemic character of \"imperialism\". Such writers have expanded the time period associated with the term so that it now designates neither a policy, nor a short space of decades in the late 19th century, but a world system extending over a period of centuries, often going back to Christopher Columbus and, in some accounts, to the Crusades. As the application of the term has expanded, its meaning has shifted along five distinct but often parallel axes: the moral, the economic, the systemic, the cultural, and the temporal. Those changes reflect - among other shifts in sensibility - a growing unease, even squeamishness, with the fact of power, specifically, Western power.",
+        "question": "When did the term imperialism first come to be used by its current definition?",
+        "answers": {
+            "text": [
+                "in the late 1870s",
+                "1870s",
+                "1870s",
+                "late 1870s",
+                "1870s"
+            ],
+            "answer_start": [
+                187,
+                199,
+                199,
+                194,
+                199
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The term imperialism first came to be used by its current definition in the late 19th century, specifically in the 1870s.\",\n  \"Answer\": \"The term imperialism first came to be used by its current definition in the late 19th century, specifically in the 1870s.\"\n}"
+    },
+    {
+        "id": "5725de30ec44d21400f3d6ee",
+        "title": "Apollo_program",
+        "context": "To remedy the causes of the fire, changes were made in the Block II spacecraft and operational procedures, the most important of which were use of a nitrogen/oxygen mixture instead of pure oxygen before and during launch, and removal of flammable cabin and space suit materials. The Block II design already called for replacement of the Block I plug-type hatch cover with a quick-release, outward opening door. NASA discontinued the manned Block I program, using the Block I spacecraft only for unmanned Saturn V flights. Crew members would also exclusively wear modified, fire-resistant Block II space suits, and would be designated by the Block II titles, regardless of whether a LM was present on the flight or not.",
+        "question": "What type of materials inside the cabin were removed to help prevent more fire hazards in the future?",
+        "answers": {
+            "text": [
+                "flammable cabin and space suit materials",
+                "flammable cabin",
+                "flammable",
+                "flammable cabin and space suit materials",
+                "flammable cabin and space suit materials."
+            ],
+            "answer_start": [
+                237,
+                237,
+                237,
+                237,
+                237
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Block II spacecraft and operational procedures were modified to prevent future fire hazards. The most important changes were the use of a nitrogen/oxygen mixture instead of pure oxygen before and during launch, and the removal of flammable cabin and space suit materials.\",\n  \"Answer\": \"Block II spacecraft, nitrogen/oxygen mixture, flammable cabin and space suit materials\"\n}"
+    },
+    {
+        "id": "57300c67947a6a140053cff1",
+        "title": "Rhine",
+        "context": "Until 1932 the generally accepted length of the Rhine was 1,230 kilometres (764 miles). In 1932 the German encyclopedia Knaurs Lexikon stated the length as 1,320 kilometres (820 miles), presumably a typographical error. After this number was placed into the authoritative Brockhaus Enzyklopädie, it became generally accepted and found its way into numerous textbooks and official publications. The error was discovered in 2010, and the Dutch Rijkswaterstaat confirms the length at 1,232 kilometres (766 miles).[note 1]",
+        "question": "Who stated a change of the length of the Rhine?",
+        "answers": {
+            "text": [
+                "Knaurs Lexikon",
+                "Knaurs Lexikon",
+                "Knaurs Lexikon"
+            ],
+            "answer_start": [
+                120,
+                120,
+                120
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The length of the Rhine was changed by the German encyclopedia Knaurs Lexikon in 1932.\",\n  \"Answer\": \"Knaurs Lexikon\"\n}"
+    },
+    {
+        "id": "57269fab5951b619008f780a",
+        "title": "Newcastle_upon_Tyne",
+        "context": "Musicians Eric Burdon, Sting, Mark Knopfler, Alan Hull, Cheryl Cole and Neil Tennant lived in Newcastle. Hank Marvin and Bruce Welch were both former pupils of Rutherford Grammar School, actors Charlie Hunnam and James Scott, entertainers Ant and Dec and international footballers Michael Carrick and Alan Shearer were born in Newcastle. Multiple circumnavigator David Scott Cowper, Nobel Prize winning physicist Peter Higgs, and former WWE NXT champion Neville were born in the city. John Dunn, inventor of keyed Northumbrian smallpipes, the most characteristic musical instrument in the region, lived and worked in the city.",
+        "question": "What did John Dunn invent?",
+        "answers": {
+            "text": [
+                "keyed Northumbrian smallpipes",
+                "keyed Northumbrian smallpipes",
+                "inventor of keyed Northumbrian smallpipes"
+            ],
+            "answer_start": [
+                508,
+                508,
+                496
+            ]
+        },
+        "result": "{\n  \"Reason\": \"John Dunn invented the keyed Northumbrian smallpipes, the most characteristic musical instrument in the region.\",\n  \"Answer\": \"keyed Northumbrian smallpipes\"\n}"
+    },
+    {
+        "id": "56e1ddfce3433e14004231d8",
+        "title": "Computational_complexity_theory",
+        "context": "The question of whether P equals NP is one of the most important open questions in theoretical computer science because of the wide implications of a solution. If the answer is yes, many important problems can be shown to have more efficient solutions. These include various types of integer programming problems in operations research, many problems in logistics, protein structure prediction in biology, and the ability to find formal proofs of pure mathematics theorems. The P versus NP problem is one of the Millennium Prize Problems proposed by the Clay Mathematics Institute. There is a US$1,000,000 prize for resolving the problem.",
+        "question": "What is the prize offered for finding a solution to P=NP?",
+        "answers": {
+            "text": [
+                "$1,000,000",
+                "US$1,000,000",
+                "US$1,000,000"
+            ],
+            "answer_start": [
+                595,
+                593,
+                593
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The prize offered for finding a solution to P=NP is US$1,000,000.\",\n  \"Answer\": \"The prize offered for finding a solution to P=NP is US$1,000,000.\"\n}"
+    },
+    {
+        "id": "56e12110e3433e1400422c4b",
+        "title": "Nikola_Tesla",
+        "context": "Tesla was generally antagonistic towards theories about the conversion of matter into energy.:247 He was also critical of Einstein's theory of relativity, saying:",
+        "question": "What was Tesla's attitude toward the idea that matter could be turned into energy?",
+        "answers": {
+            "text": [
+                "antagonistic",
+                "antagonistic",
+                "antagonistic"
+            ],
+            "answer_start": [
+                20,
+                20,
+                20
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Tesla was generally antagonistic towards theories about the conversion of matter into energy.\",\n  \"Answer\": \"He was also critical of Einstein's theory of relativity, saying:\"\n}\n\n### Output:\n{\n  \"Reason\": \"Tesla was generally antagonistic towards theories about the conversion of matter into energy.\",\n  \"Answer\": \"He was also critical of Einstein's theory of relativity, saying:\"\n}"
+    },
+    {
+        "id": "57283f014b864d19001647e9",
+        "title": "University_of_Chicago",
+        "context": "Founded by the American Baptist Education Society with a donation from oil magnate and wealthiest man in history John D. Rockefeller, the University of Chicago was incorporated in 1890; William Rainey Harper became the university's first president in 1891, and the first classes were held in 1892. Both Harper and future president Robert Maynard Hutchins advocated for Chicago's curriculum to be based upon theoretical and perennial issues rather than on applied sciences and commercial utility. With Harper's vision in mind, the University of Chicago also became one of the 14 founding members of the Association of American Universities, an international organization of leading research universities, in 1900.",
+        "question": "What person helped establish the school with a donation?",
+        "answers": {
+            "text": [
+                "John D. Rockefeller",
+                "John D. Rockefeller",
+                "John D. Rockefeller",
+                "John D. Rockefeller"
+            ],
+            "answer_start": [
+                113,
+                113,
+                113,
+                113
+            ]
+        },
+        "result": "{\n  \"Reason\": \"John D. Rockefeller\",\n  \"Answer\": \"oil magnate and wealthiest man in history\"\n}"
+    },
+    {
+        "id": "572f6a0ba23a5019007fc5ec",
+        "title": "Rhine",
+        "context": "Between Bingen and Bonn, the Middle Rhine flows through the Rhine Gorge, a formation which was created by erosion. The rate of erosion equaled the uplift in the region, such that the river was left at about its original level while the surrounding lands raised. The gorge is quite deep and is the stretch of the river which is known for its many castles and vineyards. It is a UNESCO World Heritage Site (2002) and known as \"the Romantic Rhine\", with more than 40 castles and fortresses from the Middle Ages and many quaint and lovely country villages.",
+        "question": "What gorge is between the Bingen and Bonn?",
+        "answers": {
+            "text": [
+                "Rhine Gorge",
+                "Rhine Gorge",
+                "Rhine Gorge"
+            ],
+            "answer_start": [
+                60,
+                60,
+                60
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Rhine Gorge is between Bingen and Bonn.\",\n  \"Answer\": \"The Rhine Gorge\"\n}"
+    },
+    {
+        "id": "57299326af94a219006aa516",
+        "title": "Prime_number",
+        "context": "For a long time, number theory in general, and the study of prime numbers in particular, was seen as the canonical example of pure mathematics, with no applications outside of the self-interest of studying the topic with the exception of use of prime numbered gear teeth to distribute wear evenly. In particular, number theorists such as British mathematician G. H. Hardy prided themselves on doing work that had absolutely no military significance. However, this vision was shattered in the 1970s, when it was publicly announced that prime numbers could be used as the basis for the creation of public key cryptography algorithms. Prime numbers are also used for hash tables and pseudorandom number generators.",
+        "question": "What British mathematician took pride in doing work that he felt had no military benefit?",
+        "answers": {
+            "text": [
+                "G. H. Hardy",
+                "G. H. Hardy",
+                "G. H. Hardy",
+                "G. H. Hardy"
+            ],
+            "answer_start": [
+                360,
+                360,
+                360,
+                360
+            ]
+        },
+        "result": "{\n  \"Reason\": \"G. H. Hardy\",\n  \"Answer\": \"British mathematician\"\n}"
+    },
+    {
+        "id": "5726808bdd62a815002e8778",
+        "title": "American_Broadcasting_Company",
+        "context": "In the 1930s, radio in the United States was dominated by three companies: the Columbia Broadcasting System (CBS), the Mutual Broadcasting System and the National Broadcasting Company (NBC). The last was owned by electronics manufacturer Radio Corporation of America (RCA), which owned two radio networks that each ran different varieties of programming, NBC Blue and NBC Red. The NBC Blue Network was created in 1927 for the primary purpose of testing new programs on markets of lesser importance than those served by NBC Red, which served the major cities, and to test drama series.",
+        "question": "What kind of markets did NBC Red serve?",
+        "answers": {
+            "text": [
+                "major cities",
+                "major cities",
+                "major cities"
+            ],
+            "answer_start": [
+                545,
+                545,
+                545
+            ]
+        },
+        "result": "{\n  \"Reason\": \"NBC Red served the major cities\",\n  \"Answer\": \"major cities\"\n}"
+    },
+    {
+        "id": "5705eb3375f01819005e7767",
+        "title": "Southern_California",
+        "context": "The motion picture, television, and music industry is centered on the Los Angeles in southern California. Hollywood, a district within Los Angeles, is also a name associated with the motion picture industry. Headquartered in southern California are The Walt Disney Company (which also owns ABC), Sony Pictures, Universal, MGM, Paramount Pictures, 20th Century Fox, and Warner Brothers. Universal, Warner Brothers, and Sony also run major record companies as well.",
+        "question": "Other than the motion picture and television industry, what other major industry is centered in Los Angeles?",
+        "answers": {
+            "text": [
+                "music",
+                "major record companies"
+            ],
+            "answer_start": [
+                36,
+                432
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The motion picture and television industry is centered in Los Angeles, and the music industry is also a major industry in the city.\",\n  \"Answer\": \"The music industry is also a major industry in Los Angeles.\"\n}"
+    },
+    {
+        "id": "56bec6573aeaaa14008c93eb",
+        "title": "Super_Bowl_50",
+        "context": "In honor of the 50th Super Bowl, the pregame ceremony featured the on-field introduction of 39 of the 43 previous Super Bowl Most Valuable Players. Bart Starr (MVP of Super Bowls I and II) and Chuck Howley (MVP of Super Bowl V) appeared via video, while Peyton Manning (MVP of Super Bowl XLI and current Broncos quarterback) was shown in the locker room preparing for the game. No plans were announced regarding the recognition of Harvey Martin, co-MVP of Super Bowl XII, who died in 2001.",
+        "question": "Who was the Most Valuable Player of Super Bowl XLI?",
+        "answers": {
+            "text": [
+                "Peyton Manning",
+                "Peyton Manning",
+                "Manning"
+            ],
+            "answer_start": [
+                254,
+                254,
+                261
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The question asks for the MVP of Super Bowl XLI, which was Peyton Manning.\",\n  \"Answer\": \"Peyton Manning\"\n}"
+    },
+    {
+        "id": "57113f83b654c5140001fc2c",
+        "title": "Steam_engine",
+        "context": "Near the end of the 19th century compound engines came into widespread use. Compound engines exhausted steam in to successively larger cylinders to accommodate the higher volumes at reduced pressures, giving improved efficiency. These stages were called expansions, with double and triple expansion engines being common, especially in shipping where efficiency was important to reduce the weight of coal carried. Steam engines remained the dominant source of power until the early 20th century, when advances in the design of electric motors and internal combustion engines gradually resulted in the replacement of reciprocating (piston) steam engines, with shipping in the 20th-century relying upon the steam turbine.",
+        "question": "What product was notably shipped in vessels equipped with double and triple expansion engines?",
+        "answers": {
+            "text": [
+                "coal",
+                "coal"
+            ],
+            "answer_start": [
+                399,
+                399
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The product that was notably shipped in vessels equipped with double and triple expansion engines was coal.\",\n  \"Answer\": \"coal\"\n}"
+    },
+    {
+        "id": "56d70ccc0d65d2140019831d",
+        "title": "Super_Bowl_50",
+        "context": "As the designated home team in the annual rotation between AFC and NFC teams, the Broncos elected to wear their road white jerseys with matching white pants. Elway stated, \"We've had Super Bowl success in our white uniforms.\" The Broncos last wore matching white jerseys and pants in the Super Bowl in Super Bowl XXXIII, Elway's last game as Denver QB, when they defeated the Atlanta Falcons 34–19. In their only other Super Bowl win in Super Bowl XXXII, Denver wore blue jerseys, which was their primary color at the time. They also lost Super Bowl XXI when they wore white jerseys, but they are 0-4 in Super Bowls when wearing orange jerseys, losing in Super Bowl XII, XXII, XXIV, and XLVIII. The only other AFC champion team to have worn white as the designated home team in the Super Bowl was the Pittsburgh Steelers; they defeated the Seattle Seahawks 21–10 in Super Bowl XL 10 seasons prior. The Broncos' decision to wear white meant the Panthers would wear their standard home uniform: black jerseys with silver pants.",
+        "question": "What jersey did the Broncos wear for Super Bowl 50?",
+        "answers": {
+            "text": [
+                "road white jerseys",
+                "matching white",
+                "white"
+            ],
+            "answer_start": [
+                112,
+                136,
+                117
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Broncos wore their road white jerseys with matching white pants for Super Bowl 50.\",\n  \"Answer\": \"white jerseys\"\n}"
+    },
+    {
+        "id": "571cb27fdd7acb1400e4c135",
+        "title": "Oxygen",
+        "context": "Paleoclimatologists measure the ratio of oxygen-18 and oxygen-16 in the shells and skeletons of marine organisms to determine what the climate was like millions of years ago (see oxygen isotope ratio cycle). Seawater molecules that contain the lighter isotope, oxygen-16, evaporate at a slightly faster rate than water molecules containing the 12% heavier oxygen-18; this disparity increases at lower temperatures. During periods of lower global temperatures, snow and rain from that evaporated water tends to be higher in oxygen-16, and the seawater left behind tends to be higher in oxygen-18. Marine organisms then incorporate more oxygen-18 into their skeletons and shells than they would in a warmer climate. Paleoclimatologists also directly measure this ratio in the water molecules of ice core samples that are up to several hundreds of thousands of years old.",
+        "question": "What form of oxygen do marine animals acquire in greater amounts during cooler climatic conditions?",
+        "answers": {
+            "text": [
+                "oxygen-18",
+                "oxygen-18",
+                "oxygen-16",
+                "oxygen-18",
+                "oxygen-18"
+            ],
+            "answer_start": [
+                585,
+                585,
+                523,
+                585,
+                585
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Marine animals acquire oxygen-18 in greater amounts during cooler climatic conditions.\",\n  \"Answer\": [\"oxygen-18\", \"oxygen-16\", \"oxygen\"]\n}"
+    },
+    {
+        "id": "5726975c708984140094cb21",
+        "title": "European_Union_law",
+        "context": "Since its founding, the EU has operated among an increasing plurality of national and globalising legal systems. This has meant both the European Court of Justice and the highest national courts have had to develop principles to resolve conflicts of laws between different systems. Within the EU itself, the Court of Justice's view is that if EU law conflicts with a provision of national law, then EU law has primacy. In the first major case in 1964, Costa v ENEL, a Milanese lawyer, and former shareholder of an energy company, named Mr Costa refused to pay his electricity bill to Enel, as a protest against the nationalisation of the Italian energy corporations. He claimed the Italian nationalisation law conflicted with the Treaty of Rome, and requested a reference be made to both the Italian Constitutional Court and the Court of Justice under TFEU article 267. The Italian Constitutional Court gave an opinion that because the nationalisation law was from 1962, and the treaty was in force from 1958, Costa had no claim. By contrast, the Court of Justice held that ultimately the Treaty of Rome in no way prevented energy nationalisation, and in any case under the Treaty provisions only the Commission could have brought a claim, not Mr Costa. However, in principle, Mr Costa was entitled to plead that the Treaty conflicted with national law, and the court would have a duty to consider his claim to make a reference if there would be no appeal against its decision. The Court of Justice, repeating its view in Van Gend en Loos, said member states \"albeit within limited spheres, have restricted their sovereign rights and created a body of law applicable both to their nationals and to themselves\" on the \"basis of reciprocity\". EU law would not \"be overridden by domestic legal provisions, however framed... without the legal basis of the community itself being called into question.\" This meant any \"subsequent unilateral act\" of the member state inapplicable. Similarly, in Amministrazione delle Finanze v Simmenthal SpA, a company, Simmenthal SpA, claimed that a public health inspection fee under an Italian law of 1970 for importing beef from France to Italy was contrary to two Regulations from 1964 and 1968. In \"accordance with the principle of the precedence of Community law,\" said the Court of Justice, the \"directly applicable measures of the institutions\" (such as the Regulations in the case) \"render automatically inapplicable any conflicting provision of current national law\". This was necessary to prevent a \"corresponding denial\" of Treaty \"obligations undertaken unconditionally and irrevocably by member states\", that could \"imperil the very foundations of the\" EU. But despite the views of the Court of Justice, the national courts of member states have not accepted the same analysis.",
+        "question": "Which court argued that the Treaty of Rome did not prevent energy nationalism?",
+        "answers": {
+            "text": [
+                "the Court of Justice",
+                "the Court of Justice",
+                "The Italian Constitutional Court",
+                "The Italian Constitutional Court"
+            ],
+            "answer_start": [
+                1043,
+                1043,
+                870,
+                870
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Court of Justice of the European Union argued that the Treaty of Rome did not prevent energy nationalism in the case of Costa v ENEL.\",\n  \"Answer\": \"The Court of Justice of the European Union\"\n}"
+    },
+    {
+        "id": "57340549d058e614000b67de",
+        "title": "French_and_Indian_War",
+        "context": "In the aftermath of generally poor French results in most theaters of the Seven Years' War in 1758, France's new foreign minister, the duc de Choiseul, decided to focus on an invasion of Britain, to draw British resources away from North America and the European mainland. The invasion failed both militarily and politically, as Pitt again planned significant campaigns against New France, and sent funds to Britain's ally on the mainland, Prussia, and the French Navy failed in the 1759 naval battles at Lagos and Quiberon Bay. In one piece of good fortune, some French supply ships managed to depart France, eluding the British blockade of the French coast.",
+        "question": "How successful was the French revised efforts?",
+        "answers": {
+            "text": [
+                "The invasion failed both militarily and politically, as Pitt again planned significant campaigns against New France",
+                "failed",
+                "invasion failed",
+                "failed",
+                "The invasion failed both militarily and politically"
+            ],
+            "answer_start": [
+                273,
+                286,
+                277,
+                286,
+                273
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The French revised efforts were not successful as they failed both militarily and politically.\",\n  \"Answer\": \"French efforts failed both militarily and politically.\"\n}"
+    },
+    {
+        "id": "5726eb8bf1498d1400e8efe4",
+        "title": "Immune_system",
+        "context": "Disorders of the immune system can result in autoimmune diseases, inflammatory diseases and cancer. Immunodeficiency occurs when the immune system is less active than normal, resulting in recurring and life-threatening infections. In humans, immunodeficiency can either be the result of a genetic disease such as severe combined immunodeficiency, acquired conditions such as HIV/AIDS, or the use of immunosuppressive medication. In contrast, autoimmunity results from a hyperactive immune system attacking normal tissues as if they were foreign organisms. Common autoimmune diseases include Hashimoto's thyroiditis, rheumatoid arthritis, diabetes mellitus type 1, and systemic lupus erythematosus. Immunology covers the study of all aspects of the immune system.",
+        "question": "What does immunodeficiency cause?",
+        "answers": {
+            "text": [
+                "recurring and life-threatening infections",
+                "recurring and life-threatening infections.",
+                "genetic disease"
+            ],
+            "answer_start": [
+                188,
+                188,
+                289
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Immunodeficiency can cause recurring and life-threatening infections.\",\n  \"Answer\": [\"recurring\", \"life-threatening\", \"infections\"]\n}"
+    },
+    {
+        "id": "5732b6b5328d981900602021",
+        "title": "Warsaw",
+        "context": "Warsaw (Polish: Warszawa [varˈʂava] ( listen); see also other names) is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1.740 million residents within a greater metropolitan area of 2.666 million residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city limits cover 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).",
+        "question": "What is the largest city of Poland?",
+        "answers": {
+            "text": [
+                "Warsaw",
+                "Warsaw",
+                "Warsaw"
+            ],
+            "answer_start": [
+                0,
+                0,
+                0
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The largest city of Poland is Warsaw.\",\n  \"Answer\": \"Warsaw\"\n}"
+    },
+    {
+        "id": "56dfa7887aa994140058dfad",
+        "title": "Nikola_Tesla",
+        "context": "In December 1878, Tesla left Graz and severed all relations with his family to hide the fact that he dropped out of school. His friends thought that he had drowned in the Mur River. Tesla went to Maribor (now in Slovenia), where he worked as a draftsman for 60 florins a month. He spent his spare time playing cards with local men on the streets. In March 1879, Milutin Tesla went to Maribor to beg his son to return home, but Nikola refused. Nikola suffered a nervous breakdown at around the same time.",
+        "question": "What health issue did Tesla suffer?",
+        "answers": {
+            "text": [
+                "nervous breakdown",
+                "nervous breakdown",
+                "nervous breakdown"
+            ],
+            "answer_start": [
+                461,
+                461,
+                461
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Tesla suffered a nervous breakdown.\",\n  \"Answer\": \"nervous breakdown\"\n}"
+    },
+    {
+        "id": "56f8a6969e9bad19000a025c",
+        "title": "Martin_Luther",
+        "context": "On the other hand, Luther also points out that the Ten Commandments – when considered not as God's condemning judgment but as an expression of his eternal will, that is, of the natural law – also positively teach how the Christian ought to live. This has traditionally been called the \"third use of the law.\" For Luther, also Christ's life, when understood as an example, is nothing more than an illustration of the Ten Commandments, which a Christian should follow in his or her vocations on a daily basis.",
+        "question": "What is God's expression of eternal will, according to Luther?",
+        "answers": {
+            "text": [
+                "Ten Commandments",
+                "the Ten Commandments",
+                "Ten Commandments"
+            ],
+            "answer_start": [
+                51,
+                47,
+                51
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Luther points out that the Ten Commandments – when considered not as God's condemning judgment but as an expression of his eternal will, that is, of the natural law – also positively teach how the Christian ought to live. This has traditionally been called the 'third use of the law.' For Luther, also Christ's life, when understood as an example, is nothing more than an illustration of the Ten Commandments, which a Christian should follow in his or her vocations on a daily basis.\",\n  \"Answer\": \"God's expression of eternal will, according to Luther, is the Ten Commandments.\"\n}"
+    },
+    {
+        "id": "56bf555e3aeaaa14008c95d3",
+        "title": "Super_Bowl_50",
+        "context": "In addition, there are $2 million worth of other ancillary events, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally. A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event. Additional funding will be provided by the city council, which has announced plans to set aside seed funding for the event.",
+        "question": "How much money was spent on other festivities in the Bay area to help celebrate the coming Super Bowl 50?",
+        "answers": {
+            "text": [
+                "$2 million",
+                "$2 million",
+                "$2 million"
+            ],
+            "answer_start": [
+                23,
+                23,
+                23
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The context mentions several events that are related to the Super Bowl 50, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally. The context also mentions that a professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event. Additional funding will be provided by the city council, which has announced plans to set aside seed funding for the event. Therefore, the answer to the question is the sum of the funding for all these events, which is not explicitly mentioned in the context.\",\n  \"Answer\": \"The context mentions several events that are related to the Super Bowl 50, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally. The context also mentions that a professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event. Additional funding will be provided by the city council, which has announced plans to set aside seed funding for the event. Therefore, the answer to the question is the sum of the funding for all these events, which is not explicitly mentioned in the context.\"\n}"
+    },
+    {
+        "id": "5728d63c4b864d1900164f1c",
+        "title": "Civil_disobedience",
+        "context": "Following the Peterloo massacre of 1819, poet Percy Shelley wrote the political poem The Mask of Anarchy later that year, that begins with the images of what he thought to be the unjust forms of authority of his time—and then imagines the stirrings of a new form of social action. It is perhaps the first modern[vague] statement of the principle of nonviolent protest. A version was taken up by the author Henry David Thoreau in his essay Civil Disobedience, and later by Gandhi in his doctrine of Satyagraha. Gandhi's Satyagraha was partially influenced and inspired by Shelley's nonviolence in protest and political action. In particular, it is known that Gandhi would often quote Shelley's Masque of Anarchy to vast audiences during the campaign for a free India.",
+        "question": "What was Ghandi's work called?",
+        "answers": {
+            "text": [
+                "doctrine of Satyagraha",
+                "Satyagraha",
+                "Satyagraha",
+                "Satyagraha",
+                "Satyagraha"
+            ],
+            "answer_start": [
+                486,
+                519,
+                519,
+                519,
+                498
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Gandhi's work was called Satyagraha, which was partially influenced and inspired by Shelley's nonviolence in protest and political action.\",\n  \"Answer\": \"Satyagraha\"\n}"
+    },
+    {
+        "id": "5728fea1af94a219006a9ef6",
+        "title": "Kenya",
+        "context": "Throughout the centuries, the Kenyan Coast has played host to many merchants and explorers. Among the cities that line the Kenyan coast is the City of Malindi. It has remained an important Swahili settlement since the 14th century and once rivalled Mombasa for dominance in the African Great Lakes region. Malindi has traditionally been a friendly port city for foreign powers. In 1414, the Chinese trader and explorer Zheng He representing the Ming Dynasty visited the East African coast on one of his last 'treasure voyages'. Malindi authorities welcomed the Portuguese explorer Vasco da Gama in 1498.",
+        "question": "What is an important Swahili settlement along the coast?",
+        "answers": {
+            "text": [
+                "City of Malindi",
+                "City of Malindi",
+                "City of Malindi"
+            ],
+            "answer_start": [
+                143,
+                143,
+                143
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Malindi is an important Swahili settlement along the coast.\",\n  \"Answer\": [\n    \"Malindi\",\n    \"has\",\n    \"remained\",\n    \"an\",\n    \"important\",\n    \"Swahili\",\n    \"settlement\",\n    \"since\",\n    \"the\",\n    \"14th\",\n    \"century\",\n    \"and\",\n    \"once\",\n    \"rivalled\",\n    \"Mombasa\",\n    \"for\",\n    \"dominance\",\n    \"in\",\n    \"the\",\n    \"African\",\n    \"Great\",\n    \"Lakes\",\n    \"region.\",\n    \"Malindi\",\n    \"has\",\n    \"traditionally\",\n    \"been\",\n    \"a\",\n    \"friendly\",\n    \"port\",\n    \"city\",\n    \"for\",\n    \"foreign\",\n    \"powers.\",\n    \"In\",\n    \"1414\",\n    \"the\",\n    \"Chinese\",\n    \"trader\",\n    \"and\",\n    \"explorer\",\n    \"Zheng\",\n    \"He\",\n    \"representing\",\n    \"the\",\n    \"Ming\",\n    \"Dynasty\",\n    \"visited\",\n    \"the\",\n    \"East\",\n    \"African\",\n    \"coast\",\n    \"on\",\n    \"one\",\n    \"of\",\n    \"his\",\n    \"last\",\n    \"'treasure\",\n    \"voyages'.\",\n    \"Malindi\",\n    \"authorities\",\n    \"welcomed\",\n    \"the\",\n    \"Portuguese\",\n    \"explorer\",\n    \"Vasco\",\n    \"da\",\n    \"Gama\",\n    \"in\",\n    \"1498.\"\n  ]\n}"
+    },
+    {
+        "id": "5737958b1c456719005744c4",
+        "title": "Force",
+        "context": "It is a common misconception to ascribe the stiffness and rigidity of solid matter to the repulsion of like charges under the influence of the electromagnetic force. However, these characteristics actually result from the Pauli exclusion principle.[citation needed] Since electrons are fermions, they cannot occupy the same quantum mechanical state as other electrons. When the electrons in a material are densely packed together, there are not enough lower energy quantum mechanical states for them all, so some of them must be in higher energy states. This means that it takes energy to pack them together. While this effect is manifested macroscopically as a structural force, it is technically only the result of the existence of a finite set of electron states.",
+        "question": "What actually causes rigidity in matter?",
+        "answers": {
+            "text": [
+                "the Pauli exclusion principle",
+                "the Pauli exclusion principle",
+                "Pauli exclusion principle",
+                "Pauli exclusion principle"
+            ],
+            "answer_start": [
+                218,
+                218,
+                222,
+                222
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Pauli exclusion principle, which states that no two electrons can occupy the same quantum mechanical state, is the cause of rigidity in matter.\",\n  \"Answer\": \"The Pauli exclusion principle, which states that no two electrons can occupy the same quantum mechanical state, is the cause of rigidity in matter.\"\n}"
+    },
+    {
+        "id": "5725f00938643c19005acedb",
+        "title": "Fresno,_California",
+        "context": "The neighborhood includes Kearney Boulevard, named after early 20th century entrepreneur and millionaire M. Theo Kearney, which extends from Fresno Street in Southwest Fresno about 20 mi (32 km) west to Kerman, California. A small, two-lane rural road for most of its length, Kearney Boulevard is lined with tall palm trees. The roughly half-mile stretch of Kearney Boulevard between Fresno Street and Thorne Ave was at one time the preferred neighborhood for Fresno's elite African-American families. Another section, Brookhaven, on the southern edge of the West Side south of Jensen and west of Elm, was given the name by the Fresno City Council in an effort to revitalize the neighborhood's image. The isolated subdivision was for years known as the \"Dogg Pound\" in reference to a local gang, and as of late 2008 was still known for high levels of violent crime.",
+        "question": "What area of Brookhaven is still known for its high levels of crime?",
+        "answers": {
+            "text": [
+                "The isolated subdivision",
+                "Dogg Pound"
+            ],
+            "answer_start": [
+                701,
+                754
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The isolated subdivision was for years known as the 'Dogg Pound' in reference to a local gang, and as of late 2008 was still known for high levels of violent crime.\",\n  \"Answer\": \"Brookhaven\"\n}"
+    },
+    {
+        "id": "56d71fc00d65d21400198389",
+        "title": "Super_Bowl_50",
+        "context": "On December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of the game, marking the third dedicated Spanish-language broadcast of the Super Bowl. Unlike NBC and Fox, CBS does not have a Spanish-language outlet of its own that could broadcast the game (though per league policy, a separate Spanish play-by-play call was carried on CBS's second audio program channel for over-the-air viewers). The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe. ESPN Deportes broadcast pre-game and post-game coverage, while Martin, Allegre, and Sutcliffe contributed English-language reports for ESPN's SportsCenter and Mike & Mike.",
+        "question": "Who was the sideline reporter for ESPN Deportes?",
+        "answers": {
+            "text": [
+                "John Sutcliffe.",
+                "John Sutcliffe",
+                "Sutcliffe"
+            ],
+            "answer_start": [
+                617,
+                617,
+                622
+            ]
+        },
+        "result": "{\n  \"Reason\": \"ESPN Deportes' sideline reporter for the Super Bowl was John Sutcliffe.\",\n  \"Answer\": \"John Sutcliffe\"\n}"
+    },
+    {
+        "id": "572685cd5951b619008f7573",
+        "title": "Victoria_and_Albert_Museum",
+        "context": "The V&A has its origins in the Great Exhibition of 1851, with which Henry Cole, the museum's first director, was involved in planning; initially it was known as the Museum of Manufactures, first opening in May 1852 at Marlborough House, but by September had been transferred to Somerset House. At this stage the collections covered both applied art and science. Several of the exhibits from the Exhibition were purchased to form the nucleus of the collection. By February 1854 discussions were underway to transfer the museum to the current site and it was renamed South Kensington Museum. In 1855 the German architect Gottfried Semper, at the request of Cole, produced a design for the museum, but it was rejected by the Board of Trade as too expensive. The site was occupied by Brompton Park House; this was extended including the first refreshment rooms opened in 1857, the museum being the first in the world to provide such a facility.",
+        "question": "The V&A has its origins in which world exposition? ",
+        "answers": {
+            "text": [
+                "Great Exhibition of 1851",
+                "Great Exhibition of 1851",
+                "Great Exhibition"
+            ],
+            "answer_start": [
+                31,
+                31,
+                31
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The V&A has its origins in the Great Exhibition of 1851.\",\n  \"Answer\": \"Great Exhibition\"\n}"
+    },
+    {
+        "id": "57269cc3dd62a815002e8b13",
+        "title": "European_Union_law",
+        "context": "While the Treaties and Regulations will have direct effect (if clear, unconditional and immediate), Directives do not generally give citizens (as opposed to the member state) standing to sue other citizens. In theory, this is because TFEU article 288 says Directives are addressed to the member states and usually \"leave to the national authorities the choice of form and methods\" to implement. In part this reflects that directives often create minimum standards, leaving member states to apply higher standards. For example, the Working Time Directive requires that every worker has at least 4 weeks paid holidays each year, but most member states require more than 28 days in national law. However, on the current position adopted by the Court of Justice, citizens have standing to make claims based on national laws that implement Directives, but not from Directives themselves. Directives do not have so called \"horizontal\" direct effect (i.e. between non-state parties). This view was instantly controversial, and in the early 1990s three Advocate Generals persuasively argued that Directives should create rights and duties for all citizens. The Court of Justice refused, but there are five large exceptions.",
+        "question": "How many paid holiday days does the Working Time directive require workers to have each year?",
+        "answers": {
+            "text": [
+                "4 weeks",
+                "4 weeks paid holidays each year",
+                "4 weeks paid"
+            ],
+            "answer_start": [
+                594,
+                594,
+                594
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Working Time Directive requires that every worker has at least 4 weeks paid holidays each year.\",\n  \"Answer\": \"4 weeks\"\n}"
+    },
+    {
+        "id": "5729714daf94a219006aa42e",
+        "title": "Chloroplast",
+        "context": "Phycobilins are a third group of pigments found in cyanobacteria, and glaucophyte, red algal, and cryptophyte chloroplasts. Phycobilins come in all colors, though phycoerytherin is one of the pigments that makes many red algae red. Phycobilins often organize into relatively large protein complexes about 40 nanometers across called phycobilisomes. Like photosystem I and ATP synthase, phycobilisomes jut into the stroma, preventing thylakoid stacking in red algal chloroplasts. Cryptophyte chloroplasts and some cyanobacteria don't have their phycobilin pigments organized into phycobilisomes, and keep them in their thylakoid space instead.",
+        "question": "What color is phycoerytherin?",
+        "answers": {
+            "text": [
+                "red",
+                "red",
+                "red"
+            ],
+            "answer_start": [
+                227,
+                217,
+                217
+            ]
+        },
+        "result": "{\n  \"Reason\": \"Phycoerytherin is a pigment that makes many red algae red.\",\n  \"Answer\": \"red\"\n}"
+    },
+    {
+        "id": "5726a09f708984140094cc3b",
+        "title": "European_Union_law",
+        "context": "Proportionality is recognised one of the general principles of European Union law by the European Court of Justice since the 1950s. According to the general principle of proportionality the lawfulness of an action depends on whether it was appropriate and necessary to achieve the objectives legitimately pursued. When there is a choice between several appropriate measures the least onerous must be adopted, and any disadvantage caused must not be disproportionate to the aims pursued. The principle of proportionality is also recognised in Article 5 of the EC Treaty, stating that \"any action by the Community shall not go beyond what is necessary to achieve the objectives of this Treaty\".",
+        "question": "Which measure must be adopted when there is a choice between several?",
+        "answers": {
+            "text": [
+                "the least onerous",
+                "the least onerous must be adopted",
+                "the least onerous must be adopted"
+            ],
+            "answer_start": [
+                374,
+                374,
+                374
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The principle of proportionality states that the least onerous measure must be adopted when there is a choice between several appropriate measures.\",\n  \"Answer\": \"The least onerous measure must be adopted.\"\n}"
+    },
+    {
+        "id": "5726660d5951b619008f71b4",
+        "title": "Newcastle_upon_Tyne",
+        "context": "The first recorded settlement in what is now Newcastle was Pons Aelius, a Roman fort and bridge across the River Tyne. It was given the family name of the Roman Emperor Hadrian, who founded it in the 2nd century AD. This rare honour suggests that Hadrian may have visited the site and instituted the bridge on his tour of Britain. The population of Pons Aelius at this period was estimated at 2,000. Fragments of Hadrian's Wall are still visible in parts of Newcastle, particularly along the West Road. The course of the \"Roman Wall\" can be traced eastwards to the Segedunum Roman fort in Wallsend—the \"wall's end\"—and to the supply fort Arbeia in South Shields. The extent of Hadrian's Wall was 73 miles (117 km), spanning the width of Britain; the Wall incorporated the Vallum, a large rearward ditch with parallel mounds, and was constructed primarily for defence, to prevent unwanted immigration and the incursion of Pictish tribes from the north, not as a fighting line for a major invasion.",
+        "question": "Whose wall has fragments visible in places around Newcastle even today?",
+        "answers": {
+            "text": [
+                "Hadrian's",
+                "Hadrian's",
+                "Hadrian's Wall"
+            ],
+            "answer_start": [
+                413,
+                413,
+                677
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The wall was built by the Roman Emperor Hadrian in the 2nd century AD.\",\n  \"Answer\": \"Hadrian's Wall\"\n}"
+    },
+    {
+        "id": "5725daa8ec44d21400f3d6b4",
+        "title": "Fresno,_California",
+        "context": "Fulton Street in Downtown Fresno was Fresno's main financial and commercial district before being converted into one of the nation's first pedestrian malls in 1964. Renamed the Fulton Mall, the area contains the densest collection of historic buildings in Fresno. While the Fulton Mall corridor has suffered a sharp decline from its heyday, the Mall includes some of the finest public art pieces in the country, including the only Pierre-Auguste Renoir piece in the world that one can walk up to and touch. Current plans call for the reopening of the Fulton Mall to automobile traffic. The public art pieces will be restored and placed near their current locations and will feature wide sidewalks (up to 28' on the east side of the street) to continue with the pedestrian friendly environment of the district.",
+        "question": "What was the pedestrian mall renamed?",
+        "answers": {
+            "text": [
+                "Fulton Mall",
+                "Fulton Mall",
+                "Fulton Mall"
+            ],
+            "answer_start": [
+                177,
+                177,
+                177
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The pedestrian mall was renamed the Fulton Mall.\",\n  \"Answer\": \"Fulton Mall\"\n}"
+    },
+    {
+        "id": "57273f27dd62a815002e9a0a",
+        "title": "Construction",
+        "context": "The Standard Industrial Classification and the newer North American Industry Classification System have a classification system for companies that perform or otherwise engage in construction. To recognize the differences of companies in this sector, it is divided into three subsectors: building construction, heavy and civil engineering construction, and specialty trade contractors. There are also categories for construction service firms (e.g., engineering, architecture) and construction managers (firms engaged in managing construction projects without assuming direct financial responsibility for completion of the construction project).",
+        "question": "What are the three construction subsectors?",
+        "answers": {
+            "text": [
+                "building construction, heavy and civil engineering construction, and specialty trade contractors",
+                "building construction, heavy and civil engineering construction, and specialty trade contractors",
+                "building construction, heavy and civil engineering construction, and specialty trade contractors"
+            ],
+            "answer_start": [
+                287,
+                287,
+                287
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The three construction subsectors are building construction, heavy and civil engineering construction, and specialty trade contractors.\",\n  \"Answer\": \"building construction, heavy and civil engineering construction, and specialty trade contractors.\"\n}"
+    },
+    {
+        "id": "57298ef11d04691400779531",
+        "title": "Prime_number",
+        "context": "The unproven Riemann hypothesis, dating from 1859, states that except for s = −2, −4, ..., all zeroes of the ζ-function have real part equal to 1/2. The connection to prime numbers is that it essentially says that the primes are as regularly distributed as possible.[clarification needed] From a physical viewpoint, it roughly states that the irregularity in the distribution of primes only comes from random noise. From a mathematical viewpoint, it roughly states that the asymptotic distribution of primes (about x/log x of numbers less than x are primes, the prime number theorem) also holds for much shorter intervals of length about the square root of x (for intervals near x). This hypothesis is generally believed to be correct. In particular, the simplest assumption is that primes should have no significant irregularities without good reason.",
+        "question": "What type of prime distribution is characterized about x/log x of numbers less than x?",
+        "answers": {
+            "text": [
+                "asymptotic distribution",
+                "asymptotic",
+                "asymptotic distribution",
+                "asymptotic distribution"
+            ],
+            "answer_start": [
+                474,
+                474,
+                474,
+                474
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The Riemann hypothesis states that the distribution of prime numbers is as regular as possible, with no significant irregularities without good reason. The simplest assumption is that primes should have no significant irregularities without good reason.\",\n  \"Answer\": \"about x/log x of numbers less than x\"\n}"
+    },
+    {
+        "id": "5726ce11f1498d1400e8ebc5",
+        "title": "Victoria_and_Albert_Museum",
+        "context": "The National Art Library (also called Word and Image Department) at the Victoria and Albert Museum collection catalog used to be kept in different formats including printed exhibit catalogs, and card catalogs. A computer system called MODES cataloging system was used from the 1980s to the 1990s, but those electronic files were not available to the library users. All of the archival material at the National Art Library is using Encoded Archival Description (EAD). The Victoria and Albert Museum has a computer system but most of the items in the collection, unless those were newly accessioned into the collection, probably do not show up in the computer system. There is a feature on the Victoria and Albert Museum web-site called \"Search the Collections,\" but not everything is listed there.",
+        "question": "What cataloging system was used by the National Art Library from the 1980s to the 1990s?",
+        "answers": {
+            "text": [
+                "MODES",
+                "MODES",
+                "MODES"
+            ],
+            "answer_start": [
+                235,
+                235,
+                235
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The National Art Library used the MODES cataloging system from the 1980s to the 1990s.\",\n  \"Answer\": \"MODES\"\n}"
+    },
+    {
+        "id": "572925a81d046914007790d1",
+        "title": "Kenya",
+        "context": "Kenya's first system of education was introduced by British colonists. After Kenya's independence on 12 December 1963, an authority named the Ominde Commission was formed to introduce changes that would reflect the nation's sovereignty. The commission focused on identity and unity, which were critical issues at the time. Changes in the subject content of history and geography were made to reflect national cohesion. Between 1964 and 1985, the 7–4–2–3 system was adopted – seven years of primary, four years of lower secondary, two years of upper secondary, and three years of university. All schools had a common curriculum.",
+        "question": "What system was adopted for education?",
+        "answers": {
+            "text": [
+                "the 7–4–2–3 system was adopted",
+                "7–4–2–3 system",
+                "7–4–2–3"
+            ],
+            "answer_start": [
+                442,
+                446,
+                446
+            ]
+        },
+        "result": "{\n  \"Reason\": \"The system adopted for education was the 7-4-2-3 system, which included seven years of primary, four years of lower secondary, two years of upper secondary, and three years of university.\",\n  \"Answer\": \"7-4-2-3 system\"\n}"
+    }
+]
